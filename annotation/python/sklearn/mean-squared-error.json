@@ -1,0 +1,26 @@
+{
+  "_id": "annotation/python/sklearn/mean-squared-error",
+  "schema": "annotation",
+  "language": "python",
+  "package": "sklearn",
+  "id": "mean-squared-error",
+  "name": "MSE in sklearn",
+  "description": "mean squared error in scikit-learn",
+  "function": "sklearn.metrics.regression.mean_squared_error",
+  "ontology": "data-science",
+  "kind": "morphism",
+  "definition": "mean-squared-error",
+  "domain": [
+    {
+      "slot": 0
+    },
+    {
+      "slot": 1
+    }
+  ],
+  "codomain": [
+    {
+      "slot": "__return__"
+    }
+  ]
+}

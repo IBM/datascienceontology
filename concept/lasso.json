@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/lasso",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "lasso",
+  "name": "lasso",
+  "description": "A sparse linear regression model, fit by least squares with L1 penalty",
+  "kind": "object",
+  "subconcept": [
+    "linear-regression"
+  ]
+}

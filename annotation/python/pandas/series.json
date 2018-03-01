@@ -1,0 +1,23 @@
+{
+  "_id": "annotation/python/pandas/series",
+  "schema": "annotation",
+  "language": "python",
+  "package": "pandas",
+  "id": "series",
+  "name": "pandas series",
+  "description": "A named vector in pandas with axis labels, representing a column in a data frame",
+  "class": "pandas.core.series.Series",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "column",
+  "slots": [
+    {
+      "slot": "name",
+      "definition": "column-name"
+    },
+    {
+      "slot": "__len__",
+      "definition": "vector-length"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "concept/data-science/hierarchical-clustering-linkage",
+  "schema": "concept",
+  "id": "hierarchical-clustering-linkage",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "linkage matrix",
+  "description": "linkage matrix of a hierarchical clustering model",
+  "domain": [
+    {
+      "object": "hierarchical-clustering",
+      "name": "model"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "matrix"
+    }
+  ]
+}

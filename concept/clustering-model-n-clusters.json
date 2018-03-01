@@ -1,0 +1,20 @@
+{
+  "_id": "concept/data-science/clustering-model-n-clusters",
+  "schema": "concept",
+  "id": "clustering-model-n-clusters",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "number of clusters",
+  "description": "number of clusters to fit in a clustering model",
+  "domain": [
+    {
+      "object": "clustering-model",
+      "name": "model"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "integer"
+    }
+  ]
+}

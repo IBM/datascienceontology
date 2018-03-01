@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/vector",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "vector",
+  "name": "vector",
+  "description": "A one-dimensional array",
+  "kind": "object",
+  "subconcept": [
+    "array"
+  ]
+}

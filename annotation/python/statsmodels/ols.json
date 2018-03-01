@@ -1,0 +1,13 @@
+{
+  "_id": "annotation/python/statsmodels/ols",
+  "schema": "annotation",
+  "language": "python",
+  "package": "statsmodels",
+  "id": "ols",
+  "name": "Least-squares in statsmodels",
+  "description": "Ordinary least-squares (OLS) linear regression in statsmodels (with results `statsmodels.regression.linear_model.OLSResults`)",
+  "class": "statsmodels.regression.linear_model.OLS",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "least-squares"
+}

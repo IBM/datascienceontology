@@ -1,0 +1,9 @@
+{
+  "_id": "concept/data-science/data",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "data",
+  "name": "data",
+  "description": "A generic collection of data, not necessarily tabular",
+  "kind": "object"
+}

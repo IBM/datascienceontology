@@ -1,0 +1,25 @@
+{
+  "_id": "concept/data-science/mean-squared-error",
+  "schema": "concept",
+  "id": "mean-squared-error",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "mean squared error",
+  "description": "mean squared error (aka, L2 loss)",
+  "domain": [
+    {
+      "object": "vector",
+      "name": "truth"
+    },
+    {
+      "object": "vector",
+      "name": "estimate"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "number",
+      "name": "error"
+    }
+  ]
+}

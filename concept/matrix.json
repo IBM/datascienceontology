@@ -1,0 +1,13 @@
+{
+  "_id": "concept/data-science/matrix",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "matrix",
+  "name": "matrix",
+  "description": "A two-dimensional array",
+  "kind": "object",
+  "subconcept": [
+    "array",
+    "table"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/multiple-correspondence-analysis",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "multiple-correspondence-analysis",
+  "name": "multiple correspondence analysis",
+  "description": "Correspondence analysis with multiple categorical variables",
+  "kind": "object",
+  "subconcept": [
+    "correspondence-analysis"
+  ]
+}

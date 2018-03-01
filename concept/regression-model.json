@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/regression-model",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "regression-model",
+  "name": "regression model",
+  "description": "A statistical model for regression",
+  "kind": "object",
+  "subconcept": [
+    "supervised-model"
+  ]
+}

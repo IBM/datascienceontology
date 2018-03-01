@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/dimension-reduction-model",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "dimension-reduction-model",
+  "name": "dimensionality reduction",
+  "description": "A statistical model to reduce the dimensionality of a random vector",
+  "kind": "object",
+  "subconcept": [
+    "unsupervised-model"
+  ]
+}

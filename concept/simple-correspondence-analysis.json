@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/simple-correspondence-analysis",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "simple-correspondence-analysis",
+  "name": "simple correspondence analysis",
+  "description": "Correspondence analysis with a single categorical variable",
+  "kind": "object",
+  "subconcept": [
+    "correspondence-analysis"
+  ]
+}

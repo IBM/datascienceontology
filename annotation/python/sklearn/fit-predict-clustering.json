@@ -1,0 +1,58 @@
+{
+  "_id": "annotation/python/sklearn/fit-predict-clustering",
+  "schema": "annotation",
+  "language": "python",
+  "package": "sklearn",
+  "id": "fit-predict-clustering",
+  "name": "fit sklearn clustering model",
+  "class": [
+    "sklearn.base.BaseEstimator",
+    "sklearn.base.ClusterMixin"
+  ],
+  "method": "fit_predict",
+  "ontology": "data-science",
+  "kind": "morphism",
+  "definition": [
+    "compose",
+    [
+      "Hom",
+      "fit",
+      [
+        "otimes",
+        "clustering-model",
+        "data"
+      ],
+      "clustering-model"
+    ],
+    [
+      "pair",
+      [
+        "id",
+        "clustering-model"
+      ],
+      "clustering-model-clusters"
+    ]
+  ],
+  "domain": [
+    {
+      "slot": "self",
+      "name": "model",
+      "description": "clustering model to fit"
+    },
+    {
+      "slot": 1,
+      "name": "data"
+    }
+  ],
+  "codomain": [
+    {
+      "slot": "self",
+      "name": "model",
+      "description": "fitted clustering model"
+    },
+    {
+      "slot": "__return__",
+      "name": "clusters"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "annotation/python/sklearn/fit-regression",
+  "schema": "annotation",
+  "language": "python",
+  "package": "sklearn",
+  "id": "fit-regression",
+  "name": "fit sklearn regression model",
+  "class": [
+    "sklearn.base.BaseEstimator",
+    "sklearn.base.RegressorMixin"
+  ],
+  "method": "fit",
+  "ontology": "data-science",
+  "kind": "morphism",
+  "definition": "fit-supervised",
+  "domain": [
+    {
+      "slot": "self"
+    },
+    {
+      "slot": 1
+    },
+    {
+      "slot": 2
+    }
+  ],
+  "codomain": [
+    {
+      "slot": "self"
+    }
+  ]
+}

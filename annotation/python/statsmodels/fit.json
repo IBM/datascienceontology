@@ -1,0 +1,27 @@
+{
+  "_id": "annotation/python/statsmodels/fit",
+  "schema": "annotation",
+  "language": "python",
+  "package": "statsmodels",
+  "id": "fit",
+  "name": "fit statsmodels Model",
+  "description": "fit a statsmodels Model that has already been bound to data",
+  "class": "statsmodels.base.model.Model",
+  "method": "fit",
+  "ontology": "data-science",
+  "kind": "morphism",
+  "definition": [
+    "id",
+    "model"
+  ],
+  "domain": [
+    {
+      "slot": "self"
+    }
+  ],
+  "codomain": [
+    {
+      "slot": "__return__"
+    }
+  ]
+}

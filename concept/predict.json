@@ -1,0 +1,25 @@
+{
+  "_id": "concept/data-science/predict",
+  "schema": "concept",
+  "id": "predict",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "predict",
+  "description": "make predictions using a supervised model",
+  "domain": [
+    {
+      "object": "supervised-model",
+      "name": "model"
+    },
+    {
+      "object": "data",
+      "name": "predictors"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "data",
+      "name": "predicted"
+    }
+  ]
+}

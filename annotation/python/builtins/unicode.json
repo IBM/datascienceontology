@@ -1,0 +1,13 @@
+{
+  "_id": "annotation/python/builtins/unicode",
+  "schema": "annotation",
+  "language": "python",
+  "package": "builtins",
+  "id": "unicode",
+  "name": "Python unicode string",
+  "description": "Unicode string (Python 2 only)",
+  "class": "unicode",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "string"
+}

@@ -1,0 +1,9 @@
+{
+  "_id": "concept/data-science/model",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "model",
+  "name": "statistical model",
+  "description": "Any probabilistic or statistical model",
+  "kind": "object"
+}

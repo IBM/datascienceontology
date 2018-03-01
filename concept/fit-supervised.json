@@ -1,0 +1,31 @@
+{
+  "_id": "concept/data-science/fit-supervised",
+  "schema": "concept",
+  "id": "fit-supervised",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "fit supervised model",
+  "description": "fit a supervised, or predictive, statistical model",
+  "domain": [
+    {
+      "object": "supervised-model",
+      "name": "model",
+      "description": "model to fit"
+    },
+    {
+      "object": "data",
+      "name": "predictors"
+    },
+    {
+      "object": "data",
+      "name": "response"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "supervised-model",
+      "name": "model",
+      "description": "fitted model"
+    }
+  ]
+}

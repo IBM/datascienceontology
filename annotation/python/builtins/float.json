@@ -1,0 +1,11 @@
+{
+  "_id": "annotation/python/builtins/float",
+  "schema": "annotation",
+  "language": "python",
+  "package": "builtins",
+  "id": "float",
+  "class": "float",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "number"
+}

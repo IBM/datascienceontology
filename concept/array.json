@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/array",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "array",
+  "name": "array",
+  "description": "A multidimensional array of homogeneous data type, also known as a tensor",
+  "kind": "object",
+  "subconcept": [
+    "data"
+  ]
+}

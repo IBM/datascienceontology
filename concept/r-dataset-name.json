@@ -1,0 +1,19 @@
+{
+  "_id": "concept/data-science/r-dataset-name",
+  "schema": "concept",
+  "id": "r-dataset-name",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "name",
+  "description": "Name of an R dataset",
+  "domain": [
+    {
+      "object": "r-dataset"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "string"
+    }
+  ]
+}

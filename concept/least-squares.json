@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/least-squares",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "least-squares",
+  "name": "OLS linear regression",
+  "description": "The standard linear regression model, fit by ordinary least squares (OLS)",
+  "kind": "object",
+  "subconcept": [
+    "linear-regression"
+  ]
+}

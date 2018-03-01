@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/classification-model",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "classification-model",
+  "name": "classification model",
+  "description": "A statistical model for classification",
+  "kind": "object",
+  "subconcept": [
+    "supervised-model"
+  ]
+}

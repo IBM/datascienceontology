@@ -1,0 +1,19 @@
+{
+  "_id": "concept/data-science/filename",
+  "schema": "concept",
+  "id": "filename",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "filename",
+  "description": "name, or path, of a file",
+  "domain": [
+    {
+      "object": "file"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "string"
+    }
+  ]
+}

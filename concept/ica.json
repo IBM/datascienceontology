@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/ica",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "ica",
+  "name": "ICA",
+  "description": "Independent components analysis (ICA), a dimensionality reduction method that performs blind source separation",
+  "kind": "object",
+  "subconcept": [
+    "linear-dimension-reduction-model"
+  ]
+}

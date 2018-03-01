@@ -1,0 +1,9 @@
+{
+  "_id": "concept/data-science/scalar",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "scalar",
+  "name": "scalar quantity",
+  "description": "a scalar quantity, typically corresponding to primitive data types",
+  "kind": "object"
+}

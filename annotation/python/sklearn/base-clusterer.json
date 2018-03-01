@@ -1,0 +1,26 @@
+{
+  "_id": "annotation/python/sklearn/base-clusterer",
+  "schema": "annotation",
+  "language": "python",
+  "package": "sklearn",
+  "id": "base-clusterer",
+  "name": "sklearn Clusterer",
+  "description": "Base class for all clustering models in sklearn",
+  "class": [
+    "sklearn.base.BaseEstimator",
+    "sklearn.base.ClusterMixin"
+  ],
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "clustering-model",
+  "slots": [
+    {
+      "slot": "get_params.n_clusters",
+      "definition": "clustering-model-n-clusters"
+    },
+    {
+      "slot": "labels_",
+      "definition": "clustering-model-clusters"
+    }
+  ]
+}

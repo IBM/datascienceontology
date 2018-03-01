@@ -1,0 +1,13 @@
+{
+  "_id": "annotation/python/sqlalchemy/connection",
+  "schema": "annotation",
+  "language": "python",
+  "package": "sqlalchemy",
+  "id": "connection",
+  "name": "SQLAlchemy connection",
+  "description": "Database connection in SQLAlchemy",
+  "class": "sqlalchemy.engine.base.Connection",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "sql-database"
+}

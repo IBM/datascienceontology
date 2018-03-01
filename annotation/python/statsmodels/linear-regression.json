@@ -1,0 +1,13 @@
+{
+  "_id": "annotation/python/statsmodels/linear-regression",
+  "schema": "annotation",
+  "language": "python",
+  "package": "statsmodels",
+  "id": "linear-regression",
+  "name": "linear regression in statsmodels",
+  "description": "generic linear regression model in statsmodels (with results `statsmodels.regression.linear_model.RegressionResults`)",
+  "class": "statsmodels.regression.linear_model.RegressionModel",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "linear-regression"
+}

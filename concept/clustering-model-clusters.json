@@ -1,0 +1,20 @@
+{
+  "_id": "concept/data-science/clustering-model-clusters",
+  "schema": "concept",
+  "id": "clustering-model-clusters",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "clusters",
+  "description": "clusters found by a clustering model",
+  "domain": [
+    {
+      "object": "clustering-model",
+      "name": "model"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "vector"
+    }
+  ]
+}

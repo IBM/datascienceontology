@@ -1,0 +1,19 @@
+{
+  "_id": "concept/data-science/read-data",
+  "schema": "concept",
+  "id": "read-data",
+  "name": "read data",
+  "description": "read data from a data source",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "domain": [
+    {
+      "object": "data-source"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "data"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "concept/data-science/sql-query-database",
+  "schema": "concept",
+  "id": "sql-query-database",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "database",
+  "description": "SQL database to which query refers",
+  "domain": [
+    {
+      "object": "sql-query"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "sql-database"
+    }
+  ]
+}

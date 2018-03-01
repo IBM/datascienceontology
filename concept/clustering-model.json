@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/clustering-model",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "clustering-model",
+  "name": "clustering model",
+  "description": "A statistical model for clustering",
+  "kind": "object",
+  "subconcept": [
+    "unsupervised-model"
+  ]
+}

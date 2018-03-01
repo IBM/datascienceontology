@@ -1,0 +1,13 @@
+{
+  "_id": "annotation/python/statsmodels/likelihood-model",
+  "schema": "annotation",
+  "language": "python",
+  "package": "statsmodels",
+  "id": "likelihood-model",
+  "name": "statsmodels Likelihood Model",
+  "description": "Base class for all likelihood models in statsmodels (with results `statsmodels.base.model.LikelihoodModelResults`)",
+  "class": "statsmodels.base.model.LikelihoodModel",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "model"
+}

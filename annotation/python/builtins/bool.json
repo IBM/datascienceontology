@@ -1,0 +1,11 @@
+{
+  "_id": "annotation/python/builtins/bool",
+  "schema": "annotation",
+  "language": "python",
+  "package": "builtins",
+  "id": "bool",
+  "class": "bool",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "boolean"
+}

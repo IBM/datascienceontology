@@ -1,0 +1,22 @@
+{
+  "_id": "annotation/python/sklearn/lasso",
+  "schema": "annotation",
+  "language": "python",
+  "package": "sklearn",
+  "id": "lasso",
+  "name": "lasso in scikit-learn",
+  "class": "sklearn.linear_model.coordinate_descent.Lasso",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "lasso",
+  "slots": [
+    {
+      "slot": "coef_",
+      "definition": "linear-regression-coefficients"
+    },
+    {
+      "slot": "intercept_",
+      "definition": "linear-regression-intercept"
+    }
+  ]
+}

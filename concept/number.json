@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/number",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "number",
+  "name": "number",
+  "description": "A generic number: real, complex, or more exotic",
+  "kind": "object",
+  "subconcept": [
+    "scalar"
+  ]
+}

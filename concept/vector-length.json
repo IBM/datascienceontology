@@ -1,0 +1,19 @@
+{
+  "_id": "concept/data-science/vector-length",
+  "schema": "concept",
+  "id": "vector-length",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "length",
+  "description": "length of a vector",
+  "domain": [
+    {
+      "object": "vector"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "integer"
+    }
+  ]
+}

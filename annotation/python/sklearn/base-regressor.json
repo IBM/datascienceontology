@@ -1,0 +1,16 @@
+{
+  "_id": "annotation/python/sklearn/base-regressor",
+  "schema": "annotation",
+  "language": "python",
+  "package": "sklearn",
+  "id": "base-regressor",
+  "name": "sklearn Regressor",
+  "description": "Base class for all regression models in sklearn",
+  "class": [
+    "sklearn.base.BaseEstimator",
+    "sklearn.base.RegressorMixin"
+  ],
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "regression-model"
+}

@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/pca",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "pca",
+  "name": "PCA",
+  "description": "Principal components analysis (PCA), the most popular method for dimensionality reduction",
+  "kind": "object",
+  "subconcept": [
+    "linear-dimension-reduction-model"
+  ]
+}

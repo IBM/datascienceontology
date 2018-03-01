@@ -1,0 +1,14 @@
+{
+  "_id": "annotation/r/base/logical",
+  "schema": "annotation",
+  "language": "r",
+  "package": "base",
+  "id": "logical",
+  "name": "R boolean",
+  "description": "logical (boolean) value in R",
+  "class": "logical",
+  "system": "S3",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "boolean"
+}

@@ -1,0 +1,11 @@
+{
+  "_id": "concept/data-science/integer",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "integer",
+  "name": "integer",
+  "kind": "object",
+  "subconcept": [
+    "number"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_id": "concept/data-science/string",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "string",
+  "name": "string",
+  "kind": "object",
+  "subconcept": [
+    "scalar"
+  ]
+}

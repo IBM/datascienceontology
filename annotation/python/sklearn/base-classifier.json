@@ -1,0 +1,16 @@
+{
+  "_id": "annotation/python/sklearn/base-classifier",
+  "schema": "annotation",
+  "language": "python",
+  "package": "sklearn",
+  "id": "base-classifier",
+  "name": "sklearn Classifier",
+  "description": "Base class for all classification models in sklearn",
+  "class": [
+    "sklearn.base.BaseEstimator",
+    "sklearn.base.ClassifierMixin"
+  ],
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "classification-model"
+}

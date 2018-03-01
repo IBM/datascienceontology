@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/linear-regression",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "linear-regression",
+  "name": "linear regression",
+  "description": "A regression model with linear coefficients",
+  "kind": "object",
+  "subconcept": [
+    "regression-model"
+  ]
+}

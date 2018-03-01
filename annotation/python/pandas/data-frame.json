@@ -1,0 +1,27 @@
+{
+  "_id": "annotation/python/pandas/data-frame",
+  "schema": "annotation",
+  "language": "python",
+  "package": "pandas",
+  "id": "data-frame",
+  "name": "pandas data frame",
+  "description": "Tabular data with labeled axes in pandas",
+  "class": "pandas.core.frame.DataFrame",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "table",
+  "slots": [
+    {
+      "slot": "columns.tolist",
+      "definition": "table-column-names"
+    },
+    {
+      "slot": "columns.__len__",
+      "definition": "table-n-cols"
+    },
+    {
+      "slot": "__len__",
+      "definition": "table-n-rows"
+    }
+  ]
+}

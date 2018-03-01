@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/agglomerative-clustering",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "agglomerative-clustering",
+  "name": "agglomerative clustering",
+  "description": "Hierarchical clustering with agglomerative (bottom up) construction",
+  "kind": "object",
+  "subconcept": [
+    "hierarchical-clustering"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "annotation/python/sklearn/agglomerative",
+  "schema": "annotation",
+  "language": "python",
+  "package": "sklearn",
+  "id": "agglomerative",
+  "name": "agglomerative clustering in scikit-learn",
+  "class": "sklearn.cluster.hierarchical.AgglomerativeClustering",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "agglomerative-clustering",
+  "slots": [
+    {
+      "slot": "get_params.n_clusters",
+      "definition": "clustering-model-n-clusters"
+    },
+    {
+      "slot": "labels_",
+      "definition": "clustering-model-clusters"
+    },
+    {
+      "slot": "children_",
+      "definition": "hierarchical-clustering-linkage"
+    }
+  ]
+}

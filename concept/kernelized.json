@@ -1,0 +1,19 @@
+{
+  "_id": "concept/data-science/kernelized",
+  "schema": "concept",
+  "id": "kernelized",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "kernelized",
+  "description": "kernelized version of a statistical model based on the Euclidean inner product",
+  "domain": [
+    {
+      "object": "model"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "model"
+    }
+  ]
+}

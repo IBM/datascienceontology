@@ -1,0 +1,19 @@
+{
+  "_id": "concept/data-science/column-name",
+  "schema": "concept",
+  "id": "column-name",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "name",
+  "description": "name of a column",
+  "domain": [
+    {
+      "object": "column"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "string"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/unsupervised-model",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "unsupervised-model",
+  "name": "unsupervised model",
+  "description": "An unsupervised statistical model",
+  "kind": "object",
+  "subconcept": [
+    "model"
+  ]
+}

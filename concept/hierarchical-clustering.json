@@ -1,0 +1,11 @@
+{
+  "_id": "concept/data-science/hierarchical-clustering",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "hierarchical-clustering",
+  "name": "hierarchical clustering",
+  "kind": "object",
+  "subconcept": [
+    "clustering-model"
+  ]
+}

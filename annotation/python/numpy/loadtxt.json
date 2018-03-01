@@ -1,0 +1,35 @@
+{
+  "_id": "annotation/python/numpy/loadtxt",
+  "schema": "annotation",
+  "language": "python",
+  "package": "numpy",
+  "id": "loadtxt",
+  "name": "load numpy array",
+  "description": "load numpy array from a text file (with no missing values)",
+  "function": "numpy.lib.npyio.loadtxt",
+  "ontology": "data-science",
+  "kind": "morphism",
+  "definition": [
+    "compose",
+    [
+      "construct",
+      [
+        "pair",
+        "tabular-file",
+        "filename"
+      ]
+    ],
+    "read-tabular-file"
+  ],
+  "domain": [
+    {
+      "slot": 0,
+      "name": "filename"
+    }
+  ],
+  "codomain": [
+    {
+      "slot": "__return__"
+    }
+  ]
+}

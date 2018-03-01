@@ -1,0 +1,20 @@
+{
+  "_id": "concept/data-science/k-medoids-medoids",
+  "schema": "concept",
+  "id": "k-medoids-medoids",
+  "kind": "morphism",
+  "ontology": "data-science",
+  "name": "medoids",
+  "description": "medoids of clusters found by k-medoids clustering",
+  "domain": [
+    {
+      "object": "k-medoids",
+      "name": "model"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "array"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_id": "concept/data-science/sql-query",
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "sql-query",
+  "name": "SQL query",
+  "description": "A SQL query on a relational database",
+  "kind": "object",
+  "subconcept": [
+    "tabular-data-source"
+  ]
+}
