@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/sklearn/pca",
   "schema": "annotation",
   "language": "python",
   "package": "sklearn",

@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/statsmodels/linear-regression",
   "schema": "annotation",
   "language": "python",
   "package": "statsmodels",

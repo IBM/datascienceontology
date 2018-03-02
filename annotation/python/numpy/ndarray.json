@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/numpy/ndarray",
   "schema": "annotation",
   "language": "python",
   "package": "numpy",

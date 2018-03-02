@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/builtins/str",
   "schema": "annotation",
   "language": "python",
   "package": "builtins",

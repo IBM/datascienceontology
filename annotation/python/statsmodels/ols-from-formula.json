@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/statsmodels/ols-from-formula",
   "schema": "annotation",
   "language": "python",
   "package": "statsmodels",

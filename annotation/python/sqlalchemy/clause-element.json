@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/sqlalchemy/clause-element",
   "schema": "annotation",
   "language": "python",
   "package": "sqlalchemy",

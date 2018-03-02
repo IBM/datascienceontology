@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/statsmodels/model",
   "schema": "annotation",
   "language": "python",
   "package": "statsmodels",

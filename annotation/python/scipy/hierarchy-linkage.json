@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/scipy/hierarchy-linkage",
   "schema": "annotation",
   "language": "python",
   "package": "scipy",

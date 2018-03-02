@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/scipy/kmeans2",
   "schema": "annotation",
   "language": "python",
   "package": "scipy",

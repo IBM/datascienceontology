@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/pandas/series",
   "schema": "annotation",
   "language": "python",
   "package": "pandas",

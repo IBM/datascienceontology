@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/builtins/unicode",
   "schema": "annotation",
   "language": "python",
   "package": "builtins",

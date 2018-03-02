@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/sklearn/fit-predict-clustering",
   "schema": "annotation",
   "language": "python",
   "package": "sklearn",

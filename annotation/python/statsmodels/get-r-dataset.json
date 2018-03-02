@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/statsmodels/get-r-dataset",
   "schema": "annotation",
   "language": "python",
   "package": "statsmodels",

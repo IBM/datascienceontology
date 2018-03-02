@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/sklearn/transform",
   "schema": "annotation",
   "language": "python",
   "package": "sklearn",

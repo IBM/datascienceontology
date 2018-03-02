@@ -1,5 +1,4 @@
 {
-  "_id": "concept/data-science/column-name",
   "schema": "concept",
   "id": "column-name",
   "kind": "morphism",

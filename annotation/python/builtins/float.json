@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/builtins/float",
   "schema": "annotation",
   "language": "python",
   "package": "builtins",

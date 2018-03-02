@@ -1,5 +1,4 @@
 {
-  "_id": "concept/data-science/read-tabular-file",
   "schema": "concept",
   "id": "read-tabular-file",
   "name": "read tabular file",

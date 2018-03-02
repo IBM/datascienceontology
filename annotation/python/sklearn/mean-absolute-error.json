@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/sklearn/mean-absolute-error",
   "schema": "annotation",
   "language": "python",
   "package": "sklearn",

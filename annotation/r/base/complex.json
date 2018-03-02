@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/r/base/complex",
   "schema": "annotation",
   "language": "r",
   "package": "base",

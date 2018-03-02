@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/numpy/recarray",
   "schema": "annotation",
   "language": "python",
   "package": "numpy",

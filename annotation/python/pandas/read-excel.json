@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/pandas/read-excel",
   "schema": "annotation",
   "language": "python",
   "package": "pandas",

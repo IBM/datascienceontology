@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/r/base/logical",
   "schema": "annotation",
   "language": "r",
   "package": "base",

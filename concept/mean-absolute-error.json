@@ -1,5 +1,4 @@
 {
-  "_id": "concept/data-science/mean-absolute-error",
   "schema": "concept",
   "id": "mean-absolute-error",
   "kind": "morphism",

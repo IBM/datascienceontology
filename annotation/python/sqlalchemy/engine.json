@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/sqlalchemy/engine",
   "schema": "annotation",
   "language": "python",
   "package": "sqlalchemy",

@@ -1,5 +1,4 @@
 {
-  "_id": "annotation/python/sklearn/fit-regression",
   "schema": "annotation",
   "language": "python",
   "package": "sklearn",
