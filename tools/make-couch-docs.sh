@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 set -e
+DIR=$(dirname $0)
 
 { 
-    find concept -name "*.json" -exec cat {} + |
+    find "$DIR/../concept" -name "*.json" -exec cat {} + |
         jq '{_id: ("concept/"+.ontology+"/"+.id)} + .';
     
-    find annotation -name "*.json" -exec cat {} + |
+    find "$DIR/../annotation" -name "*.json" -exec cat {} + |
         jq '{_id: ("annotation/"+.language+"/"+.package+"/"+.id)} + .';
 } |
     jq -s '.'
