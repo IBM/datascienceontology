@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Concept",
+  "description": "Concept in an ontology",
+  "type": "object",
+  "documentID": [
+    "schema",
+    "ontology",
+    "id"
+  ],
+  "required": [
+    "schema",
+    "ontology",
+    "id",
+    "name"
+  ],
+  "properties": {
+    "schema": {
+      "enum": ["concept"]
+    },
+    "ontology": {
+      "description": "Ontology to which the concept belongs",
+      "type": "string"
+    },
+    "id": {
+      "description": "Identifer for concept, unique within ontology",
+      "type": "string"
+    },
+    "name": {
+      "description": "Human-readable name of concept",
+      "type": "string"
+    },
+    "description": {
+      "description": "Human-readable description of concept",
+      "type": "string"
+    },
+    "definition": {
+      "description": "Definition of concept in terms of other concepts",
+      "$ref": "#/definitions/s-expression"
+    },
+    "subconcept": {
+      "description": "Concept is a sub-concept (subobject/subtype or sub-morphism) of these concepts",
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "oneOf": [
+    { "$ref": "#/definitions/object" },
+    { "$ref": "#/definitions/morphism" }
+  ],
+  "definitions": {
+    "object": {
+      "required": [ "kind" ],
+      "properties": {
+        "kind": { "enum": ["object"] }
+      }
+    },
+    "morphism": {
+      "required": [ "kind", "domain", "codomain" ],
+      "properties": {
+        "kind": { "enum": ["morphism"] },
+        "domain": {
+          "description": "Domain of morphism as a product of named objects",
+          "type": "array",
+          "items": { "$ref": "#/definitions/domain-object" }
+        },
+        "codomain": {
+          "description": "Codomain of morphism as a product of named objects",
+          "type": "array",
+          "items": { "$ref": "#/definitions/domain-object" }
+        }
+      }
+    },
+    "domain-object": {
+      "descripton": "Object belonging to the domain or codomain of a morphism",
+      "type": "object",
+      "required": [ "object" ],
+      "properties": {
+        "object": {
+          "description": "Identifier of an object concept",
+          "type": "string"
+        },
+        "name": {
+          "description": "Syntactic name of domain object (by default, the object identifer)",
+          "type": "string"
+        },
+        "description": {
+          "description": "Human-readable description of domain object",
+          "type": "string"
+        }
+      }
+    },
+    "s-expression": {
+      "description": "S-expression in JSON",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/s-expression" }
+        }
+      ]
+    }
+  }
+}

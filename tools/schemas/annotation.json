@@ -1,0 +1,285 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Annotation",
+  "description": "Semantic annotation of computer code",
+  "type": "object",
+  "documentID": [
+    "schema",
+    "language",
+    "package",
+    "id"
+  ],
+  "required": [
+    "schema",
+    "language",
+    "package",
+    "id",
+    "ontology",
+    "definition"
+  ],
+  "properties": {
+    "schema": {
+      "enum": ["annotation"]
+    },
+    "language": {
+      "description": "Programming language of annotated code",
+      "type": "string"
+    },
+    "package": {
+      "description": "Library or package of annotated code",
+      "type": "string"
+    },
+    "id": {
+      "description": "Identifer for annotation, unique within language and package",
+      "type": "string"
+    },
+    "ontology": {
+      "description": "Ontology to which the annotation refers",
+      "type": "string"
+    },
+    "name": {
+      "description": "Human-readable name of annotated code object",
+      "type": "string"
+    },
+    "description": {
+      "description": "Human-readable description of annotated code object",
+      "type": "string"
+    }
+  },
+  "oneOf": [
+    { "$ref": "#/definitions/python-object" },
+    { "$ref": "#/definitions/python-morphism" },
+    { "$ref": "#/definitions/r-object" },
+    { "$ref": "#/definitions/r-morphism" }
+  ],
+  "definitions": {
+    "python-class": {
+      "description": "Class or intersection of classes (with fully qualified names)",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        }
+      ]
+    },
+    "python-object": {
+      "description": "Annotation of Python class as object",
+      "required": [
+        "language",
+        "kind",
+        "class",
+        "definition"
+      ],
+      "properties": {
+        "language": { "enum": ["python"] },
+        "kind": { "enum": ["object"] },
+        "class": {
+          "description": "Class to which annotation applies",
+          "$ref": "#/definitions/python-class"
+        },
+        "definition": {
+          "description": "Definition of annotated class as object in ontology",
+          "type": "string"
+        },
+        "slots": {
+          "description": "Class slots (attributes, properties, methods) defining morphisms in ontology",
+          "type": "array",
+          "items": { "$ref": "#/definitions/slot" }
+        }
+      }
+    },
+    "python-morphism": {
+      "description": "Annotation of Python function or method as morphism",
+      "required": [
+        "language",
+        "kind",
+        "definition",
+        "domain",
+        "codomain"
+      ],
+      "properties": {
+        "language": { "enum": ["python"] },
+        "kind": { "enum": ["morphism"] },
+        "definition": {
+          "description": "Definition of annotated function or method as morphism in ontology",
+          "$ref": "#/definitions/s-expression"
+        },
+        "domain": {
+          "description": "Mapping of arguments (positional and named) to morphism domain",
+          "type": "array",
+          "items": { "$ref": "#/definitions/domain-object" }
+        },
+        "codomain": {
+          "description": "Mapping of mutated arguments and return value to morphism codomain",
+          "type": "array",
+          "items": { "$ref": "#/definitions/domain-object" }
+        }
+      },
+      "oneOf": [
+        {
+          "required": [ "function" ],
+          "properties": {
+            "function": {
+              "description": "Fully qualified name of function",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "required": [ "class", "method" ],
+          "properties": {
+            "class": {
+              "description": "Class to which method belongs",
+              "$ref": "#/definitions/python-class"
+            },
+            "method": {
+              "description": "Unqualified name of method",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "r-object": {
+      "description": "Annotation of R type as object",
+      "required": [
+        "language",
+        "kind",
+        "class",
+        "system",
+        "definition"
+      ],
+      "properties": {
+        "language": { "enum": ["r"] },
+        "kind": { "enum": ["object"] },
+        "class": {
+          "description": "Class to which annotation applies",
+          "type": "string"
+        },
+        "system": {
+          "description": "Object-oriented system to which class belongs",
+          "enum": [ "S3", "S4", "R5", "R6" ]
+        },
+        "definition": {
+          "description": "Definition of annotated class as object in ontology",
+          "type": "string"
+        },
+        "slots": {
+          "description": "Class slots defining morphisms in ontology",
+          "type": "array",
+          "items": { "$ref": "#/definitions/slot" }
+        }
+      }
+    },
+    "r-morphism": {
+      "description": "Annotation of R function or method as morphism",
+      "required": [
+        "language",
+        "kind",
+        "definition",
+        "domain",
+        "codomain"
+      ],
+      "properties": {
+        "language": { "enum": ["r"] },
+        "kind": { "enum": ["morphism"] },
+        "definition": {
+          "description": "Definition of annotated function or method as morphism in ontology",
+          "$ref": "#/definitions/s-expression"
+        },
+        "domain": {
+          "description": "Mapping of arguments (positional and named) to morphism domain",
+          "type": "array",
+          "items": { "$ref": "#/definitions/domain-object" }
+        },
+        "codomain": {
+          "description": "Mapping of mutated arguments and return value to morphism codomain",
+          "type": "array",
+          "items": { "$ref": "#/definitions/domain-object" }
+        }
+      },
+      "oneOf": [
+        {
+          "required": [ "function" ],
+          "properties": {
+            "function": {
+              "description": "Name of function",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "required": [ "class", "system", "method" ],
+          "properties": {
+            "class": {
+              "description": "Class on which method dispatches",
+              "type": "string"
+            },
+            "system": {
+              "description": "Object-oriented system to which class belongs",
+              "enum": [ "S3", "S4", "R5", "R6" ]
+            },
+            "method": {
+              "description": "Name of method",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "domain-object": {
+      "description": "Object belonging to the domain or codomain of a concrete function or method",
+      "type": "object",
+      "required": [ "slot" ],
+      "properties": {
+        "slot": {
+          "description": "Function slot (argument or return value)",
+          "oneOf": [
+            { "type" : "number" },
+            { "type" : "string" }
+          ]
+        },
+        "name": {
+          "description": "Syntactic name of domain object",
+          "type": "string"
+        },
+        "description": {
+          "description": "Human-readable description of domain object",
+          "type": "string"
+        }
+      }
+    },
+    "slot": {
+      "description": "Slot corresponding to a morphism in the ontology",
+      "type": "object",
+      "required": ["slot", "definition"],
+      "properties": {
+        "slot": {
+          "description": "Language-specific slot specification",
+          "type": "string"
+        },
+        "definition": {
+          "description": "Definition of slot as morphism in ontology",
+          "$ref": "#/definitions/s-expression"
+        }
+      }
+    },
+    "s-expression": {
+      "description": "S-expression in JSON",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/s-expression" }
+        }
+      ]
+    }
+  }
+}
