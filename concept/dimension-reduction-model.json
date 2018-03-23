@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "unsupervised-model"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q16000077",
+    "wikipedia": "Dimensionality_reduction"
+  }
 }

@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "regression-model"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q10861030",
+    "wikipedia": "Linear_regression"
+  }
 }

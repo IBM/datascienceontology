@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "correspondence-analysis"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q1784754",
+    "wikipedia": "Correspondence_analysis"
+  }
 }

@@ -8,5 +8,9 @@
   "subconcept": [
     "array",
     "table"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q44337",
+    "wikipedia": "Matrix_(mathematics)"
+  }
 }

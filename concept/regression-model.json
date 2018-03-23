@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "supervised-model"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q30556303",
+    "wikipedia": "Regression_analysis"
+  }
 }

@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "tabular-data-source"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q278425",
+    "wikipedia": "Table_(database)"
+  }
 }

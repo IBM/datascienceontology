@@ -4,5 +4,9 @@
   "id": "model",
   "name": "statistical model",
   "description": "Any probabilistic or statistical model",
-  "kind": "object"
+  "kind": "object",
+  "external": {
+    "wikidata": "Q3284399",
+    "wikipedia": "Statistical_model"
+  }
 }

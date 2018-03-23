@@ -14,5 +14,9 @@
     {
       "object": "string"
     }
-  ]
+  ],
+  "external": {
+    "wikidata": "Q1144928",
+    "wikipedia": "Filename"
+  }
 }

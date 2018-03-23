@@ -15,5 +15,8 @@
     {
       "object": "number"
     }
-  ]
+  ],
+  "external": {
+    "wikipedia": "Regression_intercept"
+  }
 }

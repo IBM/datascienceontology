@@ -3,9 +3,13 @@
   "ontology": "data-science",
   "id": "number",
   "name": "number",
-  "description": "A generic number: real, complex, or more exotic",
+  "description": "Any kind of number: real, complex, or more exotic",
   "kind": "object",
   "subconcept": [
     "scalar"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q11563",
+    "wikipedia": "Number"
+  }
 }

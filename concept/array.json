@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "data"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q121079",
+    "wikipedia": "Array_data_type"
+  }
 }

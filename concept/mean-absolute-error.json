@@ -20,5 +20,9 @@
       "object": "number",
       "name": "error"
     }
-  ]
+  ],
+  "external": {
+    "wikidata": "Q6803609",
+    "wikipedia": "Mean_absolute_error"
+  }
 }

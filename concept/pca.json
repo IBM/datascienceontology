@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "linear-dimension-reduction-model"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q2873",
+    "wikipedia": "Principal_component_analysis"
+  }
 }

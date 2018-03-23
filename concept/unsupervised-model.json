@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "model"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q1152135",
+    "wikipedia": "Unsupervised_learning"
+  }
 }

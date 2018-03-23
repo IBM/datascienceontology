@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "clustering-model"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q3191282",
+    "wikipedia": "K-medoids"
+  }
 }

@@ -15,5 +15,9 @@
     {
       "object": "number"
     }
-  ]
+  ],
+  "external": {
+    "wikidata": "Q15096882",
+    "wikipedia": "Residual_sum_of_squares"
+  }
 }

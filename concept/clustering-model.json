@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "unsupervised-model"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q28058114",
+    "wikipedia": "Cluster_analysis"
+  }
 }

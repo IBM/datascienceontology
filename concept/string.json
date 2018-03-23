@@ -6,5 +6,9 @@
   "kind": "object",
   "subconcept": [
     "scalar"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q184754",
+    "wikipedia": "String_(computer_science)"
+  }
 }

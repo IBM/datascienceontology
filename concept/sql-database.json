@@ -4,5 +4,9 @@
   "id": "sql-database",
   "name": "SQL database",
   "description": "A relational (SQL) database",
-  "kind": "object"
+  "kind": "object",
+  "external": {
+    "wikidata": "Q192588",
+    "wikipedia": "Relational_database"
+  }
 }

@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "linear-regression"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q20789991",
+    "wikipedia": "Lasso_(statistics)"
+  }
 }

@@ -6,5 +6,9 @@
   "kind": "object",
   "subconcept": [
     "number"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q729138",
+    "wikipedia": "Integer_(computer_science)"
+  }
 }

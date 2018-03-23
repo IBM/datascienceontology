@@ -4,5 +4,9 @@
   "id": "data",
   "name": "data",
   "description": "A generic collection of data, not necessarily tabular",
-  "kind": "object"
+  "kind": "object",
+  "external": {
+    "wikidata": "Q42848",
+    "wikipedia": "Data"
+  }
 }

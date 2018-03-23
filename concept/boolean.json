@@ -7,5 +7,9 @@
   "kind": "object",
   "subconcept": [
     "scalar"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q520777",
+    "wikipedia": "Boolean_data_type"
+  }
 }

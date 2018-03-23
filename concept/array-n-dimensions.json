@@ -4,7 +4,7 @@
   "kind": "morphism",
   "ontology": "data-science",
   "name": "number of dimensions",
-  "description": "number of dimensions of an array",
+  "description": "number of dimensions, or rank, of an array",
   "domain": [
     {
       "object": "array"
@@ -14,5 +14,9 @@
     {
       "object": "integer"
     }
-  ]
+  ],
+  "external": {
+    "wikidata": "Q7293200",
+    "wikipedia": "Rank_(computer_programming)"
+  }
 }

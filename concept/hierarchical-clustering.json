@@ -6,5 +6,9 @@
   "kind": "object",
   "subconcept": [
     "clustering-model"
-  ]
+  ],
+  "external": {
+    "wikidata": "Q1277447",
+    "wikipedia": "Hierarchical_clustering"
+  }
 }

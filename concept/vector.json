@@ -3,7 +3,7 @@
   "ontology": "data-science",
   "id": "vector",
   "name": "vector",
-  "description": "A one-dimensional array",
+  "description": "A one-dimensional array, not necessarily numeric",
   "kind": "object",
   "subconcept": [
     "array"
