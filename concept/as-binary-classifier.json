@@ -1,0 +1,18 @@
+{
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "as-binary-classifier",
+  "name": "multiclass classifier as binary classifier",
+  "description": "binary classification as special case of multiclass classification with two classes",
+  "kind": "morphism",
+  "domain": [
+    {
+      "object": "multiclass-classifier"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "binary-classifier"
+    }
+  ]
+}
