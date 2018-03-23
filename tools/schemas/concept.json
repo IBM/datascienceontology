@@ -42,6 +42,20 @@
       "description": "Concept is a sub-concept (subobject/subtype or sub-morphism) of these concepts",
       "type": "array",
       "items": { "type": "string" }
+    },
+    "external": {
+      "description": "Links to external resources about the concept",
+      "type": "object",
+      "properties": {
+        "wikidata": {
+          "description": "Wikidata concept identifier",
+          "type": "string"
+        },
+        "wikipedia": {
+          "description": "Wikipedia page (name only, English language)",
+          "type": "string"
+        }
+      }
     }
   },
   "oneOf": [
