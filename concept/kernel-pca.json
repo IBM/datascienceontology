@@ -6,7 +6,8 @@
   "description": "Kernelized version of principal components analysis (PCA)",
   "kind": "object",
   "subconcept": [
-    "dimension-reduction-model"
+    "dimension-reduction-model",
+    "kernel-model"
   ],
   "external": {
     "wikidata": "Q17093020",

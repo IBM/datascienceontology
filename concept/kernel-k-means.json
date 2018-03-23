@@ -6,6 +6,7 @@
   "description": "Kernelized version of k-means clustering",
   "kind": "object",
   "subconcept": [
-    "k-medoids"
+    "k-medoids",
+    "kernel-model"
   ]
 }

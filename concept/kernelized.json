@@ -4,7 +4,7 @@
   "kind": "morphism",
   "ontology": "data-science",
   "name": "kernelized",
-  "description": "kernelized version of a statistical model based on the Euclidean inner product",
+  "description": "kernelized version of a statistical model based on the Euclidean inner product, via the \"kernel trick\"",
   "domain": [
     {
       "object": "model"
@@ -12,7 +12,10 @@
   ],
   "codomain": [
     {
-      "object": "model"
+      "object": "kernel-model"
     }
-  ]
+  ],
+  "external": {
+    "wikidata": "Q1739323"
+  }
 }
