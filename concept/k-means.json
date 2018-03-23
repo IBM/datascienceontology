@@ -6,7 +6,8 @@
   "description": "A clustering model using the k-means algorithm, also known as Lloyd's algorithm",
   "kind": "object",
   "subconcept": [
-    "clustering-model"
+    "clustering-model",
+    "euclidean-model"
   ],
   "external": {
     "wikidata": "Q310401",

@@ -6,7 +6,8 @@
   "description": "The standard linear regression model, fit by ordinary least squares (OLS)",
   "kind": "object",
   "subconcept": [
-    "linear-regression"
+    "linear-regression",
+    "euclidean-model"
   ],
   "external": {
     "wikipedia": "Ordinary_least_squares"

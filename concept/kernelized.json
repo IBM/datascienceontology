@@ -7,7 +7,7 @@
   "description": "kernelized version of a statistical model based on the Euclidean inner product, via the \"kernel trick\"",
   "domain": [
     {
-      "object": "model"
+      "object": "euclidean-model"
     }
   ],
   "codomain": [

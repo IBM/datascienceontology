@@ -6,7 +6,8 @@
   "description": "Principal components analysis (PCA), the most popular method for dimensionality reduction",
   "kind": "object",
   "subconcept": [
-    "linear-dimension-reduction-model"
+    "linear-dimension-reduction-model",
+    "euclidean-model"
   ],
   "external": {
     "wikidata": "Q2873",
