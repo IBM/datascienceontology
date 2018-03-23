@@ -16,7 +16,7 @@
     },
     {
       "slot": "params",
-      "definition": "linear-regression-coefficients"
+      "definition": "linear-model-coefficients"
     }
   ]
 }

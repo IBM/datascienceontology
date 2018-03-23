@@ -11,11 +11,11 @@
   "slots": [
     {
       "slot": "coef_",
-      "definition": "linear-regression-coefficients"
+      "definition": "linear-model-coefficients"
     },
     {
       "slot": "intercept_",
-      "definition": "linear-regression-intercept"
+      "definition": "linear-model-intercept"
     }
   ]
 }

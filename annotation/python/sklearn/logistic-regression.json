@@ -1,0 +1,21 @@
+{
+  "schema": "annotation",
+  "language": "python",
+  "package": "sklearn",
+  "id": "logistic-regression",
+  "name": "logistic regression in sklearn",
+  "class": "sklearn.linear_model.logistic.LogisticRegression",
+  "ontology": "data-science",
+  "kind": "object",
+  "definition": "logistic-regression",
+  "slots": [
+    {
+      "slot": "coef_",
+      "definition": "glm-coefficients"
+    },
+    {
+      "slot": "intercept_",
+      "definition": "glm-intercept"
+    }
+  ]
+}
