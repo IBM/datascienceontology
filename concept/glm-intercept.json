@@ -1,16 +1,13 @@
 {
   "schema": "concept",
   "ontology": "data-science",
-  "id": "linear-model-intercept",
+  "id": "glm-intercept",
   "name": "intercept",
-  "description": "intercept of a linear model, if present",
+  "description": "intercept of a generalized linear model, if present",
   "kind": "morphism",
-  "subconcept": [
-    "glm-intercept"
-  ],
   "domain": [
     {
-      "object": "linear-model",
+      "object": "glm",
       "name": "model"
     }
   ],

@@ -6,7 +6,8 @@
   "description": "A generalized linear model for multiclass classification, using the logit link function",
   "kind": "object",
   "subconcept": [
-    "multiclass-classifier"
+    "multiclass-classifier",
+    "glm"
   ],
   "external": {
     "wikidata": "Q1650843",

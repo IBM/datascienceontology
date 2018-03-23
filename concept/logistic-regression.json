@@ -6,7 +6,8 @@
   "description": "A generalized linear model for binary classification, using the logit link function",
   "kind": "object",
   "subconcept": [
-    "binary-classifier"
+    "binary-classifier",
+    "glm"
   ],
   "external": {
     "wikidata": "Q1132755",

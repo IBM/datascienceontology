@@ -6,7 +6,7 @@
   "description": "A supervised model where the response is a linear function of the predictors",
   "kind": "object",
   "subconcept": [
-    "supervised-model"
+    "glm"
   ],
   "external": {
     "wikidata": "Q3339222",
