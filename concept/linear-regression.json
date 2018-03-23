@@ -3,9 +3,10 @@
   "ontology": "data-science",
   "id": "linear-regression",
   "name": "linear regression",
-  "description": "A regression model with linear coefficients",
+  "description": "A linear model for regression",
   "kind": "object",
   "subconcept": [
+    "linear-model",
     "regression-model"
   ],
   "external": {

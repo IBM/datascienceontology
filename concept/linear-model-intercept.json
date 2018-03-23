@@ -1,0 +1,19 @@
+{
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "linear-model-intercept",
+  "name": "intercept",
+  "description": "intercept of a linear model, if present",
+  "kind": "morphism",
+  "domain": [
+    {
+      "object": "linear-model",
+      "name": "model"
+    }
+  ],
+  "codomain": [
+    {
+      "object": "number"
+    }
+  ]
+}

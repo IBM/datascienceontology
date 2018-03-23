@@ -1,0 +1,15 @@
+{
+  "schema": "concept",
+  "ontology": "data-science",
+  "id": "linear-model",
+  "name": "linear model",
+  "description": "A supervised model where the response is a linear function of the predictors",
+  "kind": "object",
+  "subconcept": [
+    "supervised-model"
+  ],
+  "external": {
+    "wikidata": "Q3339222",
+    "wikipedia": "Linear_model"
+  }
+}

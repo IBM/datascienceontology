@@ -1,13 +1,13 @@
 {
   "schema": "concept",
-  "id": "linear-regression-coefficients",
-  "kind": "morphism",
   "ontology": "data-science",
+  "id": "linear-model-coefficients",
   "name": "coefficients",
-  "description": "coefficients of a linear regression model",
+  "description": "coefficients of a linear model",
+  "kind": "morphism",
   "domain": [
     {
-      "object": "linear-regression",
+      "object": "linear-model",
       "name": "model"
     }
   ],
