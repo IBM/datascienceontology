@@ -1,7 +1,7 @@
 {
   "schema": "concept",
   "ontology": "data-science",
-  "id": "multionimial-logistic-regression",
+  "id": "multinomial-logistic-regression",
   "name": "multinomial logistic regression",
   "description": "A generalized linear model for multiclass classification, using the logit link function",
   "kind": "object",
