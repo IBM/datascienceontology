@@ -180,6 +180,7 @@
       "required": [
         "language",
         "kind",
+        "function",
         "definition",
         "domain",
         "codomain"
@@ -187,6 +188,18 @@
       "properties": {
         "language": { "enum": ["r"] },
         "kind": { "enum": ["morphism"] },
+        "function": {
+          "description": "Name of function",
+          "type": "string"
+        },
+        "class": {
+          "description": "Class on which function dispatches, if a generic or method",
+          "type": "string"
+        },
+        "system": {
+          "description": "Object-oriented system to which function belongs, if a generic or method",
+          "enum": [ "S3", "S4", "R5", "R6" ]
+        },
         "definition": {
           "description": "Definition of annotated function or method as morphism in ontology",
           "$ref": "#/definitions/s-expression"
@@ -201,35 +214,7 @@
           "type": "array",
           "items": { "$ref": "#/definitions/domain-object" }
         }
-      },
-      "oneOf": [
-        {
-          "required": [ "function" ],
-          "properties": {
-            "function": {
-              "description": "Name of function",
-              "type": "string"
-            }
-          }
-        },
-        {
-          "required": [ "class", "system", "method" ],
-          "properties": {
-            "class": {
-              "description": "Class on which method dispatches",
-              "type": "string"
-            },
-            "system": {
-              "description": "Object-oriented system to which class belongs",
-              "enum": [ "S3", "S4", "R5", "R6" ]
-            },
-            "method": {
-              "description": "Name of method",
-              "type": "string"
-            }
-          }
-        }
-      ]
+      }
     },
     "domain-object": {
       "description": "Object belonging to the domain or codomain of a concrete function or method",

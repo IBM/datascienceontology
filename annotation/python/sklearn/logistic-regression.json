@@ -3,7 +3,7 @@
   "language": "python",
   "package": "sklearn",
   "id": "logistic-regression",
-  "name": "logistic regression in sklearn",
+  "name": "logistic regression in scikit-learn",
   "class": "sklearn.linear_model.logistic.LogisticRegression",
   "ontology": "data-science",
   "kind": "object",
