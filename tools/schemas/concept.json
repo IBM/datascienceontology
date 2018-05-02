@@ -40,8 +40,15 @@
     },
     "subconcept": {
       "description": "Concept is a sub-concept (subobject/subtype or sub-morphism) of these concepts",
-      "type": "array",
-      "items": { "type": "string" }
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      ]
     },
     "external": {
       "description": "Links to external resources about the concept",
