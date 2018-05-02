@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: data
 name: data
 description: A generic collection of data, not necessarily tabular

@@ -4,7 +4,6 @@ package: sklearn
 id: logistic-regression
 name: logistic regression in scikit-learn
 class: sklearn.linear_model.logistic.LogisticRegression
-ontology: data-science
 kind: object
 definition: logistic-regression
 slots:

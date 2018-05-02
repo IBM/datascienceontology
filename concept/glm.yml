@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: glm
 name: generalized linear model
 description: An exponential family model generalizing the linear model

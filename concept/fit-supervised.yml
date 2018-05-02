@@ -1,7 +1,6 @@
 schema: concept
 id: fit-supervised
 kind: morphism
-ontology: data-science
 name: fit supervised model
 description: fit a supervised, or predictive, statistical model
 domain:

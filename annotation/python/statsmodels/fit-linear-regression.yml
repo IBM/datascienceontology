@@ -5,7 +5,6 @@ id: fit-linear-regression
 name: fit linear regression in statsmodels
 class: statsmodels.regression.linear_model.RegressionModel
 method: __init__
-ontology: data-science
 kind: morphism
 definition: fit-supervised
 domain:

@@ -1,7 +1,6 @@
 schema: concept
 id: transform
 kind: morphism
-ontology: data-science
 name: transform
 description: transform data using a dimensionality reduction model
 domain:

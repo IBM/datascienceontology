@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: clustering-model
 name: clustering model
 description: A statistical model for clustering

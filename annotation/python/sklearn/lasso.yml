@@ -4,7 +4,6 @@ package: sklearn
 id: lasso
 name: lasso in scikit-learn
 class: sklearn.linear_model.coordinate_descent.Lasso
-ontology: data-science
 kind: object
 definition: lasso
 slots:

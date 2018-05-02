@@ -7,6 +7,5 @@ description: >
   Ordinary least-squares (OLS) linear regression in statsmodels
   (with results `statsmodels.regression.linear_model.OLSResults`)
 class: statsmodels.regression.linear_model.OLS
-ontology: data-science
 kind: object
 definition: least-squares

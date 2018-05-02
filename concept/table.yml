@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: table
 name: table
 description: A table, also known as a data frame

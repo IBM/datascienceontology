@@ -1,7 +1,6 @@
 schema: concept
 id: evaluate-formula-supervised
 kind: morphism
-ontology: data-science
 name: evaluate formula for supervised model
 description: evaluate formula defining supervised model on data
 domain:

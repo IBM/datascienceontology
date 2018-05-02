@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: linear-model
 name: linear model
 description: A supervised model where the response is a linear function of the predictors

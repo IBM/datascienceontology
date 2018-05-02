@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: excel-spreadsheet
 name: Excel spreadsheet
 description: A single sheet in a Microsoft Excel spreadsheet

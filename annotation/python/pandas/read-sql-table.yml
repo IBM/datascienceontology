@@ -5,7 +5,6 @@ id: read-sql-table
 name: read data frame from SQL table
 description: read pandas data frame from table in SQL databsase
 function: pandas.io.sql.read_sql_table
-ontology: data-science
 kind: morphism
 definition: [
   compose,

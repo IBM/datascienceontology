@@ -1,7 +1,6 @@
 schema: concept
 id: r-dataset-package
 kind: morphism
-ontology: data-science
 name: R package
 description: R package to which R dataset belongs
 domain:

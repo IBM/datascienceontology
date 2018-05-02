@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: kernel-model
 name: kernel model
 description: >

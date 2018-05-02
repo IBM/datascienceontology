@@ -6,7 +6,6 @@ name: fit statsmodels Model
 description: fit a statsmodels Model that has already been bound to data
 class: statsmodels.base.model.Model
 method: fit
-ontology: data-science
 kind: morphism
 definition: [ id, model ]
 domain:

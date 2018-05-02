@@ -5,7 +5,6 @@ id: genfromtxt
 name: load numpy array
 description: load numpy array from a text file (possibly with missing values)
 function: numpy.lib.npyio.genfromtxt
-ontology: data-science
 kind: morphism
 definition: [
   compose,

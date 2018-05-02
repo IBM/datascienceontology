@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: as-logistic-regression
 name: use multinomial logistic regression for logistic regression
 description: (binomial) logistic regression as special case of multinomial logistic regression with two classes

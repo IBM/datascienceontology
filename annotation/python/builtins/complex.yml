@@ -3,6 +3,5 @@ language: python
 package: builtins
 id: complex
 class: complex
-ontology: data-science
 kind: object
 definition: number

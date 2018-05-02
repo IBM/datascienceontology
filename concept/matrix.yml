@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: matrix
 name: matrix
 description: A two-dimensional array

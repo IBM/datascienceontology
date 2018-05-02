@@ -1,7 +1,6 @@
 schema: concept
 id: mean-squared-error
 kind: morphism
-ontology: data-science
 name: mean squared error
 description: mean squared error (aka, L2 loss)
 domain:

@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: glm-coefficients
 name: coefficients
 description: coefficients of a generalized linear model

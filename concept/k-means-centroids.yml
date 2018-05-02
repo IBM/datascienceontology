@@ -1,7 +1,6 @@
 schema: concept
 id: k-means-centroids
 kind: morphism
-ontology: data-science
 name: centroids
 description: centroids of clusters found by k-means clustering
 domain:

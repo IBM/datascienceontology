@@ -5,7 +5,6 @@ id: read-sql-query
 name: read data frame via SQL query
 description: read pandas data frame from results of a SQL query
 function: pandas.io.sql.read_sql_query
-ontology: data-science
 kind: morphism
 definition: [
   compose,

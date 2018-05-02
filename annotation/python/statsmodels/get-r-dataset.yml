@@ -5,7 +5,6 @@ id: get-r-dataset
 name: read R dataset
 description: read tabular data from an R package
 function: statsmodels.datasets.utils.get_rdataset
-ontology: data-science
 kind: morphism
 definition: [
   compose,

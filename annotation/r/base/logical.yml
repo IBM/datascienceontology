@@ -6,6 +6,5 @@ name: R boolean
 description: logical (boolean) value in R
 class: logical
 system: S3
-ontology: data-science
 kind: object
 definition: boolean

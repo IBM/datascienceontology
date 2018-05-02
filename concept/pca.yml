@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: pca
 name: PCA
 description: Principal components analysis (PCA), the most popular method for dimensionality reduction

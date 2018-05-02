@@ -3,6 +3,5 @@ language: python
 package: builtins
 id: float
 class: float
-ontology: data-science
 kind: object
 definition: number

@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: dimension-reduction-model
 name: dimensionality reduction
 description: A statistical model to reduce the dimensionality of a random vector

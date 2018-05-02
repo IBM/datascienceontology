@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: supervised-model
 name: supervised model
 description: A supervised, or predictive, statistical model

@@ -5,7 +5,6 @@ id: recarray
 name: numpy record array
 description: numpy array with named, heterogeneous columns
 class: numpy.recarray
-ontology: data-science
 kind: object
 definition: table
 slots:

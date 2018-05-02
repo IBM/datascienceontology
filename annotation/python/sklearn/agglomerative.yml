@@ -4,7 +4,6 @@ package: sklearn
 id: agglomerative
 name: agglomerative clustering in scikit-learn
 class: sklearn.cluster.hierarchical.AgglomerativeClustering
-ontology: data-science
 kind: object
 definition: agglomerative-clustering
 slots:

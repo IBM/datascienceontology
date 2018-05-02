@@ -1,7 +1,6 @@
 schema: concept
 id: hierarchical-clustering-linkage
 kind: morphism
-ontology: data-science
 name: linkage matrix
 description: linkage matrix of a hierarchical clustering model
 domain:

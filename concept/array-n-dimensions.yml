@@ -1,7 +1,6 @@
 schema: concept
 id: array-n-dimensions
 kind: morphism
-ontology: data-science
 name: number of dimensions
 description: number of dimensions, or rank, of an array
 domain:

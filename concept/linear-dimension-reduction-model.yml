@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: linear-dimension-reduction-model
 name: linear dimensionality reduction
 description: A dimensionality reduction model where the input and output vectors are related by a linear map (usually of fixed rank)

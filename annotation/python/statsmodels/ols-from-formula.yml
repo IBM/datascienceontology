@@ -6,7 +6,6 @@ name: least-squares from formula
 description: construct OLS model from an R-style formula
 class: statsmodels.regression.linear_model.OLS
 method: from_formula
-ontology: data-science
 kind: morphism
 definition: [
   compose,

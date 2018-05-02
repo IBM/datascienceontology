@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: number
 name: number
 description: "Any kind of number: real, complex, or more exotic"

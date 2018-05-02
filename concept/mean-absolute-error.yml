@@ -1,7 +1,6 @@
 schema: concept
 id: mean-absolute-error
 kind: morphism
-ontology: data-science
 name: mean absolute error
 description: mean absolute error (aka, L1 loss)
 domain:

@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: euclidean-model
 name: Euclidean model
 description: >

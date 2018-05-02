@@ -4,7 +4,6 @@ package: scipy
 id: hierarchy-linkage
 name: hierarchical clustering in scipy
 function: scipy.cluster.hierarchy.linkage
-ontology: data-science
 kind: morphism
 definition: [
   compose,

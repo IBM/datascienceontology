@@ -1,7 +1,6 @@
 schema: concept
 id: excel-spreadsheet-name
 kind: morphism
-ontology: data-science
 name: sheet name
 description: name of sheet in an Excel spreadsheet
 domain:

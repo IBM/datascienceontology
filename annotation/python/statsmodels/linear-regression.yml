@@ -7,6 +7,5 @@ description: >
   Generic linear regression model in statsmodels
   (with results `statsmodels.regression.linear_model.RegressionResults`)
 class: statsmodels.regression.linear_model.RegressionModel
-ontology: data-science
 kind: object
 definition: linear-regression

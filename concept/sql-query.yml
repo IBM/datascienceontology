@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: sql-query
 name: SQL query
 description: A SQL query on a relational database

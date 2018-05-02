@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: string
 name: string
 kind: object

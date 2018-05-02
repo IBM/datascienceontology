@@ -1,7 +1,6 @@
 schema: concept
 id: pca-kernelized
 kind: morphism
-ontology: data-science
 name: kernelized
 description: PCA as a special case of kernel PCA
 subconcept: kernelized

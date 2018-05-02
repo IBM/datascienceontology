@@ -1,7 +1,6 @@
 schema: concept
 id: sql-query-database
 kind: morphism
-ontology: data-science
 name: database
 description: SQL database to which query refers
 domain:

@@ -1,7 +1,6 @@
 schema: concept
 id: vector-length
 kind: morphism
-ontology: data-science
 name: length
 description: length of a vector
 domain:

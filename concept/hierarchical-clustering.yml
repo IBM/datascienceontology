@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: hierarchical-clustering
 name: hierarchical clustering
 kind: object

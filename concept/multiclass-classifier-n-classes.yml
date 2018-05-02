@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: multiclass-classifier-model-n-classes
 name: number of classes
 description: number of classes in a multiclass classification model

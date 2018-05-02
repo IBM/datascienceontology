@@ -7,7 +7,6 @@ class:
   - sklearn.base.BaseEstimator
   - sklearn.base.ClusterMixin
 method: fit_predict
-ontology: data-science
 kind: morphism
 definition: [
   compose,

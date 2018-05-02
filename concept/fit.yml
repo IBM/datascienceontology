@@ -1,7 +1,6 @@
 schema: concept
 id: fit
 kind: morphism
-ontology: data-science
 name: fit model
 description: fit a statistical model to data
 domain:

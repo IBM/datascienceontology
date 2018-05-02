@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: boolean
 name: boolean
 description: "A boolean value: true or false"

@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: multiclass-classifier
 name: multiclass classifier
 description: A statistical model for multiclass classification

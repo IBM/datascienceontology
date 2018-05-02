@@ -4,7 +4,6 @@ package: sklearn
 id: pca
 name: PCA in scikit-learn
 class: sklearn.decomposition.pca.PCA
-ontology: data-science
 kind: object
 definition: pca
 slots:

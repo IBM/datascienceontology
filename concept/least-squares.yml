@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: least-squares
 name: OLS linear regression
 description: The standard linear regression model, fit by ordinary least squares (OLS)

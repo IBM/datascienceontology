@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: unsupervised-model
 name: unsupervised model
 description: An unsupervised statistical model

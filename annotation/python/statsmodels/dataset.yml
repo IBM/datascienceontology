@@ -5,7 +5,6 @@ id: dataset
 name: statsmodels dataset
 description: Wrapper class for datasets in statsmodels
 class: statsmodels.datasets.utils.Dataset
-ontology: data-science
 kind: object
 definition: table
 slots:

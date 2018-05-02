@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: kernel-pca
 name: kernel PCA
 description: Kernelized version of principal components analysis (PCA)

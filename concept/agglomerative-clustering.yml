@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: agglomerative-clustering
 name: agglomerative clustering
 description: Hierarchical clustering with agglomerative (bottom up) construction

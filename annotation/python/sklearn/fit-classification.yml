@@ -7,7 +7,6 @@ class:
   - sklearn.base.BaseEstimator
   - sklearn.base.ClassifierMixin
 method: fit
-ontology: data-science
 kind: morphism
 definition: fit-supervised
 domain:

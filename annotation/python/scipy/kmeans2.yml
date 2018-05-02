@@ -4,7 +4,6 @@ package: scipy
 id: kmeans2
 name: k-means clustering in scipy
 function: scipy.cluster.vq.kmeans2
-ontology: data-science
 kind: morphism
 definition: [
   compose,

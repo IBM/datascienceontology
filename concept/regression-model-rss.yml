@@ -1,7 +1,6 @@
 schema: concept
 id: regression-model-rss
 kind: morphism
-ontology: data-science
 name: RSS
 description: residual sum of squares (RSS), aka sum of squared residuals (SSR), of fitted regression model
 domain:

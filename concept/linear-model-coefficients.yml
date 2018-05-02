@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: linear-model-coefficients
 name: coefficients
 description: coefficients of a linear model

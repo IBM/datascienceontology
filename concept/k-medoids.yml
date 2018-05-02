@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: k-medoids
 name: k-medoids clustering
 description: A variant on k-means clustering that assigns clusters using medoids rather than centroids

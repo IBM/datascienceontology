@@ -1,7 +1,6 @@
 schema: concept
 id: dimension-reduction-model-n-dimensions
 kind: morphism
-ontology: data-science
 name: number of dimensions
 description: number of dimensions used by a dimensionality reduction model
 domain:

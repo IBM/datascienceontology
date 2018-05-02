@@ -1,7 +1,6 @@
 schema: concept
 id: k-medoids-medoids
 kind: morphism
-ontology: data-science
 name: medoids
 description: medoids of clusters found by k-medoids clustering
 domain:

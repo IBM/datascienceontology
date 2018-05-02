@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: file
 name: file
 description: A local file

@@ -1,7 +1,6 @@
 schema: concept
 id: table-n-cols
 kind: morphism
-ontology: data-science
 name: number of columns
 description: number of columns in a table
 domain:

@@ -1,7 +1,6 @@
 schema: concept
 id: array-shape
 kind: morphism
-ontology: data-science
 name: shape
 description: shape of an array
 domain:

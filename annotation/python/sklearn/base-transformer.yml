@@ -7,6 +7,5 @@ description: Base class for all dimensionality reduction models in sklearn
 class:
   - sklearn.base.BaseEstimator
   - sklearn.base.TransformerMixin
-ontology: data-science
 kind: object
 definition: dimension-reduction-model

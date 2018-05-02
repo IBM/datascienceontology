@@ -1,7 +1,6 @@
 schema: concept
 id: table-n-rows
 kind: morphism
-ontology: data-science
 name: number of rows
 description: number of rows in a table
 domain:

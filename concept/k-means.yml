@@ -1,5 +1,4 @@
 schema: concept
-ontology: data-science
 id: k-means
 name: k-means clustering
 description: A clustering model using the k-means algorithm, also known as Lloyd"s algorithm

@@ -1,7 +1,6 @@
 schema: concept
 id: linear-dimension-reduction-model-components
 kind: morphism
-ontology: data-science
 name: components
 description: components (loadings) of a linear dimensionality reduction model
 domain:
