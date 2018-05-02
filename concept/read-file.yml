@@ -1,0 +1,11 @@
+schema: concept
+id: read-file
+name: read file
+description: read data from a file
+kind: morphism
+ontology: data-science
+subconcept: read-data
+domain:
+  - object: file
+codomain:
+  - object: data

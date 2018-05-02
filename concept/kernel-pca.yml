@@ -1,0 +1,12 @@
+schema: concept
+ontology: data-science
+id: kernel-pca
+name: kernel PCA
+description: Kernelized version of principal components analysis (PCA)
+kind: object
+subconcept:
+  - dimension-reduction-model
+  - kernel-model
+external: 
+  wikidata: Q17093020
+  wikipedia: Kernel_principal_component_analysis

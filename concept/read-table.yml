@@ -1,0 +1,12 @@
+schema: concept
+id: read-table
+name: read table
+description: read tabular data from a data source
+kind: morphism
+ontology: data-science
+subconcept: read-data
+domain:
+  - object: tabular-data-source
+codomain:
+  - object: table
+    name: data

@@ -1,0 +1,9 @@
+schema: concept
+ontology: data-science
+id: kernel-k-means
+name: kernel k-means clustering
+description: Kernelized version of k-means clustering
+kind: object
+subconcept:
+  - k-medoids
+  - kernel-model

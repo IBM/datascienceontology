@@ -1,0 +1,11 @@
+schema: concept
+ontology: data-science
+id: glm-coefficients
+name: coefficients
+description: coefficients of a generalized linear model
+kind: morphism
+domain:
+  - object: glm
+    name: model
+codomain:
+  - object: vector

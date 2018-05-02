@@ -1,0 +1,10 @@
+schema: concept
+ontology: data-science
+id: as-binary-classifier
+name: use multiclass classifier for binary classification
+description: binary classification as special case of multiclass classification with two classes
+kind: morphism
+domain:
+  - object: multiclass-classifier
+codomain:
+  - object: binary-classifier

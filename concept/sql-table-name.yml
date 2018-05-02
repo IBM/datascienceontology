@@ -1,0 +1,11 @@
+schema: concept
+id: sql-table-name
+kind: morphism
+ontology: data-science
+name: table name
+description: name of a SQL table
+domain:
+  - object: sql-table
+codomain:
+  - object: string
+

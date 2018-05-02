@@ -1,0 +1,12 @@
+schema: concept
+ontology: data-science
+id: multinomial-logistic-regression
+name: multinomial logistic regression
+description: A generalized linear model for multiclass classification, using the logit link function
+kind: object
+subconcept:
+  - multiclass-classifier
+  - glm
+external: 
+  wikidata: Q1650843
+  wikipedia: Multinomial_logistic_regression

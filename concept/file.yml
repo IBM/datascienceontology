@@ -1,0 +1,10 @@
+schema: concept
+ontology: data-science
+id: file
+name: file
+description: A local file
+kind: object
+subconcept: data-source
+external: 
+  wikidata: Q82753
+  wikipedia: Computer_file

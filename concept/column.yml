@@ -1,0 +1,7 @@
+schema: concept
+ontology: data-science
+id: column
+name: column
+description: A column in a data table (data frame)
+kind: object
+subconcept: vector

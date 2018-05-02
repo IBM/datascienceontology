@@ -1,0 +1,10 @@
+schema: concept
+ontology: data-science
+id: classification-model
+name: classification model
+description: A statistical model for classification
+kind: object
+subconcept: supervised-model
+external: 
+  wikidata: Q1744628
+  wikipedia: Statistical_classification

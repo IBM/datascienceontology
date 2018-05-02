@@ -1,0 +1,10 @@
+schema: concept
+ontology: data-science
+id: euclidean-model
+name: Euclidean model
+description: >
+  A statistical model whose fit depends on the data only through pairwise
+  Euclidean products. The terminology "Euclidean model" is nonstandard;
+  there is no standard terminology for this concept.
+kind: object
+subconcept: model

@@ -1,0 +1,11 @@
+schema: concept
+ontology: data-science
+id: glm-intercept
+name: intercept
+description: intercept of a generalized linear model, if present
+kind: morphism
+domain:
+  - object: glm
+    name: model
+codomain:
+  - object: number

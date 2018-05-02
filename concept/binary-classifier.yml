@@ -1,0 +1,10 @@
+schema: concept
+ontology: data-science
+id: binary-classifier
+name: binary classifier
+description: A statistical model for binary classification
+kind: object
+subconcept: classification-model
+external: 
+  wikidata: Q17005494
+  wikipedia: Binary_classification

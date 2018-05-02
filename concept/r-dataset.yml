@@ -1,0 +1,7 @@
+schema: concept
+ontology: data-science
+id: r-dataset
+name: R dataset
+description: A dataset included in an R package
+kind: object
+subconcept: data-source

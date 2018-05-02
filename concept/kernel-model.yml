@@ -1,0 +1,12 @@
+schema: concept
+ontology: data-science
+id: kernel-model
+name: kernel model
+description: >
+  A statistical model using an arbitrary kernel function, better known as a 
+  "kernel method"
+kind: object
+subconcept: model
+external: 
+  wikidata: Q620622
+  wikipedia: Kernel_method

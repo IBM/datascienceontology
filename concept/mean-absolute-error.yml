@@ -1,0 +1,17 @@
+schema: concept
+id: mean-absolute-error
+kind: morphism
+ontology: data-science
+name: mean absolute error
+description: mean absolute error (aka, L1 loss)
+domain:
+  - object: vector
+    name: truth
+  - object: vector
+    name: estimate
+codomain:
+  - object: number
+    name: error
+external: 
+  wikidata: Q6803609
+  wikipedia: Mean_absolute_error

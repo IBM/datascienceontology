@@ -1,0 +1,14 @@
+schema: concept
+id: read-tabular-file
+name: read tabular file
+description: read tabular data from file
+kind: morphism
+ontology: data-science
+subconcept:
+  - read-file
+  - read-table
+domain:
+  - object: tabular-file
+codomain:
+  - object: table
+    name: data

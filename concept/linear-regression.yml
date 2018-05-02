@@ -1,0 +1,12 @@
+schema: concept
+ontology: data-science
+id: linear-regression
+name: linear regression
+description: A linear model for regression
+kind: object
+subconcept:
+  - linear-model
+  - regression-model
+external: 
+  wikidata: Q10861030
+  wikipedia: Linear_regression

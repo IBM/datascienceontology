@@ -1,0 +1,10 @@
+schema: concept
+id: sql-query-expression
+kind: morphism
+ontology: data-science
+name: query expression
+description: query expression in the Structured Query Language (SQL)
+domain:
+  - object: sql-query
+codomain:
+  - object: string

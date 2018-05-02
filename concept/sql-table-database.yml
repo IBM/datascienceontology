@@ -1,0 +1,10 @@
+schema: concept
+id: sql-table-database
+kind: morphism
+ontology: data-science
+name: database
+description: SQL database to which a SQL table belongs
+domain:
+  - object: sql-table
+codomain:
+  - object: sql-database

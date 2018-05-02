@@ -1,0 +1,7 @@
+schema: concept
+ontology: data-science
+id: divisive-clustering
+name: divisive clustering
+description: Hierarchical clustering with divisive (top down) construction
+kind: object
+subconcept: hierarchical-clustering

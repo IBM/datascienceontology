@@ -1,0 +1,11 @@
+schema: concept
+id: k-means-kernelized
+kind: morphism
+ontology: data-science
+name: kernelized
+description: k-means clustering as a special case of kernel k-means clustering
+subconcept: kernelized
+domain:
+  - object: k-means
+codomain:
+  - object: kernel-k-means

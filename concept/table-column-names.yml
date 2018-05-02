@@ -1,0 +1,10 @@
+schema: concept
+id: table-column-names
+kind: morphism
+ontology: data-science
+name: column names
+description: names of columns in a table
+domain:
+  - object: table
+codomain:
+  - object: vector

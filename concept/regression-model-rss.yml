@@ -1,0 +1,14 @@
+schema: concept
+id: regression-model-rss
+kind: morphism
+ontology: data-science
+name: RSS
+description: residual sum of squares (RSS), aka sum of squared residuals (SSR), of fitted regression model
+domain:
+  - object: regression-model
+    name: model
+codomain:
+  - object: number
+external: 
+  wikidata: Q15096882
+  wikipedia: Residual_sum_of_squares
