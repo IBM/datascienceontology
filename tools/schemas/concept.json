@@ -5,22 +5,16 @@
   "type": "object",
   "documentID": [
     "schema",
-    "ontology",
     "id"
   ],
   "required": [
     "schema",
-    "ontology",
     "id",
     "name"
   ],
   "properties": {
     "schema": {
       "enum": ["concept"]
-    },
-    "ontology": {
-      "description": "Ontology to which the concept belongs",
-      "type": "string"
     },
     "id": {
       "description": "Identifer for concept, unique within ontology",

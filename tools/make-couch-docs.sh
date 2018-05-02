@@ -6,7 +6,7 @@ cd "$DIR/../build"
 
 { 
     find concept -name "*.json" -exec cat {} + |
-        jq '{_id: ("concept/"+.ontology+"/"+.id)} + .';
+        jq '{_id: ("concept/"+.id)} + .';
     
     find annotation -name "*.json" -exec cat {} + |
         jq '{_id: ("annotation/"+.language+"/"+.package+"/"+.id)} + .';

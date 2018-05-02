@@ -14,7 +14,6 @@
     "language",
     "package",
     "id",
-    "ontology",
     "definition"
   ],
   "properties": {
@@ -31,10 +30,6 @@
     },
     "id": {
       "description": "Identifer for annotation, unique within language and package",
-      "type": "string"
-    },
-    "ontology": {
-      "description": "Ontology to which the annotation refers",
       "type": "string"
     },
     "name": {
