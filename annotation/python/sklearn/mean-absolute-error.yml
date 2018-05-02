@@ -1,0 +1,15 @@
+schema: annotation
+language: python
+package: sklearn
+id: mean-absolute-error
+name: MAE in sklearn
+description: mean absolute error in scikit-learn
+function: sklearn.metrics.regression.mean_absolute_error
+ontology: data-science
+kind: morphism
+definition: mean-absolute-error
+domain:
+  - slot: 0
+  - slot: 1
+codomain:
+  - slot: __return__

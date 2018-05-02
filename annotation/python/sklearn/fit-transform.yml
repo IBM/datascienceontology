@@ -1,0 +1,35 @@
+schema: annotation
+language: python
+package: sklearn
+id: fit-transform
+name: fit then transform
+description: fit sklearn dimension reduction model, then transform the data
+class:
+  - sklearn.base.BaseEstimator
+  - sklearn.base.TransformerMixin
+method: fit_transform
+ontology: data-science
+kind: morphism
+definition: [
+  compose,
+  [ otimes, [ id, dimension-reduction-model ], [ mcopy, data ] ],
+  [ otimes,
+    [ compose,
+      [ Hom, fit, [ otimes, dimension-reduction-model, data ], dimension-reduction-model ],
+      [ mcopy, dimension-reduction-model ] ],
+    [ id, data ] ],
+  [ otimes, [ id, dimension-reduction-model ], transform ]
+]
+domain:
+  - slot: self
+    name: model
+    description: dimensionality reduction model to fit
+  - slot: 1
+    name: data
+codomain:
+  - slot: self
+    name: model
+    description: fitted dimensionality reduction model
+  - slot: __return__
+    name: transformed
+    description: transformed data

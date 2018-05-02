@@ -1,0 +1,18 @@
+schema: annotation
+language: r
+package: base
+id: data-frame
+name: R data frame
+description: default class for tabular data in R
+class: data.frame
+system: S3
+ontology: data-science
+kind: object
+definition: table
+slots:
+  - slot: names
+    definition: table-column-names
+  - slot: ncol
+    definition: table-n-cols
+  - slot: nrow
+    definition: table-n-rows

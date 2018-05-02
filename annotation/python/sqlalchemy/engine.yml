@@ -1,0 +1,10 @@
+schema: annotation
+language: python
+package: sqlalchemy
+id: engine
+name: SQLAlchemy engine
+description: Database engine in SQLAlchemy
+class: sqlalchemy.engine.base.Engine
+ontology: data-science
+kind: object
+definition: sql-database

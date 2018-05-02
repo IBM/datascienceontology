@@ -1,0 +1,22 @@
+schema: annotation
+language: python
+package: scipy
+id: hierarchy-linkage
+name: hierarchical clustering in scipy
+function: scipy.cluster.hierarchy.linkage
+ontology: data-science
+kind: morphism
+definition: [
+  compose,
+  [ otimes, [ construct, agglomerative-clustering ], [ id, array ] ],
+  [ Hom,
+    fit,
+    [ otimes, agglomerative-clustering, data ],
+    agglomerative-clustering ],
+  hierarchical-clustering-linkage
+]
+domain:
+  - slot: 0
+    name: data
+codomain:
+  - slot: __return__

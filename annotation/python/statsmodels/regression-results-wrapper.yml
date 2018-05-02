@@ -1,0 +1,15 @@
+schema: annotation
+language: python
+package: statsmodels
+id: regression-results-wrapper
+name: statsmodels regression results
+description: Results for a linear regression model in statsmodels
+class: statsmodels.regression.linear_model.RegressionResultsWrapper
+ontology: data-science
+kind: object
+definition: linear-regression
+slots:
+  - slot: ssr
+    definition: regression-model-rss
+  - slot: params
+    definition: linear-model-coefficients

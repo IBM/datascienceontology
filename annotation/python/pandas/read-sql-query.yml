@@ -1,0 +1,21 @@
+schema: annotation
+language: python
+package: pandas
+id: read-sql-query
+name: read data frame via SQL query
+description: read pandas data frame from results of a SQL query
+function: pandas.io.sql.read_sql_query
+ontology: data-science
+kind: morphism
+definition: [
+  compose,
+  [ construct, [ pair, sql-query-database, sql-query-expression ] ],
+  read-table
+]
+domain:
+  - slot: 1
+    name: database
+  - slot: 0
+    name: expression
+codomain:
+  - slot: __return__

@@ -1,0 +1,16 @@
+schema: annotation
+language: python
+package: statsmodels
+id: fit-linear-regression
+name: fit linear regression in statsmodels
+class: statsmodels.regression.linear_model.RegressionModel
+method: __init__
+ontology: data-science
+kind: morphism
+definition: fit-supervised
+domain:
+  - slot: self
+  - slot: 1
+  - slot: 2
+codomain:
+  - slot: self

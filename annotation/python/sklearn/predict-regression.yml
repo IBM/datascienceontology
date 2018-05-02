@@ -1,0 +1,17 @@
+schema: annotation
+language: python
+package: sklearn
+id: predict-regression
+name: predict from sklearn regression model
+class:
+  - sklearn.base.BaseEstimator
+  - sklearn.base.RegressorMixin
+method: predict
+ontology: data-science
+kind: morphism
+definition: predict
+domain:
+  - slot: self
+  - slot: 1
+codomain:
+  - slot: __return__

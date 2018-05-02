@@ -1,0 +1,19 @@
+schema: annotation
+language: python
+package: pandas
+id: read-table
+name: read data frame
+description: read pandas data frame from CSV or TSV file (`pandas.read_csv` and `pandas.read_table`)
+function: pandas.io.parsers._make_parser_function.<locals>.parser_f
+ontology: data-science
+kind: morphism
+definition: [
+  compose,
+  [ construct, [ pair, tabular-file, filename ] ],
+  read-tabular-file
+]
+domain:
+  - slot: 0
+    name: filename
+codomain:
+  - slot: __return__

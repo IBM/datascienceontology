@@ -1,0 +1,11 @@
+schema: annotation
+language: r
+package: base
+id: character
+name: R character string
+description: string of ASCII characters
+class: character
+system: S3
+ontology: data-science
+kind: object
+definition: string

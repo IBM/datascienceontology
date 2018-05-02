@@ -1,0 +1,14 @@
+schema: annotation
+language: python
+package: sklearn
+id: pca
+name: PCA in scikit-learn
+class: sklearn.decomposition.pca.PCA
+ontology: data-science
+kind: object
+definition: pca
+slots:
+  - slot: n_components
+    definition: dimension-reduction-model-n-dimensions
+  - slot: components_
+    definition: linear-dimension-reduction-model-components

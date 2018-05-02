@@ -1,0 +1,19 @@
+schema: annotation
+language: python
+package: numpy
+id: genfromtxt
+name: load numpy array
+description: load numpy array from a text file (possibly with missing values)
+function: numpy.lib.npyio.genfromtxt
+ontology: data-science
+kind: morphism
+definition: [
+  compose,
+  [ construct, [ pair, tabular-file, filename ] ],
+  read-tabular-file
+]
+domain:
+  - slot: 0
+    name: filename
+codomain:
+  - slot: __return__

@@ -1,0 +1,15 @@
+schema: annotation
+language: python
+package: numpy
+id: ndarray
+name: numpy array
+description: homogeneous, multidimensional array in numpy
+class: numpy.ndarray
+ontology: data-science
+kind: object
+definition: array
+slots:
+  - slot: ndim
+    definition: array-n-dimensions
+  - slot: shape
+    definition: array-shape

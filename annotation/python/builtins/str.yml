@@ -1,0 +1,10 @@
+schema: annotation
+language: python
+package: builtins
+id: str
+name: Python string
+description: ASCII string (Python 2) or Unicode string (Python 3)
+class: str
+ontology: data-science
+kind: object
+definition: string

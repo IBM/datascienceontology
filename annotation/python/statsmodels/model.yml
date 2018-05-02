@@ -1,0 +1,12 @@
+schema: annotation
+language: python
+package: statsmodels
+id: model
+name: statsmodels Model
+description: >
+  Base class for all models in statsmodels
+  (with results `statsmodels.base.model.Results`)
+class: statsmodels.base.model.Model
+ontology: data-science
+kind: object
+definition: model

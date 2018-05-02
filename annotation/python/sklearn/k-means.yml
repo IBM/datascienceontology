@@ -1,0 +1,16 @@
+schema: annotation
+language: python
+package: sklearn
+id: k-means
+name: k-means clustering in scikit-learn
+class: sklearn.cluster.k_means_.KMeans
+ontology: data-science
+kind: object
+definition: k-means
+slots:
+  - slot: get_params.n_clusters
+    definition: clustering-model-n-clusters
+  - slot: labels_
+    definition: clustering-model-clusters
+  - slot: cluster_centers_
+    definition: k-means-centroids

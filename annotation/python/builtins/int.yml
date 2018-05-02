@@ -1,0 +1,8 @@
+schema: annotation
+language: python
+package: builtins
+id: int
+class: int
+ontology: data-science
+kind: object
+definition: integer

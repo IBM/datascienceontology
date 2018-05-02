@@ -1,0 +1,18 @@
+schema: annotation
+language: python
+package: sklearn
+id: fit-classification
+name: fit sklearn classification model
+class:
+  - sklearn.base.BaseEstimator
+  - sklearn.base.ClassifierMixin
+method: fit
+ontology: data-science
+kind: morphism
+definition: fit-supervised
+domain:
+  - slot: self
+  - slot: 1
+  - slot: 2
+codomain:
+  - slot: self

@@ -1,0 +1,9 @@
+schema: annotation
+language: r
+package: base
+id: numeric
+class: numeric
+system: S3
+ontology: data-science
+kind: object
+definition: number

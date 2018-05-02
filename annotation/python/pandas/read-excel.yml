@@ -1,0 +1,21 @@
+schema: annotation
+language: python
+package: pandas
+id: read-excel
+name: read data frame from Excel
+description: read pandas data frame from Excel spreadsheet
+function: pandas.io.excel.read_excel
+ontology: data-science
+kind: morphism
+definition: [
+  compose,
+  [ construct, [ pair, excel-spreadsheet, filename, excel-spreadsheet-name ] ],
+  read-tabular-file
+]
+domain:
+  - slot: 0
+    name: filename
+  - slot: sheetname
+    name: sheetname
+codomain:
+  - slot: __return__

@@ -1,0 +1,15 @@
+schema: annotation
+language: python
+package: sklearn
+id: fit
+name: fit sklearn model
+class: sklearn.base.BaseEstimator
+method: fit
+ontology: data-science
+kind: morphism
+definition: fit
+domain:
+  - slot: self
+  - slot: 1
+codomain:
+  - slot: self

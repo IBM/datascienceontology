@@ -1,0 +1,17 @@
+schema: annotation
+language: python
+package: sklearn
+id: linear-regression
+name: linear regression in scikit-learn
+description: Ordinary least-squares (OLS) linear regression in scikit-learn
+class: sklearn.linear_model.base.LinearRegression
+ontology: data-science
+kind: object
+definition: least-squares
+slots:
+  - slot: residues_.0
+    definition: regression-model-rss
+  - slot: coef_
+    definition: linear-model-coefficients
+  - slot: intercept_
+    definition: linear-model-intercept
