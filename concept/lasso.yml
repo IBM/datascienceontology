@@ -3,7 +3,7 @@ id: lasso
 name: lasso
 description: A sparse linear regression model, fit by least squares with L1 penalty
 kind: object
-subconcept: linear-regression
+is-a: linear-regression
 external: 
   wikidata: Q20789991
   wikipedia: Lasso_(statistics)

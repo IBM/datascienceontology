@@ -5,7 +5,7 @@ description: >
   Independent components analysis (ICA), a dimensionality reduction method that
   performs blind source separation
 kind: object
-subconcept:
+is-a:
   - linear-dimension-reduction-model
   - euclidean-model
 external: 

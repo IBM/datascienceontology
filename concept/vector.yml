@@ -3,4 +3,4 @@ id: vector
 name: vector
 description: A one-dimensional array, not necessarily numeric
 kind: object
-subconcept: array
+is-a: array

@@ -3,7 +3,7 @@ id: sql-table
 name: SQL table
 description: A table in a SQL database
 kind: object
-subconcept: tabular-data-source
+is-a: tabular-data-source
 external: 
   wikidata: Q278425
   wikipedia: Table_(database)

@@ -3,4 +3,4 @@ id: tabular-data-source
 name: tabular data source
 description: A source of tabular data, such as a spreadsheet or database table
 kind: object
-subconcept: data-source
+is-a: data-source

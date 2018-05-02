@@ -3,7 +3,7 @@ id: classification-model
 name: classification model
 description: A statistical model for classification
 kind: object
-subconcept: supervised-model
+is-a: supervised-model
 external: 
   wikidata: Q1744628
   wikipedia: Statistical_classification

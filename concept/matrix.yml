@@ -3,7 +3,7 @@ id: matrix
 name: matrix
 description: A two-dimensional array
 kind: object
-subconcept:
+is-a:
   - array
   - table
 external: 

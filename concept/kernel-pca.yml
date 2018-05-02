@@ -3,7 +3,7 @@ id: kernel-pca
 name: kernel PCA
 description: Kernelized version of principal components analysis (PCA)
 kind: object
-subconcept:
+is-a:
   - dimension-reduction-model
   - kernel-model
 external: 

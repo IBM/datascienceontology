@@ -3,6 +3,6 @@ id: tabular-file
 name: tabular file
 description: A file containing tabular data, such as a CSV or TSV file
 kind: object
-subconcept:
+is-a:
   - file
   - tabular-data-source

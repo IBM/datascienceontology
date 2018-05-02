@@ -3,4 +3,4 @@ id: column
 name: column
 description: A column in a data table (data frame)
 kind: object
-subconcept: vector
+is-a: vector

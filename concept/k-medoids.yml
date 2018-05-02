@@ -3,7 +3,7 @@ id: k-medoids
 name: k-medoids clustering
 description: A variant on k-means clustering that assigns clusters using medoids rather than centroids
 kind: object
-subconcept: clustering-model
+is-a: clustering-model
 external: 
   wikidata: Q3191282
   wikipedia: K-medoids

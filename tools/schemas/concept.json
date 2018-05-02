@@ -32,8 +32,8 @@
       "description": "Definition of concept in terms of other concepts",
       "$ref": "#/definitions/s-expression"
     },
-    "subconcept": {
-      "description": "Concept is a sub-concept (subobject/subtype or sub-morphism) of these concepts",
+    "is-a": {
+      "description": "Concept is a sub-concept of these concepts",
       "oneOf": [
         {
           "type": "string"

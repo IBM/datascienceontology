@@ -3,7 +3,7 @@ id: supervised-model
 name: supervised model
 description: A supervised, or predictive, statistical model
 kind: object
-subconcept: model
+is-a: model
 external: 
   wikidata: Q334384
   wikipedia: Supervised_learning

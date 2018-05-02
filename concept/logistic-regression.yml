@@ -3,7 +3,7 @@ id: logistic-regression
 name: logistic regression
 description: A generalized linear model for binary classification, using the logit link function
 kind: object
-subconcept:
+is-a:
   - binary-classifier
   - glm
 external: 

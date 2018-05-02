@@ -6,4 +6,4 @@ description: >
   Euclidean products. The terminology "Euclidean model" is nonstandard;
   there is no standard terminology for this concept.
 kind: object
-subconcept: model
+is-a: model

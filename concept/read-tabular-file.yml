@@ -3,7 +3,7 @@ id: read-tabular-file
 name: read tabular file
 description: read tabular data from file
 kind: morphism
-subconcept:
+is-a:
   - read-file
   - read-table
 domain:

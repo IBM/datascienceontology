@@ -3,7 +3,7 @@ id: dimension-reduction-model
 name: dimensionality reduction
 description: A statistical model to reduce the dimensionality of a random vector
 kind: object
-subconcept: unsupervised-model
+is-a: unsupervised-model
 external: 
   wikidata: Q16000077
   wikipedia: Dimensionality_reduction

@@ -3,7 +3,7 @@ id: least-squares
 name: OLS linear regression
 description: The standard linear regression model, fit by ordinary least squares (OLS)
 kind: object
-subconcept:
+is-a:
   - linear-regression
   - euclidean-model
 external: 

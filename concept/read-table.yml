@@ -3,7 +3,7 @@ id: read-table
 name: read table
 description: read tabular data from a data source
 kind: morphism
-subconcept: read-data
+is-a: read-data
 domain:
   - object: tabular-data-source
 codomain:

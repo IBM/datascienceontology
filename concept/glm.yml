@@ -3,7 +3,7 @@ id: glm
 name: generalized linear model
 description: An exponential family model generalizing the linear model
 kind: object
-subconcept: supervised-model
+is-a: supervised-model
 external: 
   wikidata: Q1501882
   wikipedia: Generalized_linear_model

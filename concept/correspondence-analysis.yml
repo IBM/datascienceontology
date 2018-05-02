@@ -3,4 +3,4 @@ id: correspondence-analysis
 name: correspondence analysis
 description: A variant of principal components analysis for nominal categorical data
 kind: object
-subconcept: dimension-reduction-model
+is-a: dimension-reduction-model

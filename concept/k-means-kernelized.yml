@@ -3,7 +3,7 @@ id: k-means-kernelized
 kind: morphism
 name: kernelized
 description: k-means clustering as a special case of kernel k-means clustering
-subconcept: kernelized
+is-a: kernelized
 domain:
   - object: k-means
 codomain:

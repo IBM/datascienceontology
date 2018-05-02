@@ -3,7 +3,7 @@ id: binary-classifier
 name: binary classifier
 description: A statistical model for binary classification
 kind: object
-subconcept: classification-model
+is-a: classification-model
 external: 
   wikidata: Q17005494
   wikipedia: Binary_classification

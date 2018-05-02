@@ -2,7 +2,7 @@ schema: concept
 id: integer
 name: integer
 kind: object
-subconcept: number
+is-a: number
 external: 
   wikidata: Q729138
   wikipedia: Integer_(computer_science)

@@ -3,6 +3,6 @@ id: kernel-k-means
 name: kernel k-means clustering
 description: Kernelized version of k-means clustering
 kind: object
-subconcept:
+is-a:
   - k-medoids
   - kernel-model

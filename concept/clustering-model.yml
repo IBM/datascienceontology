@@ -3,7 +3,7 @@ id: clustering-model
 name: clustering model
 description: A statistical model for clustering
 kind: object
-subconcept: unsupervised-model
+is-a: unsupervised-model
 external: 
   wikidata: Q28058114
   wikipedia: Cluster_analysis

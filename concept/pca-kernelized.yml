@@ -3,7 +3,7 @@ id: pca-kernelized
 kind: morphism
 name: kernelized
 description: PCA as a special case of kernel PCA
-subconcept: kernelized
+is-a: kernelized
 domain:
   - object: pca
 codomain:

@@ -3,4 +3,4 @@ id: agglomerative-clustering
 name: agglomerative clustering
 description: Hierarchical clustering with agglomerative (bottom up) construction
 kind: object
-subconcept: hierarchical-clustering
+is-a: hierarchical-clustering

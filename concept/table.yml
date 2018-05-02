@@ -3,7 +3,7 @@ id: table
 name: table
 description: A table, also known as a data frame
 kind: object
-subconcept: data
+is-a: data
 external: 
   wikidata: Q496946
   wikipedia: Table_(information)

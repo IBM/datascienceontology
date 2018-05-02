@@ -3,7 +3,7 @@ id: linear-regression
 name: linear regression
 description: A linear model for regression
 kind: object
-subconcept:
+is-a:
   - linear-model
   - regression-model
 external: 

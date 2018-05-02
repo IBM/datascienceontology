@@ -3,7 +3,7 @@ id: multinomial-logistic-regression
 name: multinomial logistic regression
 description: A generalized linear model for multiclass classification, using the logit link function
 kind: object
-subconcept:
+is-a:
   - multiclass-classifier
   - glm
 external: 

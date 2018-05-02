@@ -3,7 +3,7 @@ id: linear-model-intercept
 name: intercept
 description: intercept of a linear model, if present
 kind: morphism
-subconcept: glm-intercept
+is-a: glm-intercept
 domain:
   - object: linear-model
     name: model

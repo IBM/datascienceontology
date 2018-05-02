@@ -3,7 +3,7 @@ id: array
 name: array
 description: A multidimensional array of homogeneous data type, also known as a tensor
 kind: object
-subconcept: data
+is-a: data
 external: 
   wikidata: Q121079
   wikipedia: Array_data_type

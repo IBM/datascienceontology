@@ -3,7 +3,7 @@ id: read-file
 name: read file
 description: read data from a file
 kind: morphism
-subconcept: read-data
+is-a: read-data
 domain:
   - object: file
 codomain:

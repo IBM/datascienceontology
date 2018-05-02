@@ -3,6 +3,6 @@ id: excel-spreadsheet
 name: Excel spreadsheet
 description: A single sheet in a Microsoft Excel spreadsheet
 kind: object
-subconcept: tabular-file
+is-a: tabular-file
 external: 
   wikipedia: Microsoft_Excel#File_formats

@@ -12,4 +12,3 @@ find concept annotation -type d | xargs -I{} mkdir -p "build/{}"
 find concept annotation -name '*.yml' | while read yml; do
     yq '.' "$yml" > "build/${yml%.yml}.json"
 done
-

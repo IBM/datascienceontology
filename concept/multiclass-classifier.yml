@@ -3,7 +3,7 @@ id: multiclass-classifier
 name: multiclass classifier
 description: A statistical model for multiclass classification
 kind: object
-subconcept: classification-model
+is-a: classification-model
 external: 
   wikidata: Q6934605
   wikipedia: Multiclass_classification

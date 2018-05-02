@@ -3,7 +3,7 @@ id: regression-model
 name: regression model
 description: A statistical model for regression
 kind: object
-subconcept: supervised-model
+is-a: supervised-model
 external: 
   wikidata: Q30556303
   wikipedia: Regression_analysis
