@@ -1,0 +1,9 @@
+schema: concept
+id: real
+name: real number
+description: a real number, typically represented as a floating point number
+kind: object
+is-a: complex
+external:
+  wikidata: Q12916
+  wikipedia: Real_number

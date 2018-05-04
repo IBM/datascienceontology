@@ -4,4 +4,4 @@ package: builtins
 id: float
 class: float
 kind: object
-definition: number
+definition: real

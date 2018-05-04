@@ -5,4 +5,4 @@ id: complex
 class: complex
 system: S3
 kind: object
-definition: number
+definition: complex

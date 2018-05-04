@@ -5,4 +5,4 @@ id: numeric
 class: numeric
 system: S3
 kind: object
-definition: number
+definition: real

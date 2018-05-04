@@ -1,0 +1,9 @@
+schema: concept
+id: complex
+name: complex number
+description: a complex number, typically represented by two floating point numbers
+kind: object
+is-a: number
+external:
+  wikidata: Q11567
+  wikipedia: Complex_number
