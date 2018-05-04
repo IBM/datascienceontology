@@ -1,0 +1,15 @@
+schema: annotation
+language: r
+package: base
+id: matrix
+name: R matrix
+description: default class for matrix data in R
+class: matrix
+system: S3
+kind: object
+definition: matrix
+slots:
+  - slot: ncol
+    definition: table-n-cols
+  - slot: nrow
+    definition: table-n-rows
