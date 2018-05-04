@@ -3,26 +3,12 @@ language: r
 package: stats
 id: k-means
 name: k-means clustering in R
-description: k-means clustering in R standard library
-function: kmeans
-kind: morphism
-definition: [
-  compose,
-  [ otimes,
-    [ construct, [ pair, k-means, clustering-model-n-clusters ] ],
-    [ id, matrix ] ],
-  [ Hom,
-    fit,
-    [ otimes, k-means, data ],
-    k-means ]
-]
-domain:
-  - slot: 2
-    name: k
-    description: number of clusters
-  - slot: 1
-    name: data
-    description: data to cluster
-codomain:
-  - slot: __return__
-    name: model
+class: kmeans
+system: S3
+kind: object
+definition: k-means
+slots:
+  - slot: $cluster
+    definition: clustering-model-clusters
+  - slot: $centers
+    definition: k-means-centroids

@@ -1,0 +1,28 @@
+schema: annotation
+language: r
+package: stats
+id: fit-k-means
+name: fit k-means clustering using R
+description: fit a k-means clustering model using the R standard library
+function: kmeans
+kind: morphism
+definition: [
+  compose,
+  [ otimes,
+    [ construct, [ pair, k-means, clustering-model-n-clusters ] ],
+    [ id, matrix ] ],
+  [ Hom,
+    fit,
+    [ otimes, k-means, data ],
+    k-means ]
+]
+domain:
+  - slot: 2
+    name: k
+    description: number of clusters
+  - slot: 1
+    name: data
+    description: data to cluster
+codomain:
+  - slot: __return__
+    name: model
