@@ -1,0 +1,17 @@
+schema: annotation
+language: r
+package: utils
+id: read-csv
+name: read CSV file
+description: read data frame from CSV file
+function: read.csv
+kind: morphism
+definition: [
+  compose,
+  [ construct, [ pair, tabular-file, filename ] ],
+  read-tabular-file
+]
+domain:
+  - slot: file
+codomain:
+  - slot: __return__

@@ -1,0 +1,17 @@
+schema: annotation
+language: r
+package: utils
+id: read-table
+name: read tabular file
+description: read data frame from tabular file
+function: read.table
+kind: morphism
+definition: [
+  compose,
+  [ construct, [ pair, tabular-file, filename ] ],
+  read-tabular-file
+]
+domain:
+  - slot: file
+codomain:
+  - slot: __return__

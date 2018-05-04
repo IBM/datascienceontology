@@ -1,0 +1,17 @@
+schema: annotation
+language: r
+package: utils
+id: read-delim
+name: read TSV file
+description: read data frame from TSV file
+function: read.delim
+kind: morphism
+definition: [
+  compose,
+  [ construct, [ pair, tabular-file, filename ] ],
+  read-tabular-file
+]
+domain:
+  - slot: file
+codomain:
+  - slot: __return__
