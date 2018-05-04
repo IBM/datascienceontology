@@ -1,0 +1,19 @@
+schema: annotation
+language: r
+package: stats
+id: fit-lm
+name: fit linear model in R
+description: fit linear model defined by formula, using base R
+function: lm
+kind: morphism
+definition: [
+  compose,
+  [ otimes, [ construct, least-squares ], evaluate-formula-supervised ],
+  fit-supervised
+]
+domain:
+  - slot: formula
+  - slot: data
+codomain:
+  - slot: __return__
+    name: model

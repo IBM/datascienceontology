@@ -1,0 +1,14 @@
+schema: annotation
+language: r
+package: stats
+id: lm
+name: Linear model in R
+class: lm
+system: S3
+kind: object
+definition: least-squares
+slots:
+  - slot: coef
+    definition: linear-model-coefficients
+  - slot: deviance
+    definition: regression-model-rss
