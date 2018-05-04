@@ -2,6 +2,8 @@ schema: annotation
 language: r
 package: base
 id: complex
+name: R complex number
+description: double-precision floating point complex number in R
 class: complex
 system: S3
 kind: object

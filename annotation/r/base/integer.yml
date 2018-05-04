@@ -2,6 +2,8 @@ schema: annotation
 language: r
 package: base
 id: integer
+name: R integer
+description: 32-bit integer in R
 class: integer
 system: S3
 kind: object

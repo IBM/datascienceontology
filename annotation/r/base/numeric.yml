@@ -2,6 +2,8 @@ schema: annotation
 language: r
 package: base
 id: numeric
+name: R number
+description: double-precision floating point number in R
 class: numeric
 system: S3
 kind: object
