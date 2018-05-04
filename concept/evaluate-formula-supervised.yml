@@ -4,7 +4,7 @@ kind: morphism
 name: evaluate formula for supervised model
 description: evaluate formula defining supervised model on data
 domain:
-  - object: string
+  - object: expression
     name: formula
   - object: data
 codomain:
