@@ -7,6 +7,7 @@ description: >
 kind: object
 is-a:
   - linear-dimension-reduction-model
+  - unsupervised-model
   - euclidean-model
 external: 
   wikidata: Q1259145

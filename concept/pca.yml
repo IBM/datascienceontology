@@ -5,6 +5,7 @@ description: Principal components analysis (PCA), the most popular method for di
 kind: object
 is-a:
   - linear-dimension-reduction-model
+  - unsupervised-model
   - euclidean-model
 external: 
   wikidata: Q2873

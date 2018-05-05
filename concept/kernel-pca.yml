@@ -5,6 +5,7 @@ description: Kernelized version of principal components analysis (PCA)
 kind: object
 is-a:
   - dimension-reduction-model
+  - unsupervised-model
   - kernel-model
 external: 
   wikidata: Q17093020
