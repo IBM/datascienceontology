@@ -1,0 +1,11 @@
+schema: concept
+id: selection-model
+name: model selection
+description: >
+  A model or procedure for selecting a statistical model from a set of
+  candidate models, given data
+kind: object
+is-a: model
+external:
+  wikidata: Q6888345
+  wikipedia: Model_selection

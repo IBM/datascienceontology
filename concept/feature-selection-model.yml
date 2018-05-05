@@ -7,7 +7,9 @@ description: >
   of the original features, in contrast to feature extraction, which creates
   new features from the original features.
 kind: object
-is-a: dimension-reduction-model
+is-a:
+  - dimension-reduction-model
+  - selection-model
 external:
   wikidata: Q446488
   wikipedia: Feature_selection
