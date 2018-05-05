@@ -1,0 +1,28 @@
+schema: annotation
+language: r
+package: VIF
+id: vif
+name: VIF regression in R
+function: vif
+kind: morphism
+definition: [
+  compose,
+  [ otimes,
+    [ construct, vif-regression],
+    [ construct, least-squares ],
+    [ id, table ],
+    [ id, vector ] ],
+  fit-incremental-selection-supervised,
+  [ pair, incremental-selection-model,
+    feature-selection-model-selected, selection-model-selected ]
+]
+domain:
+  - slot: x
+    name: predictors
+  - slot: y
+    name: response
+codomain:
+  - slot: __return__$select
+    description: selected variables
+  - slot: __return__$modelmatrix
+    description: selected model (matrix)
