@@ -1,0 +1,6 @@
+schema: concept
+id: forward-selection-model
+name: forward selection
+description: forward, incremental selection of features
+kind: object
+is-a: incremental-selection-model

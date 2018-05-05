@@ -1,0 +1,6 @@
+schema: concept
+id: backward-selection-model
+name: backward selection
+description: backward, incremental selection of features
+kind: object
+is-a: incremental-selection-model
