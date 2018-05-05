@@ -1,0 +1,9 @@
+schema: concept
+id: forward-stagewise-selection
+name: forward stagewise selection
+description: >
+  Forward stagewise selection, better known as forward stagewise regression,
+  and not to be confused with the more common forward stepwise regression.
+kind: object
+is-a: forward-selection-model
+# reference: ESL, 2nd ed., Sec 3.3.3
