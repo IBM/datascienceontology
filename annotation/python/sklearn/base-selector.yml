@@ -8,7 +8,7 @@ class:
   - sklearn.base.BaseEstimator
   - sklearn.base.SelectorMixin
 kind: object
-definition: feature-selection-model
+definition: selection-model
 slots:
   - slot: get_support
-    definition: feature-selection-model-features
+    definition: selection-model-selected

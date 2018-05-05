@@ -1,5 +1,5 @@
 schema: concept
-id: feature-selection-model
+id: selection-model
 name: feature selection
 description: >
   A statistical model for feature selection, also known as variable selection.
