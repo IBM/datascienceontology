@@ -1,0 +1,13 @@
+schema: concept
+id: design-matrix
+name: design matrix
+description: >
+  design matrix, also known as model matrix, of a linear model or
+  generalized linear model
+kind: morphism
+domain:
+  - object: glm
+    name: model
+codomain:
+  - object: matrix
+    name: design-matrix
