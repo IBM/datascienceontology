@@ -1,0 +1,8 @@
+schema: concept
+id: incremental-selection-model
+name: incremental feature selection
+description: >
+  A feature selection model that adds and/or removes features
+  incrementally--one at a time--from an initial model.
+kind: object
+is-a: selection-model
