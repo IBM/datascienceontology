@@ -1,0 +1,14 @@
+schema: concept
+id: linear-discriminant-analysis
+name: linear discriminant analysis (LDA)
+description: >
+  a classification model and dimensionality reduction method that is closely
+  related to principal components analysis (PCA)
+kind: object
+is-a:
+  - multiclass-classifier
+  - linear-dimension-reduction-model
+  - euclidean-model
+external:
+  wikidata: Q1228929
+  wikipedia: Linear_discriminant_analysis
