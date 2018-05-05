@@ -1,0 +1,13 @@
+schema: concept
+id: vif-regression-selected
+name: selected model
+description: linear model selected by VIF regression
+kind: morphism
+is-a: selection-model-selected
+domain:
+  - object: vif-regression
+    name: model
+codomain:
+  - object: linear-regression
+    name: selected
+    description: selected linear model

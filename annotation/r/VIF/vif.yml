@@ -7,14 +7,12 @@ function: vif
 kind: morphism
 definition: [
   compose,
-  [ otimes,
-    [ construct, vif-regression],
-    [ construct, least-squares ],
-    [ id, table ],
-    [ id, vector ] ],
-  fit-incremental-selection-supervised,
-  [ pair, incremental-selection-model,
-    feature-selection-model-selected, selection-model-selected ]
+  [ otimes, [ construct, vif-regression], [ id, table ], [ id, vector ] ],
+  [ Hom, fit-supervised,
+    [ otimes, vif-regression, table, vector], vif-regression ],
+  [ pair, vif-regression,
+    feature-selection-model-selected,
+    [ compose, vif-regression-selected, design-matrix ] ]
 ]
 domain:
   - slot: x
@@ -25,4 +23,4 @@ codomain:
   - slot: __return__$select
     description: selected variables
   - slot: __return__$modelmatrix
-    description: selected model (matrix)
+    description: model matrix of selected model
