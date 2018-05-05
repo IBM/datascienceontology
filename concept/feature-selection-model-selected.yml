@@ -1,5 +1,5 @@
 schema: concept
-id: selection-model-selected
+id: feature-selection-model-selected
 name: selected features
 description: features selected by a feature selection model
 kind: morphism
