@@ -1,0 +1,11 @@
+schema: concept
+id: backward-stepwise-selection
+name: backward stepwise selection
+description: >
+  Backward stepwise selection, also known as backward stepwise regression,
+  although it applies equally well to classification
+kind: object
+is-a: backward-selection-model
+external:
+  wikidata: Q7611170
+  wikipedia: Stepwise_regression

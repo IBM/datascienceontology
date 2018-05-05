@@ -1,0 +1,11 @@
+schema: concept
+id: forward-stepwise-selection
+name: forward stepwise selection
+description: >
+  Forward stepwise selection, also known as forward stepwise regression,
+  although it applies equally well to classification
+kind: object
+is-a: forward-selection-model
+external:
+  wikidata: Q7611170
+  wikipedia: Stepwise_regression
