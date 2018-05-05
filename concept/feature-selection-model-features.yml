@@ -1,0 +1,11 @@
+schema: concept
+id: feature-selection-model-features
+name: selected features
+description: features selected by a feature selection model
+kind: morphism
+domain:
+  - object: feature-selection-model
+    name: model
+codomain:
+  - object: vector
+    name: features
