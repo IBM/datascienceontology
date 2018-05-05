@@ -5,7 +5,7 @@ DIR=$(dirname $0)
 cd "$DIR/.."
 
 # Create build directory structure.
-mkdir -p build
+rm -r build
 find concept annotation -type d | xargs -I{} mkdir -p "build/{}"
 
 # Convert YAML documents to JSON.
