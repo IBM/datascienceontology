@@ -1,0 +1,14 @@
+schema: annotation
+language: python
+package: sklearn
+id: base-selector
+name: sklearn Selector
+description: Base class for feature selection models in sklearn
+class:
+  - sklearn.base.BaseEstimator
+  - sklearn.base.SelectorMixin
+kind: object
+definition: feature-selection-model
+slots:
+  - slot: get_support
+    definition: feature-selection-model-features

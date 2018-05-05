@@ -12,5 +12,5 @@ slots:
   - slot: intercept_
     definition: linear-model-intercept
 # FIXME: Not a valid slot for selected features.
-# - slot: lambda x: SelectFromModel(x, prefit=True).get_support(indices=True)
+# - slot: lambda x: SelectFromModel(x, prefit=True).get_support()
 #   definition: feature-selection-model-features
