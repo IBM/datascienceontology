@@ -1,0 +1,25 @@
+schema: annotation
+language: r
+package: randomForest
+id: fit-random-forst
+name: fit random forest in R
+function: randomForest
+kind: morphism
+definition: [
+  # FIXME: An alternate method takes x and y directly. Handle both S3 methods.
+  compose,
+  [ otimes,
+    [ construct, random-forest, tree-ensemble-n-trees, random-forest-n-features ],
+    evaluate-formula-supervised ],
+  fit-supervised
+]
+domain:
+  - slot: ntree
+    name: n-trees
+  - slot: mtry
+    name: n-features
+  - slot: formula
+  - slot: data
+codomain:
+  - slot: __return__
+    name: model

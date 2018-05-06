@@ -1,0 +1,14 @@
+schema: annotation
+language: r
+package: randomForest
+id: random-forest
+name: random forest in R
+class: randomForest
+system: S3
+kind: object
+definition: random-forest
+slots:
+  - slot: $ntree
+    definition: tree-ensemble-n-trees
+  - slot: $mtry
+    definition: random-forest-n-features
