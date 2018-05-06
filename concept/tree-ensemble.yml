@@ -1,0 +1,6 @@
+schema: concept
+id: tree-ensemble
+name: tree ensemble
+description: an ensemble of decision trees
+kind: object
+is-a: tree-based-model

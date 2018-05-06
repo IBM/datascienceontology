@@ -1,0 +1,11 @@
+schema: concept
+id: tree-ensemble-n-trees
+name: number of trees
+description: number of trees in a tree ensemble
+kind: morphism
+domain:
+  - object: tree-ensemble
+    name: model
+codomain:
+  - object: integer
+    name: n-trees

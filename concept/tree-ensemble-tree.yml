@@ -1,0 +1,13 @@
+schema: concept
+id: tree-ensemble-tree
+name: tree by index
+description: a particular tree in a tree ensemble, identified by index
+kind: morphism
+domain:
+  - object: tree-ensemble
+    name: model
+  - object: integer
+    name: index
+codomain:
+  - object: decision-tree
+    name: tree
