@@ -6,3 +6,6 @@ kind: object
 is-a:
   - tree-based-model
   - feature-selection-model
+external:
+  wikidata: Q16766476
+  wikipedia: Decision_tree_learning
