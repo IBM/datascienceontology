@@ -1,0 +1,13 @@
+schema: annotation
+language: r
+package: rpart
+id: rpart
+name: rpart model
+description: an rpart (Recursive Partitioning and Regression Trees) model
+class: rpart
+system: S3
+kind: object
+definition: cart
+slots:
+  - slot: $splits %>% row.names %>% unique
+    definition: feature-selection-model-selected

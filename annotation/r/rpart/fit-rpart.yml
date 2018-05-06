@@ -1,0 +1,19 @@
+schema: annotation
+language: r
+package: rpart
+id: fit-rpart
+name: fit rpart model
+description: fit an rpart (Recursive Partitioning and Regression Trees) model
+function: rpart
+kind: morphism
+definition: [
+  compose,
+  [ otimes, [ construct, cart ], evaluate-formula-supervised ],
+  fit-supervised
+]
+domain:
+  - slot: formula
+  - slot: data
+codomain:
+  - slot: __return__
+    name: model
