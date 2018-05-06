@@ -1,0 +1,9 @@
+schema: concept
+id: random-forest
+name: random forest
+description: random forest, a popular variant of tree bagging
+kind: object
+is-a: tree-ensemble
+external:
+  wikidata: Q245748
+  wikipedia: Random_forest

@@ -1,0 +1,11 @@
+schema: concept
+id: random-forest-n-features
+name: number of features to sample
+description: number of features/variables to randomly sample at each tree split
+kind: morphism
+domain:
+  - object: random-forest
+    name: model
+codomain:
+  - object: integer
+    name: n-features
