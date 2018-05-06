@@ -1,0 +1,10 @@
+schema: concept
+id: cart
+name: CART
+description: >
+  Despite the generic name, Classification and Regression Trees (CART) is a
+  particular methodology for building classification and regression trees,
+  described in the book (Breiman, Friedman, Olshen, & Stone, 1994,
+  "Classification and Regression Trees").
+kind: object
+is-a: decision-tree
