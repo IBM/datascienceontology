@@ -1,0 +1,22 @@
+schema: annotation
+language: r
+package: Cubist
+id: fit-cubist
+name: fit Cubist model in R
+function: cubist
+kind: morphism
+definition: [
+  compose,
+  [ otimes, [ construct, cubist, tree-ensemble-n-trees ], [id, table], [id, vector] ],
+  fit-supervised
+]
+domain:
+  - slot: committees
+    name: n-trees
+  - slot: x
+    name: predictors
+  - slot: y
+    name: response
+codomain:
+  - slot: __return__
+    name: model
