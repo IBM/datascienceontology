@@ -1,0 +1,6 @@
+schema: concept
+id: tree-based-model
+name: tree-based model
+description: a predictive model involving one or more decision trees
+kind: object
+is-a: supervised-model

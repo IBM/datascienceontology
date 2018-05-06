@@ -1,0 +1,8 @@
+schema: concept
+id: regression-tree
+name: regression tree
+description: decision tree for regression
+kind: object
+is-a:
+  - decision-tree
+  - regression-model
