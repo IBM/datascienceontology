@@ -8,7 +8,7 @@ system: S3
 kind: object
 definition: random-forest
 slots:
-  - slot: $ntree
+  - slot: ntree
     definition: tree-ensemble-n-trees
-  - slot: $mtry
+  - slot: mtry
     definition: random-forest-n-features

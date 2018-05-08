@@ -9,5 +9,5 @@ system: S3
 kind: object
 definition: cart
 slots:
-  - slot: $splits %>% row.names %>% unique
+  - slot: ~ unique(row.names(.$splits))
     definition: feature-selection-model-selected

@@ -8,7 +8,7 @@ system: S3
 kind: object
 definition: k-means
 slots:
-  - slot: $cluster
+  - slot: cluster
     definition: clustering-model-clusters
-  - slot: $centers
+  - slot: centers
     definition: k-means-centroids

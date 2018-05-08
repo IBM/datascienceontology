@@ -8,9 +8,9 @@ system: S3
 kind: object
 definition: least-squares
 slots:
-  - slot: coef
-    definition: linear-model-coefficients
-  - slot: deviance
-    definition: regression-model-rss
   - slot: x
     definition: design-matrix
+  - slot: coefficients
+    definition: linear-model-coefficients
+  - slot: ~ deviance(.)
+    definition: regression-model-rss
