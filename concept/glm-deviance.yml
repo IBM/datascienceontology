@@ -1,0 +1,14 @@
+schema: concept
+id: glm-deviance
+kind: morphism
+name: deviance
+description: deviance of a generalized linear model
+domain:
+  - object: glm
+    name: model
+codomain:
+  - object: real
+    name: deviance
+external:
+  wikidata: Q3706279
+  wikipedia: Deviance_(statistics)

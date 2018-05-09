@@ -1,9 +1,10 @@
 schema: concept
 id: linear-model-rss
-kind: morphism
 name: RSS
 description: >
   residual sum of squares (RSS), aka sum of squared residuals (SSR), of linear model
+kind: morphism
+is-a: glm-deviance
 domain:
   - object: linear-model
     name: model
