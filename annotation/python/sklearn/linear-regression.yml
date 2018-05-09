@@ -8,8 +8,6 @@ class: sklearn.linear_model.base.LinearRegression
 kind: object
 definition: least-squares
 slots:
-  - slot: residues_.0
-    definition: regression-model-rss
   - slot: coef_
     definition: linear-model-coefficients
   - slot: intercept_
