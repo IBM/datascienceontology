@@ -1,0 +1,15 @@
+schema: concept
+id: linear-model-rss
+kind: morphism
+name: RSS
+description: >
+  residual sum of squares (RSS), aka sum of squared residuals (SSR), of linear model
+domain:
+  - object: linear-model
+    name: model
+codomain:
+  - object: real
+    name: rss
+external:
+  wikidata: Q15096882
+  wikipedia: Residual_sum_of_squares

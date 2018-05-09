@@ -13,4 +13,4 @@ slots:
   - slot: coefficients
     definition: linear-model-coefficients
   - slot: ~ deviance(.)
-    definition: regression-model-rss
+    definition: linear-model-rss

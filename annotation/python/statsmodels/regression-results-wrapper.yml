@@ -8,7 +8,7 @@ class: statsmodels.regression.linear_model.RegressionResultsWrapper
 kind: object
 definition: linear-regression
 slots:
-  - slot: ssr
-    definition: regression-model-rss
   - slot: params
     definition: linear-model-coefficients
+  - slot: ssr
+    definition: linear-model-rss
