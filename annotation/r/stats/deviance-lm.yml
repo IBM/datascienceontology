@@ -1,0 +1,15 @@
+schema: annotation
+language: r
+package: stats
+id: deviance-lm
+name: deviance
+description: deviance of linear model in R
+function: deviance
+class: lm
+system: S3
+kind: morphism
+definition: linear-model-rss
+domain:
+  - slot: 1
+codomain:
+  - slot: __return__

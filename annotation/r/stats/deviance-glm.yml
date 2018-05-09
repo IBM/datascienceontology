@@ -1,0 +1,15 @@
+schema: annotation
+language: r
+package: stats
+id: deviance-glm
+name: deviance
+description: deviance of GLM in R
+function: deviance
+class: glm
+system: S3
+kind: morphism
+definition: glm-deviance
+domain:
+  - slot: 1
+codomain:
+  - slot: __return__
