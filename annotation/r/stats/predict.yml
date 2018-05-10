@@ -1,0 +1,17 @@
+schema: annotation
+language: r
+package: stats
+id: predict
+name: predict from R model
+description: predict on new data using a supervised R model
+function: predict
+kind: morphism
+definition: predict
+domain:
+  - slot: 1
+    name: model
+  - slot: 2
+    name: predictors
+codomain:
+  - slot: __return__
+    name: predicted
