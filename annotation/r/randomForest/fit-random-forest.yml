@@ -9,7 +9,7 @@ definition: [
   # FIXME: An alternate method takes x and y directly. Handle both S3 methods.
   compose,
   [ otimes,
-    [ construct, random-forest, tree-ensemble-n-trees, random-forest-n-features ],
+    [ construct, [ pair, random-forest, tree-ensemble-n-trees, random-forest-n-features ] ],
     evaluate-formula-supervised ],
   fit-supervised
 ]
