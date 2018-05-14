@@ -4,8 +4,9 @@ name: feature selection
 description: >
   A statistical model for feature selection, also known as variable selection.
   Feature selection is a form of dimensionality reduction that selects a subset
-  of the original features, in contrast to feature extraction, which creates
-  new features from the original features.
+  of the original features. More generally, feature selection is a form of 
+  feature extraction in which the extracted features are drawn from the original
+  features.
 kind: object
 is-a:
   - dimension-reduction-model

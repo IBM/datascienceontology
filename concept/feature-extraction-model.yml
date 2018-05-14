@@ -1,0 +1,8 @@
+schema: concept
+id: feature-extraction-model
+name: feature extraction model
+description: A statistical model for feature extraction
+kind: object
+is-a:
+  - transformation-model
+  - feature-extraction

@@ -1,0 +1,9 @@
+schema: concept
+id: feature-extraction
+name: feature extraction
+description: Any method for feature extraction
+kind: object
+is-a: transformer
+external:
+  wikidata: Q1026626
+  wikipedia: Feature_extraction
