@@ -3,7 +3,7 @@ language: python
 package: sklearn
 id: transform
 name: transform using sklearn transformer
-description: Transform data using sklearn dimensionality reduction model
+description: Transform data using sklearn transformation model
 class:
   - sklearn.base.BaseEstimator
   - sklearn.base.TransformerMixin

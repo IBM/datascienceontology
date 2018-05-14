@@ -3,9 +3,9 @@ language: python
 package: sklearn
 id: base-transformer
 name: sklearn Transformer
-description: Base class for all dimensionality reduction models in sklearn
+description: Base class for all transformation models in sklearn
 class:
   - sklearn.base.BaseEstimator
   - sklearn.base.TransformerMixin
 kind: object
-definition: dimension-reduction-model
+definition: transformation-model

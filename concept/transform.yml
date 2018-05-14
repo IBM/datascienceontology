@@ -2,12 +2,10 @@ schema: concept
 id: transform
 kind: morphism
 name: transform
-description: transform data using a dimensionality reduction model
+description: transform data using a transformer
 domain:
-  - object: dimension-reduction-model
-    name: model
+  - object: transformer
   - object: data
-    name: raw
 codomain:
   - object: data
     name: transformed

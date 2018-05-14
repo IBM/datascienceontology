@@ -1,0 +1,7 @@
+schema: concept
+id: transformer
+name: transformer
+description: >
+  A specification of a data transformation. Unlike a transformation model, a
+  transformer is not necessarily a function of the data.
+kind: object

@@ -1,7 +1,11 @@
 schema: concept
 id: model
 name: statistical model
-description: Any probabilistic or statistical model
+description: >
+  In this ontology, the term "model" encompasses any statistical model.
+  Models can be used for many purposes, predictive and inferential, but their
+  defining characteristic is that they are functions of the data, i.e., they
+  are fit to observations.
 kind: object
 external: 
   wikidata: Q3284399
