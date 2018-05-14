@@ -1,0 +1,22 @@
+schema: annotation
+language: r
+package: VIF
+id: fit-vif
+name: fit VIF regression in R
+function: vif
+kind: morphism
+definition: [
+  compose,
+  [ otimes, [ construct, vif-regression ], [ id, table ], [ id, vector ] ],
+  [ Hom, fit-supervised,
+    [ otimes, vif-regression, table, vector], vif-regression ]
+]
+domain:
+  - slot: x
+    name: predictors
+  - slot: y
+    name: response
+codomain:
+  - slot: __return__
+    name: model
+    annotate: r/VIF/vif
