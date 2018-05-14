@@ -1,0 +1,17 @@
+schema: annotation
+language: r
+package: base
+id: save-rds
+name: save RDS file
+description: save R data to RDS file
+function: saveRDS
+kind: morphism
+definition: [
+  compose,
+  [ otimes, [ construct, [ pair, file, filename ] ], [ id, data ] ],
+  write-file
+]
+domain:
+  - slot: file
+  - slot: object
+codomain: []
