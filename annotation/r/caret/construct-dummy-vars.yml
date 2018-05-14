@@ -1,0 +1,12 @@
+schema: annotation
+language: r
+package: caret
+id: construct-dummy-vars
+name: dummy variables
+description: construct a dummy variables object
+function: dummyVars
+kind: morphism
+definition: [ construct, dummy-coding ]
+domain: []
+codomain:
+  - slot: __return__
