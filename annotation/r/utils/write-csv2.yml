@@ -1,0 +1,17 @@
+schema: annotation
+language: r
+package: utils
+id: write-csv2
+name: write CSV file (alternate)
+description: write data frame to CSV file (alternate)
+function: write.csv2
+kind: morphism
+definition: [
+  compose,
+  [ otimes, [ construct, [ pair, tabular-file, filename ] ], [ id, table ] ],
+  write-tabular-file
+]
+domain:
+  - slot: 2
+  - slot: 1
+codomain: []

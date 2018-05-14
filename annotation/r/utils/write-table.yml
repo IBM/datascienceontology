@@ -1,0 +1,17 @@
+schema: annotation
+language: r
+package: utils
+id: write-table
+name: write tabular file
+description: write data frame to tabular file
+function: write.table
+kind: morphism
+definition: [
+  compose,
+  [ otimes, [ construct, [ pair, tabular-file, filename ] ], [ id, table ] ],
+  write-tabular-file
+]
+domain:
+  - slot: file
+  - slot: x
+codomain: []
