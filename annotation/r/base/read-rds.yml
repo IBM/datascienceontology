@@ -1,0 +1,17 @@
+schema: annotation
+language: r
+package: base
+id: read-rds
+name: read RDS file
+description: read R data from RDS file
+function: readRDS
+kind: morphism
+definition: [
+  compose,
+  [ construct, [ pair, file, filename ] ],
+  read-file
+]
+domain:
+  - slot: file
+codomain:
+  - slot: __return__
