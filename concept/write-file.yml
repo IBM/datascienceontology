@@ -1,0 +1,10 @@
+schema: concept
+id: write-file
+name: write file
+description: write data to a file
+kind: morphism
+is-a: write-data
+domain:
+  - object: file
+  - object: data
+codomain: []

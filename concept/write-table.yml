@@ -1,0 +1,11 @@
+schema: concept
+id: write-table
+name: write table
+description: write tabular data to a data source
+kind: morphism
+is-a: write-data
+domain:
+  - object: tabular-data-source
+  - object: table
+    name: data
+codomain: []
