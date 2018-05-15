@@ -1,0 +1,17 @@
+schema: annotation
+language: r
+package: stats # FIXME: Should be caret.
+id: transform-dummy-vars
+name: create dummy variables
+description: create dummy variables in data
+function: predict
+class: dummyVars
+kind: morphism
+definition: [
+  Hom, transform, [ otimes, dummy-coding, table ], table
+]
+domain:
+  - slot: 1
+  - slot: 2
+codomain:
+  - slot: __return__
