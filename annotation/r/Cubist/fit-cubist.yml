@@ -16,9 +16,9 @@ definition: [
 domain:
   - slot: committees
     name: n-trees
-  - slot: x
+  - slot: 1
     name: predictors
-  - slot: y
+  - slot: 2
     name: response
 codomain:
   - slot: __return__
