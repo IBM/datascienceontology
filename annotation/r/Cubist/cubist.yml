@@ -4,7 +4,6 @@ package: Cubist
 id: cubist
 name: Cubist model in R
 class: cubist
-system: S3
 kind: object
 definition: cubist
 slots:

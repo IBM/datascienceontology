@@ -5,6 +5,5 @@ id: dummy-vars
 name: dummy variables
 description: a dummy variables object
 class: dummyVars
-system: S3
 kind: object
 definition: dummy-coding

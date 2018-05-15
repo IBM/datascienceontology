@@ -4,7 +4,6 @@ package: randomForest
 id: random-forest
 name: random forest in R
 class: randomForest
-system: S3
 kind: object
 definition: random-forest
 slots:

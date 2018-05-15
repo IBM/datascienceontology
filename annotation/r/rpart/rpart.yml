@@ -5,7 +5,6 @@ id: rpart
 name: rpart model
 description: an rpart (Recursive Partitioning and Regression Trees) model
 class: rpart
-system: S3
 kind: object
 definition: cart
 slots:

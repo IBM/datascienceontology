@@ -4,7 +4,6 @@ package: stats
 id: k-means
 name: k-means clustering in R
 class: kmeans
-system: S3
 kind: object
 definition: k-means
 slots:

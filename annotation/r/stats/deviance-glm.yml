@@ -6,7 +6,6 @@ name: deviance
 description: deviance of GLM in R
 function: deviance
 class: glm
-system: S3
 kind: morphism
 definition: glm-deviance
 domain:

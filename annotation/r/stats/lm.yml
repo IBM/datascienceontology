@@ -4,7 +4,6 @@ package: stats
 id: lm
 name: Linear model in R
 class: lm
-system: S3
 kind: object
 definition: least-squares
 slots:

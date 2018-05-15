@@ -4,7 +4,6 @@ package: VIF
 id: vif
 name: VIF regression in R
 class: vif
-system: S3
 kind: object
 definition: vif-regression
 slots:

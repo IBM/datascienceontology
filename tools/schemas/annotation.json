@@ -145,7 +145,6 @@
         "language",
         "kind",
         "class",
-        "system",
         "definition"
       ],
       "properties": {
@@ -156,7 +155,7 @@
           "type": "string"
         },
         "system": {
-          "description": "Object-oriented system to which class belongs",
+          "description": "Object-oriented system to which class belongs (default S3)",
           "enum": [ "S3", "S4", "R5", "R6" ]
         },
         "definition": {
@@ -192,7 +191,7 @@
           "type": "string"
         },
         "system": {
-          "description": "Object-oriented system to which function belongs, if a generic or method",
+          "description": "Object-oriented system to which function belongs, if a generic or method (default S3)",
           "enum": [ "S3", "S4", "R5", "R6" ]
         },
         "definition": {

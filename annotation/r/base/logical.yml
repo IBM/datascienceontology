@@ -5,6 +5,5 @@ id: logical
 name: R boolean
 description: logical (boolean) value in R
 class: logical
-system: S3
 kind: object
 definition: boolean

@@ -5,6 +5,5 @@ id: character
 name: R character string
 description: string of ASCII characters
 class: character
-system: S3
 kind: object
 definition: string

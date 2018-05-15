@@ -6,6 +6,5 @@ name: R formula
 description: >
   A formula object in R, used to specify both supervised and unsupervised models
 class: formula
-system: S3
 kind: object
 definition: expression
