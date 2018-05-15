@@ -1,10 +1,10 @@
 schema: annotation
 language: r
-package: stats # FIXME: Should be caret.
+package: caret
 id: transform-dummy-vars
 name: create dummy variables
 description: create dummy variables in data
-function: predict
+function: stats::predict
 class: dummyVars
 kind: morphism
 definition: [
