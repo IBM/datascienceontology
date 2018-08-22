@@ -1,0 +1,11 @@
+# Node for Travis: https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+
+language: node_js
+node_js:
+  - "node" # latest stable Node.js release
+cache: yarn
+install:
+  - yarn
+  - npm run build
+script:
+  - npm run validate
