@@ -1,5 +1,7 @@
 # Data Science Ontology
 
+[![Build Status](https://travis-ci.org/IBM/datascienceontology.svg?branch=master)](https://travis-ci.org/IBM/datascienceontology)
+
 The [Data Science Ontology](https://www.datascienceontology.org/) is a knowledge base about data science that aims to:
 
 - catalog and formalize the concepts of data science
