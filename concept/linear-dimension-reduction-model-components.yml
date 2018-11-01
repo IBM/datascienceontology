@@ -1,10 +1,10 @@
 schema: concept
 id: linear-dimension-reduction-model-components
-kind: morphism
+kind: function
 name: components
 description: components (loadings) of a linear dimensionality reduction model
-domain:
-  - object: linear-dimension-reduction-model
+inputs:
+  - type: linear-dimension-reduction-model
     name: model
-codomain:
-  - object: matrix
+outputs:
+  - type: matrix

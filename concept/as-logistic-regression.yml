@@ -2,9 +2,9 @@ schema: concept
 id: as-logistic-regression
 name: use multinomial logistic regression for logistic regression
 description: (binomial) logistic regression as special case of multinomial logistic regression with two classes
-kind: morphism
+kind: function
 is-a: as-binary-classifier
-domain:
-  - object: multinomial-logistic-regression
-codomain:
-  - object: logistic-regression
+inputs:
+  - type: multinomial-logistic-regression
+outputs:
+  - type: logistic-regression

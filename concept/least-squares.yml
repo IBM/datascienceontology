@@ -2,7 +2,7 @@ schema: concept
 id: least-squares
 name: OLS linear regression
 description: The standard linear regression model, fit by ordinary least squares (OLS)
-kind: object
+kind: type
 is-a:
   - linear-regression
   - euclidean-model

@@ -4,7 +4,7 @@ name: linear discriminant analysis (LDA)
 description: >
   a classification model and dimensionality reduction method that is closely
   related to principal components analysis (PCA)
-kind: object
+kind: type
 is-a:
   - multiclass-classifier
   - linear-dimension-reduction-model

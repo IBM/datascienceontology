@@ -5,16 +5,16 @@ id: read-sql-query
 name: read data frame via SQL query
 description: read pandas data frame from results of a SQL query
 function: pandas.io.sql.read_sql_query
-kind: morphism
+kind: function
 definition: [
   compose,
   [ construct, [ pair, sql-query-database, sql-query-expression ] ],
   read-table
 ]
-domain:
+inputs:
   - slot: 1
     name: database
   - slot: 0
     name: expression
-codomain:
+outputs:
   - slot: __return__

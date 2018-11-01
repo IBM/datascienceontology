@@ -2,9 +2,9 @@ schema: concept
 id: glm-intercept
 name: intercept
 description: intercept of a generalized linear model, if present
-kind: morphism
-domain:
-  - object: glm
+kind: function
+inputs:
+  - type: glm
     name: model
-codomain:
-  - object: number
+outputs:
+  - type: number

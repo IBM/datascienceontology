@@ -2,9 +2,9 @@ schema: concept
 id: write-file
 name: write file
 description: write data to a file
-kind: morphism
+kind: function
 is-a: write-data
-domain:
-  - object: file
-  - object: data
-codomain: []
+inputs:
+  - type: file
+  - type: data
+outputs: []

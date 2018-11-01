@@ -4,7 +4,7 @@ package: sklearn
 id: kernel-pca
 name: kernel PCA in scikit-learn
 class: sklearn.decomposition.kernel_pca.KernelPCA
-kind: object
+kind: type
 definition: kernel-pca
 slots:
   - slot: n_components

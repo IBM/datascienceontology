@@ -1,12 +1,12 @@
 schema: concept
 id: array-n-dimensions
-kind: morphism
+kind: function
 name: number of dimensions
 description: number of dimensions, or rank, of an array
-domain:
-  - object: array
-codomain:
-  - object: integer
+inputs:
+  - type: array
+outputs:
+  - type: integer
 external: 
   wikidata: Q7293200
   wikipedia: Rank_(computer_programming)

@@ -1,10 +1,10 @@
 schema: concept
 id: k-means-kernelized
-kind: morphism
+kind: function
 name: kernelized
 description: k-means clustering as a special case of kernel k-means clustering
 is-a: kernelized
-domain:
-  - object: k-means
-codomain:
-  - object: kernel-k-means
+inputs:
+  - type: k-means
+outputs:
+  - type: kernel-k-means

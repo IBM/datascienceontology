@@ -2,7 +2,7 @@ schema: concept
 id: cubist
 name: Cubist model
 description: Cubist, a tree ensemble method for M5 model trees
-kind: object
+kind: type
 is-a:
   - tree-ensemble
   - regression-model

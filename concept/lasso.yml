@@ -2,7 +2,7 @@ schema: concept
 id: lasso
 name: lasso
 description: A sparse linear regression model, fit by least squares with L1 penalty
-kind: object
+kind: type
 is-a:
   - linear-regression
   - feature-selection-model

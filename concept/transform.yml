@@ -1,11 +1,11 @@
 schema: concept
 id: transform
-kind: morphism
+kind: function
 name: transform
 description: transform data using a transformer
-domain:
-  - object: transformer
-  - object: data
-codomain:
-  - object: data
+inputs:
+  - type: transformer
+  - type: data
+outputs:
+  - type: data
     name: transformed

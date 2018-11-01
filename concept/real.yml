@@ -2,7 +2,7 @@ schema: concept
 id: real
 name: real number
 description: a real number, typically represented as a floating point number
-kind: object
+kind: type
 is-a: complex
 external:
   wikidata: Q12916

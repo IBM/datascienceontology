@@ -7,5 +7,5 @@ description: Base class for all classification models in sklearn
 class:
   - sklearn.base.BaseEstimator
   - sklearn.base.ClassifierMixin
-kind: object
+kind: type
 definition: classification-model

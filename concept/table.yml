@@ -2,7 +2,7 @@ schema: concept
 id: table
 name: table
 description: A table, also known as a data frame
-kind: object
+kind: type
 is-a: data
 external: 
   wikidata: Q496946

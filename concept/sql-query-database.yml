@@ -1,9 +1,9 @@
 schema: concept
 id: sql-query-database
-kind: morphism
+kind: function
 name: database
 description: SQL database to which query refers
-domain:
-  - object: sql-query
-codomain:
-  - object: sql-database
+inputs:
+  - type: sql-query
+outputs:
+  - type: sql-database

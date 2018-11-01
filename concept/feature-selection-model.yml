@@ -7,7 +7,7 @@ description: >
   of the original features. More generally, feature selection is a form of 
   feature extraction in which the extracted features are drawn from the original
   features.
-kind: object
+kind: type
 is-a:
   - dimension-reduction-model
   - selection-model

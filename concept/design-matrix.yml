@@ -4,10 +4,10 @@ name: design matrix
 description: >
   design matrix, also known as model matrix, of a linear model or
   generalized linear model
-kind: morphism
-domain:
-  - object: glm
+kind: function
+inputs:
+  - type: glm
     name: model
-codomain:
-  - object: matrix
+outputs:
+  - type: matrix
     name: design-matrix

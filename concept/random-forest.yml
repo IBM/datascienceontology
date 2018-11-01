@@ -2,7 +2,7 @@ schema: concept
 id: random-forest
 name: random forest
 description: random forest, a popular variant of tree bagging
-kind: object
+kind: type
 is-a: tree-ensemble
 external:
   wikidata: Q245748

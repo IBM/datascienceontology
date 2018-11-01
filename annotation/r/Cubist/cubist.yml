@@ -4,7 +4,7 @@ package: Cubist
 id: cubist
 name: Cubist model in R
 class: cubist
-kind: object
+kind: type
 definition: cubist
 slots:
   - slot: committees

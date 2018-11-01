@@ -6,9 +6,9 @@ name: deviance
 description: deviance of GLM in R
 function: deviance
 class: glm
-kind: morphism
+kind: function
 definition: glm-deviance
-domain:
+inputs:
   - slot: 1
-codomain:
+outputs:
   - slot: __return__

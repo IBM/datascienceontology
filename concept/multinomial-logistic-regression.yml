@@ -2,7 +2,7 @@ schema: concept
 id: multinomial-logistic-regression
 name: multinomial logistic regression
 description: A generalized linear model for multiclass classification, using the logit link function
-kind: object
+kind: type
 is-a:
   - multiclass-classifier
   - glm

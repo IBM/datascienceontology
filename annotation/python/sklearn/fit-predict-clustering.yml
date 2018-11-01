@@ -7,19 +7,19 @@ class:
   - sklearn.base.BaseEstimator
   - sklearn.base.ClusterMixin
 method: fit_predict
-kind: morphism
+kind: function
 definition: [
   compose,
   [ Hom, fit, [ otimes, clustering-model, data ], clustering-model ],
   [ pair, [ id, clustering-model ], clustering-model-clusters ]
 ]
-domain:
+inputs:
   - slot: self
     name: model
     description: clustering model to fit
   - slot: 1
     name: data
-codomain:
+outputs:
   - slot: self
     name: model
     description: fitted clustering model

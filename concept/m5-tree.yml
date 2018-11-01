@@ -4,5 +4,5 @@ name: M5 model tree
 description: >
   M5 regression model tree, a variant of simple regression trees that places a
   linear model at every terminal node (instead of a constant)
-kind: object
+kind: type
 is-a: regression-tree

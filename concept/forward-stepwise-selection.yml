@@ -4,7 +4,7 @@ name: forward stepwise selection
 description: >
   Forward stepwise selection, also known as forward stepwise regression,
   although it applies equally well to classification
-kind: object
+kind: type
 is-a: forward-selection-model
 external:
   wikidata: Q7611170

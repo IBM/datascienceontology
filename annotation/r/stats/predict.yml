@@ -5,13 +5,13 @@ id: predict
 name: predict from R model
 description: predict on new data using a supervised R model
 function: predict
-kind: morphism
+kind: function
 definition: predict
-domain:
+inputs:
   - slot: 1
     name: model
   - slot: 2
     name: predictors
-codomain:
+outputs:
   - slot: __return__
     name: predicted

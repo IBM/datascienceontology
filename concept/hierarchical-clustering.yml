@@ -1,7 +1,7 @@
 schema: concept
 id: hierarchical-clustering
 name: hierarchical clustering
-kind: object
+kind: type
 is-a: clustering-model
 external: 
   wikidata: Q1277447

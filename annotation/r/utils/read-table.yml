@@ -5,13 +5,13 @@ id: read-table
 name: read tabular file
 description: read data frame from tabular file
 function: read.table
-kind: morphism
+kind: function
 definition: [
   compose,
   [ construct, [ pair, tabular-file, filename ] ],
   read-tabular-file
 ]
-domain:
+inputs:
   - slot: file
-codomain:
+outputs:
   - slot: __return__

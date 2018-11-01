@@ -2,9 +2,9 @@ schema: concept
 id: multiclass-classifier-model-n-classes
 name: number of classes
 description: number of classes in a multiclass classification model
-kind: morphism
-domain:
-  - object: multiclass-classifier
+kind: function
+inputs:
+  - type: multiclass-classifier
     name: model
-codomain:
-  - object: integer
+outputs:
+  - type: integer

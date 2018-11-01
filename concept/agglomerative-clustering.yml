@@ -2,5 +2,5 @@ schema: concept
 id: agglomerative-clustering
 name: agglomerative clustering
 description: Hierarchical clustering with agglomerative (bottom up) construction
-kind: object
+kind: type
 is-a: hierarchical-clustering

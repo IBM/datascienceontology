@@ -5,13 +5,13 @@ id: save-rds
 name: save RDS file
 description: save R data to RDS file
 function: saveRDS
-kind: morphism
+kind: function
 definition: [
   compose,
   [ otimes, [ construct, [ pair, file, filename ] ], [ id, data ] ],
   write-file
 ]
-domain:
+inputs:
   - slot: file
   - slot: object
-codomain: []
+outputs: []

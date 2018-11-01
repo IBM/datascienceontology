@@ -1,9 +1,9 @@
 schema: concept
 id: array-shape
-kind: morphism
+kind: function
 name: shape
 description: shape of an array
-domain:
-  - object: array
-codomain:
-  - object: vector
+inputs:
+  - type: array
+outputs:
+  - type: vector

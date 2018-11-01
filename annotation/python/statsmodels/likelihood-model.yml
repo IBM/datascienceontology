@@ -7,5 +7,5 @@ description: >
   Base class for all likelihood models in statsmodels
   (with results `statsmodels.base.model.LikelihoodModelResults`)
 class: statsmodels.base.model.LikelihoodModel
-kind: object
+kind: type
 definition: model

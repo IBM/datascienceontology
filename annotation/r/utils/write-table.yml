@@ -5,13 +5,13 @@ id: write-table
 name: write tabular file
 description: write data frame to tabular file
 function: write.table
-kind: morphism
+kind: function
 definition: [
   compose,
   [ otimes, [ construct, [ pair, tabular-file, filename ] ], [ id, table ] ],
   write-tabular-file
 ]
-domain:
+inputs:
   - slot: file
   - slot: x
-codomain: []
+outputs: []

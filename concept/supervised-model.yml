@@ -2,7 +2,7 @@ schema: concept
 id: supervised-model
 name: supervised model
 description: A supervised, or predictive, statistical model
-kind: object
+kind: type
 is-a: model
 external: 
   wikidata: Q334384

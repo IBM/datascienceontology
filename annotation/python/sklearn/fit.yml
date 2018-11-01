@@ -5,10 +5,10 @@ id: fit
 name: fit sklearn model
 class: sklearn.base.BaseEstimator
 method: fit
-kind: morphism
+kind: function
 definition: fit
-domain:
+inputs:
   - slot: self
   - slot: 1
-codomain:
+outputs:
   - slot: self

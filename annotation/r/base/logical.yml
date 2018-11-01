@@ -5,5 +5,5 @@ id: logical
 name: R boolean
 description: logical (boolean) value in R
 class: logical
-kind: object
+kind: type
 definition: boolean

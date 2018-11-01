@@ -5,17 +5,17 @@ id: read-sql-table
 name: read data frame from SQL table
 description: read pandas data frame from table in SQL databsase
 function: pandas.io.sql.read_sql_table
-kind: morphism
+kind: function
 definition: [
   compose,
   [ construct, [ pair, sql-table-database, sql-table-name ] ],
   read-table
 ]
-domain:
+inputs:
   - slot: 1
     name: database
   - slot: 0
     name: table-name
     description: name of SQL table
-codomain:
+outputs:
   - slot: __return__

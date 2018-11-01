@@ -6,12 +6,12 @@ name: create dummy variables
 description: create dummy variables in data
 function: stats::predict
 class: dummyVars
-kind: morphism
+kind: function
 definition: [
   Hom, transform, [ otimes, dummy-coding, table ], table
 ]
-domain:
+inputs:
   - slot: 1
   - slot: 2
-codomain:
+outputs:
   - slot: __return__

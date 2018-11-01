@@ -1,12 +1,12 @@
 schema: concept
 id: filename
-kind: morphism
+kind: function
 name: filename
 description: name, or path, of a file
-domain:
-  - object: file
-codomain:
-  - object: string
+inputs:
+  - type: file
+outputs:
+  - type: string
 external: 
   wikidata: Q1144928
   wikipedia: Filename

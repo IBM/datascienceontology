@@ -5,16 +5,16 @@ id: read-excel
 name: read data frame from Excel
 description: read pandas data frame from Excel spreadsheet
 function: pandas.io.excel.read_excel
-kind: morphism
+kind: function
 definition: [
   compose,
   [ construct, [ pair, excel-spreadsheet, filename, excel-spreadsheet-name ] ],
   read-tabular-file
 ]
-domain:
+inputs:
   - slot: 0
     name: filename
   - slot: sheetname
     name: sheetname
-codomain:
+outputs:
   - slot: __return__

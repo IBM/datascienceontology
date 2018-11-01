@@ -6,7 +6,7 @@ description: >
   Models can be used for many purposes, predictive and inferential, but their
   defining characteristic is that they are functions of the data, i.e., they
   are fit to observations.
-kind: object
+kind: type
 external: 
   wikidata: Q3284399
   wikipedia: Statistical_model

@@ -5,5 +5,5 @@ id: dummy-vars
 name: dummy variables
 description: a dummy variables object
 class: dummyVars
-kind: object
+kind: type
 definition: dummy-coding

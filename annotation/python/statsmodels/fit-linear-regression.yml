@@ -5,11 +5,11 @@ id: fit-linear-regression
 name: fit linear regression in statsmodels
 class: statsmodels.regression.linear_model.RegressionModel
 method: __init__
-kind: morphism
+kind: function
 definition: fit-supervised
-domain:
+inputs:
   - slot: self
   - slot: 1
   - slot: 2
-codomain:
+outputs:
   - slot: self

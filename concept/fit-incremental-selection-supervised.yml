@@ -4,19 +4,19 @@ name: incrementally select features for supervised model
 description: >
   Fit a model for incremental selection of features, starting from an initial
   supervised model.
-kind: morphism
-domain:
-  - object: incremental-selection-model
+kind: function
+inputs:
+  - type: incremental-selection-model
     name: model
     description: selection model to fit
-  - object: supervised-model
+  - type: supervised-model
     name: initial
     description: initial model
-  - object: data
+  - type: data
     name: predictors
-  - object: data
+  - type: data
     name: response
-codomain:
-  - object: incremental-selection-model
+outputs:
+  - type: incremental-selection-model
     name: model
     description: fitted selection model

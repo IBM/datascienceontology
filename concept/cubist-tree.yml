@@ -2,13 +2,13 @@ schema: concept
 id: cubist-tree
 name: tree by index
 description: a particular tree in a Cubist model, identified by index
-kind: morphism
+kind: function
 is-a: tree-ensemble-tree
-domain:
-  - object: cubist
+inputs:
+  - type: cubist
     name: model
-  - object: integer
+  - type: integer
     name: index
-codomain:
-  - object: m5-tree
+outputs:
+  - type: m5-tree
     name: tree

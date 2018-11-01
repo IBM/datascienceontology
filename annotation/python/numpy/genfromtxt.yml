@@ -5,14 +5,14 @@ id: genfromtxt
 name: load numpy array
 description: load numpy array from a text file (possibly with missing values)
 function: numpy.lib.npyio.genfromtxt
-kind: morphism
+kind: function
 definition: [
   compose,
   [ construct, [ pair, tabular-file, filename ] ],
   read-tabular-file
 ]
-domain:
+inputs:
   - slot: 0
     name: filename
-codomain:
+outputs:
   - slot: __return__

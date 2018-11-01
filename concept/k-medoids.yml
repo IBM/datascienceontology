@@ -2,7 +2,7 @@ schema: concept
 id: k-medoids
 name: k-medoids clustering
 description: A variant on k-means clustering that assigns clusters using medoids rather than centroids
-kind: object
+kind: type
 is-a: clustering-model
 external: 
   wikidata: Q3191282

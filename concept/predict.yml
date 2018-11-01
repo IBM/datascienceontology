@@ -1,13 +1,13 @@
 schema: concept
 id: predict
-kind: morphism
+kind: function
 name: predict
 description: make predictions using a supervised model
-domain:
-  - object: supervised-model
+inputs:
+  - type: supervised-model
     name: model
-  - object: data
+  - type: data
     name: predictors
-codomain:
-  - object: data
+outputs:
+  - type: data
     name: predicted

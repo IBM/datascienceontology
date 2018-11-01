@@ -5,7 +5,7 @@ id: ndarray
 name: numpy array
 description: homogeneous, multidimensional array in numpy
 class: numpy.ndarray
-kind: object
+kind: type
 definition: array
 slots:
   - slot: ndim

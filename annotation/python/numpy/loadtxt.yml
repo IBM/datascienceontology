@@ -5,14 +5,14 @@ id: loadtxt
 name: load numpy array
 description: load numpy array from a text file (with no missing values)
 function: numpy.lib.npyio.loadtxt
-kind: morphism
+kind: function
 definition: [
   compose,
   [ construct, [ pair, tabular-file, filename ] ],
   read-tabular-file
 ]
-domain:
+inputs:
   - slot: 0
     name: filename
-codomain:
+outputs:
   - slot: __return__

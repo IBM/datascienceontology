@@ -2,10 +2,10 @@ schema: concept
 id: linear-model-intercept
 name: intercept
 description: intercept of a linear model, if present
-kind: morphism
+kind: function
 is-a: glm-intercept
-domain:
-  - object: linear-model
+inputs:
+  - type: linear-model
     name: model
-codomain:
-  - object: number
+outputs:
+  - type: number

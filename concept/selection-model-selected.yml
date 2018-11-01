@@ -2,12 +2,12 @@ schema: concept
 id: selection-model-selected
 name: selected model
 description: model selected by a model selection procedure
-kind: morphism
-domain:
-  - object: selection-model
+kind: function
+inputs:
+  - type: selection-model
     name: model
     description: model selection procedure
-codomain:
-  - object: model
+outputs:
+  - type: model
     name: selected
     description: selected model

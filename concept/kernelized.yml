@@ -1,13 +1,13 @@
 schema: concept
 id: kernelized
-kind: morphism
+kind: function
 name: kernelized
 description: >
   kernelized version of a statistical model based on the Euclidean inner
   product, via the "kernel trick"
-domain:
-  - object: euclidean-model
-codomain:
-  - object: kernel-model
+inputs:
+  - type: euclidean-model
+outputs:
+  - type: kernel-model
 external: 
   wikidata: Q1739323

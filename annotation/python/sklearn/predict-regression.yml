@@ -7,10 +7,10 @@ class:
   - sklearn.base.BaseEstimator
   - sklearn.base.RegressorMixin
 method: predict
-kind: morphism
+kind: function
 definition: predict
-domain:
+inputs:
   - slot: self
   - slot: 1
-codomain:
+outputs:
   - slot: __return__

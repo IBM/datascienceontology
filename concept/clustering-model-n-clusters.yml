@@ -1,10 +1,10 @@
 schema: concept
 id: clustering-model-n-clusters
-kind: morphism
+kind: function
 name: number of clusters
 description: number of clusters to fit in a clustering model
-domain:
-  - object: clustering-model
+inputs:
+  - type: clustering-model
     name: model
-codomain:
-  - object: integer
+outputs:
+  - type: integer

@@ -2,5 +2,5 @@ schema: concept
 id: linear-dimension-reduction-model
 name: linear dimensionality reduction
 description: A dimensionality reduction model where the input and output vectors are related by a linear map (usually of fixed rank)
-kind: object
+kind: type
 is-a: dimension-reduction-model

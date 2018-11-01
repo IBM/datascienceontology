@@ -5,5 +5,5 @@ id: character
 name: R character string
 description: string of ASCII characters
 class: character
-kind: object
+kind: type
 definition: string

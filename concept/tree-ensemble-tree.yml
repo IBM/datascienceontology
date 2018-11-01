@@ -2,12 +2,12 @@ schema: concept
 id: tree-ensemble-tree
 name: tree by index
 description: a particular tree in a tree ensemble, identified by index
-kind: morphism
-domain:
-  - object: tree-ensemble
+kind: function
+inputs:
+  - type: tree-ensemble
     name: model
-  - object: integer
+  - type: integer
     name: index
-codomain:
-  - object: decision-tree
+outputs:
+  - type: decision-tree
     name: tree

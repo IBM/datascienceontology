@@ -2,12 +2,12 @@ schema: concept
 id: vif-regression-selected
 name: selected model
 description: linear model selected by VIF regression
-kind: morphism
+kind: function
 is-a: selection-model-selected
-domain:
-  - object: vif-regression
+inputs:
+  - type: vif-regression
     name: model
-codomain:
-  - object: linear-regression
+outputs:
+  - type: linear-regression
     name: selected
     description: selected linear model

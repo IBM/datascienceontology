@@ -4,13 +4,13 @@ package: randomForest
 id: get-tree
 name: get tree from random forest in R
 function: getTree
-kind: morphism
+kind: function
 definition: tree-ensemble-tree
-domain:
+inputs:
   - slot: 1
     name: model
   - slot: 2
     name: index
-codomain:
+outputs:
   - slot: __return__
     name: tree

@@ -1,15 +1,15 @@
 schema: concept
 id: mean-squared-error
-kind: morphism
+kind: function
 name: mean squared error
 description: mean squared error (aka, L2 loss)
-domain:
-  - object: vector
+inputs:
+  - type: vector
     name: truth
-  - object: vector
+  - type: vector
     name: estimate
-codomain:
-  - object: number
+outputs:
+  - type: number
     name: error
 external: 
   wikidata: Q1940696

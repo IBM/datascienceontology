@@ -2,5 +2,5 @@ schema: concept
 id: r-dataset
 name: R dataset
 description: A dataset included in an R package
-kind: object
+kind: type
 is-a: data-source

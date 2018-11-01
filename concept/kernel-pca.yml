@@ -2,7 +2,7 @@ schema: concept
 id: kernel-pca
 name: kernel PCA
 description: Kernelized version of principal components analysis (PCA)
-kind: object
+kind: type
 is-a:
   - dimension-reduction-model
   - unsupervised-model

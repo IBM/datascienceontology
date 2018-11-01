@@ -5,7 +5,7 @@ id: matrix
 name: R matrix
 description: default class for matrix data in R
 class: matrix
-kind: object
+kind: type
 definition: matrix
 slots:
   - slot: ncol

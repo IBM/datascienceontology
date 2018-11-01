@@ -5,5 +5,5 @@ id: base-estimator
 name: sklearn Estimator
 description: Base class for all models in sklearn
 class: sklearn.base.BaseEstimator
-kind: object
+kind: type
 definition: model

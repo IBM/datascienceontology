@@ -2,9 +2,9 @@ schema: concept
 id: glm-coefficients
 name: coefficients
 description: coefficients of a generalized linear model
-kind: morphism
-domain:
-  - object: glm
+kind: function
+inputs:
+  - type: glm
     name: model
-codomain:
-  - object: vector
+outputs:
+  - type: vector

@@ -4,5 +4,5 @@ name: incremental feature selection
 description: >
   A feature selection model that adds and/or removes features
   incrementally--one at a time--from an initial model.
-kind: object
+kind: type
 is-a: feature-selection-model

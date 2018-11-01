@@ -4,7 +4,7 @@ package: sklearn
 id: logistic-regression
 name: logistic regression in scikit-learn
 class: sklearn.linear_model.logistic.LogisticRegression
-kind: object
+kind: type
 definition: logistic-regression
 slots:
   - slot: coef_

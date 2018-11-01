@@ -6,17 +6,17 @@ name: least-squares from formula
 description: construct OLS model from an R-style formula
 class: statsmodels.regression.linear_model.OLS
 method: from_formula
-kind: morphism
+kind: function
 definition: [
   compose,
   [ otimes, [ construct, least-squares ], evaluate-formula-supervised ],
   fit-supervised
 ]
-domain:
+inputs:
   - slot: 1
     name: formula
   - slot: data
     name: data
-codomain:
+outputs:
   - slot: __return__
     name: model

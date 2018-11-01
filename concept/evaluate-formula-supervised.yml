@@ -1,14 +1,14 @@
 schema: concept
 id: evaluate-formula-supervised
-kind: morphism
+kind: function
 name: evaluate formula for supervised model
 description: evaluate formula defining supervised model on data
-domain:
-  - object: expression
+inputs:
+  - type: expression
     name: formula
-  - object: data
-codomain:
-  - object: data
+  - type: data
+outputs:
+  - type: data
     name: predictors
-  - object: data
+  - type: data
     name: response

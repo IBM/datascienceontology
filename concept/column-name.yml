@@ -1,9 +1,9 @@
 schema: concept
 id: column-name
-kind: morphism
+kind: function
 name: name
 description: name of a column
-domain:
-  - object: column
-codomain:
-  - object: string
+inputs:
+  - type: column
+outputs:
+  - type: string

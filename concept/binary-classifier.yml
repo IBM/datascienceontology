@@ -2,7 +2,7 @@ schema: concept
 id: binary-classifier
 name: binary classifier
 description: A statistical model for binary classification
-kind: object
+kind: type
 is-a: classification-model
 external: 
   wikidata: Q17005494

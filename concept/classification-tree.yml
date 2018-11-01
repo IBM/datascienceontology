@@ -2,7 +2,7 @@ schema: concept
 id: classification-tree
 name: classification tree
 description: decision tree for classification
-kind: object
+kind: type
 is-a:
   - decision-tree
   - classification-model

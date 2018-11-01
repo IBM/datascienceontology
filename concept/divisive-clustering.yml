@@ -2,5 +2,5 @@ schema: concept
 id: divisive-clustering
 name: divisive clustering
 description: Hierarchical clustering with divisive (top down) construction
-kind: object
+kind: type
 is-a: hierarchical-clustering

@@ -5,7 +5,7 @@ id: recarray
 name: numpy record array
 description: numpy array with named, heterogeneous columns
 class: numpy.recarray
-kind: object
+kind: type
 definition: table
 slots:
   - slot: dtype.names

@@ -2,10 +2,10 @@ schema: concept
 id: write-table
 name: write table
 description: write tabular data to a data source
-kind: morphism
+kind: function
 is-a: write-data
-domain:
-  - object: tabular-data-source
-  - object: table
+inputs:
+  - type: tabular-data-source
+  - type: table
     name: data
-codomain: []
+outputs: []

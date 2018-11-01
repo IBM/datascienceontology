@@ -1,13 +1,13 @@
 schema: concept
 id: glm-deviance
-kind: morphism
+kind: function
 name: deviance
 description: deviance of a generalized linear model
-domain:
-  - object: glm
+inputs:
+  - type: glm
     name: model
-codomain:
-  - object: real
+outputs:
+  - type: real
     name: deviance
 external:
   wikidata: Q3706279

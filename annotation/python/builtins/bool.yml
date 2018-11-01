@@ -3,5 +3,5 @@ language: python
 package: builtins
 id: bool
 class: bool
-kind: object
+kind: type
 definition: boolean

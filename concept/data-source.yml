@@ -2,6 +2,6 @@ schema: concept
 id: data-source
 name: source of data
 description: A source or supplier of data, such as a file, a database, or an online data resource
-kind: object
+kind: type
 external: 
   wikipedia: Data_source

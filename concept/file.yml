@@ -2,7 +2,7 @@ schema: concept
 id: file
 name: file
 description: A local file
-kind: object
+kind: type
 is-a: data-source
 external: 
   wikidata: Q82753

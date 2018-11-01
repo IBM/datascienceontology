@@ -3,13 +3,13 @@ id: linear-model-rss
 name: RSS
 description: >
   residual sum of squares (RSS), aka sum of squared residuals (SSR), of linear model
-kind: morphism
+kind: function
 is-a: glm-deviance
-domain:
-  - object: linear-model
+inputs:
+  - type: linear-model
     name: model
-codomain:
-  - object: real
+outputs:
+  - type: real
     name: rss
 external:
   wikidata: Q15096882

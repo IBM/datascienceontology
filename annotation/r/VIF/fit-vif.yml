@@ -4,19 +4,19 @@ package: VIF
 id: fit-vif
 name: fit VIF regression in R
 function: vif
-kind: morphism
+kind: function
 definition: [
   compose,
   [ otimes, [ construct, vif-regression ], [ id, table ], [ id, vector ] ],
   [ Hom, fit-supervised,
     [ otimes, vif-regression, table, vector], vif-regression ]
 ]
-domain:
+inputs:
   - slot: x
     name: predictors
   - slot: y
     name: response
-codomain:
+outputs:
   - slot: __return__
     name: model
     annotate: r/VIF/vif

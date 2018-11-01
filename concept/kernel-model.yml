@@ -4,7 +4,7 @@ name: kernel model
 description: >
   A statistical model using an arbitrary kernel function, better known as a 
   "kernel method"
-kind: object
+kind: type
 is-a: model
 external: 
   wikidata: Q620622
