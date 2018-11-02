@@ -7,11 +7,11 @@ class:
   - sklearn.base.BaseEstimator
   - sklearn.base.ClassifierMixin
 method: fit
-kind: morphism
+kind: function
 definition: fit-supervised
-domain:
+inputs:
   - slot: self
   - slot: 1
   - slot: 2
-codomain:
+outputs:
   - slot: self

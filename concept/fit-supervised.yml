@@ -1,17 +1,17 @@
 schema: concept
 id: fit-supervised
-kind: morphism
+kind: function
 name: fit supervised model
 description: fit a supervised, or predictive, statistical model
-domain:
-  - object: supervised-model
+inputs:
+  - type: supervised-model
     name: model
     description: model to fit
-  - object: data
+  - type: data
     name: predictors
-  - object: data
+  - type: data
     name: response
-codomain:
-  - object: supervised-model
+outputs:
+  - type: supervised-model
     name: model
     description: fitted model

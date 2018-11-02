@@ -4,7 +4,7 @@ package: sklearn
 id: k-means
 name: k-means clustering in scikit-learn
 class: sklearn.cluster.k_means_.KMeans
-kind: object
+kind: type
 definition: k-means
 slots:
   - slot: get_params.n_clusters

@@ -2,7 +2,7 @@ schema: concept
 id: multiclass-classifier
 name: multiclass classifier
 description: A statistical model for multiclass classification
-kind: object
+kind: type
 is-a: classification-model
 external: 
   wikidata: Q6934605

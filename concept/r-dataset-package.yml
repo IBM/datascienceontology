@@ -1,9 +1,9 @@
 schema: concept
 id: r-dataset-package
-kind: morphism
+kind: function
 name: R package
 description: R package to which R dataset belongs
-domain:
-  - object: r-dataset
-codomain:
-  - object: string
+inputs:
+  - type: r-dataset
+outputs:
+  - type: string

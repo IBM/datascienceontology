@@ -2,7 +2,7 @@ schema: concept
 id: array
 name: array
 description: A multidimensional array of homogeneous data type, also known as a tensor
-kind: object
+kind: type
 is-a: data
 external: 
   wikidata: Q121079

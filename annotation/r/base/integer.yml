@@ -5,5 +5,5 @@ id: integer
 name: R integer
 description: 32-bit integer in R
 class: integer
-kind: object
+kind: type
 definition: integer

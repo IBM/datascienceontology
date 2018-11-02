@@ -7,7 +7,7 @@ description: Base class for all clustering models in sklearn
 class:
   - sklearn.base.BaseEstimator
   - sklearn.base.ClusterMixin
-kind: object
+kind: type
 definition: clustering-model
 slots:
   - slot: get_params.n_clusters

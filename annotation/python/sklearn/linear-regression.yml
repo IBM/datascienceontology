@@ -5,7 +5,7 @@ id: linear-regression
 name: linear regression in scikit-learn
 description: Ordinary least-squares (OLS) linear regression in scikit-learn
 class: sklearn.linear_model.base.LinearRegression
-kind: object
+kind: type
 definition: least-squares
 slots:
   - slot: coef_

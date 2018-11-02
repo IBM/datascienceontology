@@ -2,7 +2,7 @@ schema: concept
 id: excel-spreadsheet
 name: Excel spreadsheet
 description: A single sheet in a Microsoft Excel spreadsheet
-kind: object
+kind: type
 is-a: tabular-file
 external: 
   wikipedia: Microsoft_Excel#File_formats

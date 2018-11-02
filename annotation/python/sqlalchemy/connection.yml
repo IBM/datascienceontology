@@ -5,5 +5,5 @@ id: connection
 name: SQLAlchemy connection
 description: Database connection in SQLAlchemy
 class: sqlalchemy.engine.base.Connection
-kind: object
+kind: type
 definition: sql-database

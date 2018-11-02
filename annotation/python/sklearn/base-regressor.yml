@@ -7,5 +7,5 @@ description: Base class for all regression models in sklearn
 class:
   - sklearn.base.BaseEstimator
   - sklearn.base.RegressorMixin
-kind: object
+kind: type
 definition: regression-model

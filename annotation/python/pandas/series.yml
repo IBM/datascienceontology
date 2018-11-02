@@ -5,7 +5,7 @@ id: series
 name: pandas series
 description: A named vector in pandas with axis labels, representing a column in a data frame
 class: pandas.core.series.Series
-kind: object
+kind: type
 definition: column
 slots:
   - slot: name

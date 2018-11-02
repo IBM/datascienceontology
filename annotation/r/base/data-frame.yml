@@ -5,7 +5,7 @@ id: data-frame
 name: R data frame
 description: default class for tabular data in R
 class: data.frame
-kind: object
+kind: type
 definition: table
 slots:
   - slot: names

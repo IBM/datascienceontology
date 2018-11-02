@@ -2,7 +2,7 @@ schema: concept
 id: sql-database
 name: SQL database
 description: A relational (SQL) database
-kind: object
+kind: type
 external: 
   wikidata: Q192588
   wikipedia: Relational_database

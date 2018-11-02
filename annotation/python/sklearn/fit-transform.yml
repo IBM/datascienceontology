@@ -8,7 +8,7 @@ class:
   - sklearn.base.BaseEstimator
   - sklearn.base.TransformerMixin
 method: fit_transform
-kind: morphism
+kind: function
 definition: [
   compose,
   [ otimes, [ id, transformation-model ], [ mcopy, data ] ],
@@ -19,13 +19,13 @@ definition: [
     [ id, data ] ],
   [ otimes, [ id, transformation-model ], transform ]
 ]
-domain:
+inputs:
   - slot: self
     name: model
     description: transformation model to fit
   - slot: 1
     name: data
-codomain:
+outputs:
   - slot: self
     name: model
     description: fitted transformation model

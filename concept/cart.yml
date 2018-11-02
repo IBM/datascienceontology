@@ -6,5 +6,5 @@ description: >
   particular methodology for building classification and regression trees,
   described in the book (Breiman, Friedman, Olshen, & Stone, 1994,
   "Classification and Regression Trees").
-kind: object
+kind: type
 is-a: decision-tree

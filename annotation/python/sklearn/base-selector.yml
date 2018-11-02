@@ -7,7 +7,7 @@ description: Base class for feature selection models in sklearn
 class:
   - sklearn.base.BaseEstimator
   - sklearn.base.SelectorMixin
-kind: object
+kind: type
 definition: feature-selection-model
 slots:
   - slot: get_support

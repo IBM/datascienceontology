@@ -2,7 +2,7 @@ schema: concept
 id: data
 name: data
 description: A generic collection of data, not necessarily tabular
-kind: object
+kind: type
 external: 
   wikidata: Q42848
   wikipedia: Data

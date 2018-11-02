@@ -4,7 +4,7 @@ package: VIF
 id: vif
 name: VIF regression in R
 class: vif
-kind: object
+kind: type
 definition: vif-regression
 slots:
   - slot: select

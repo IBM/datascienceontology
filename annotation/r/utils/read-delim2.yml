@@ -5,13 +5,13 @@ id: read-delim2
 name: read TSV file (alternate)
 description: read data frame from TSV file (alternate)
 function: read.delim2
-kind: morphism
+kind: function
 definition: [
   compose,
   [ construct, [ pair, tabular-file, filename ] ],
   read-tabular-file
 ]
-domain:
+inputs:
   - slot: file
-codomain:
+outputs:
   - slot: __return__

@@ -1,12 +1,12 @@
 schema: concept
 id: fit
-kind: morphism
+kind: function
 name: fit model
 description: fit a statistical model to data
-domain:
-  - object: model
+inputs:
+  - type: model
     description: model to fit
-  - object: data
-codomain:
-  - object: model
+  - type: data
+outputs:
+  - type: model
     description: fitted model

@@ -5,5 +5,5 @@ id: complex
 name: R complex number
 description: double-precision floating point complex number in R
 class: complex
-kind: object
+kind: type
 definition: complex

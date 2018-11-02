@@ -4,7 +4,7 @@ package: scipy
 id: hierarchy-linkage
 name: hierarchical clustering in scipy
 function: scipy.cluster.hierarchy.linkage
-kind: morphism
+kind: function
 definition: [
   compose,
   [ otimes, [ construct, agglomerative-clustering ], [ id, array ] ],
@@ -14,8 +14,8 @@ definition: [
     agglomerative-clustering ],
   hierarchical-clustering-linkage
 ]
-domain:
+inputs:
   - slot: 0
     name: data
-codomain:
+outputs:
   - slot: __return__

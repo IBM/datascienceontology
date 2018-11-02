@@ -5,7 +5,7 @@ id: regression-results-wrapper
 name: statsmodels regression results
 description: Results for a linear regression model in statsmodels
 class: statsmodels.regression.linear_model.RegressionResultsWrapper
-kind: object
+kind: type
 definition: linear-regression
 slots:
   - slot: params

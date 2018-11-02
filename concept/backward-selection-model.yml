@@ -2,5 +2,5 @@ schema: concept
 id: backward-selection-model
 name: backward selection
 description: backward, incremental selection of features
-kind: object
+kind: type
 is-a: incremental-selection-model

@@ -2,7 +2,7 @@ schema: concept
 id: feature-extraction-model
 name: feature extraction model
 description: A statistical model for feature extraction
-kind: object
+kind: type
 is-a:
   - transformation-model
   - feature-extraction

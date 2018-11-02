@@ -4,7 +4,7 @@ package: Cubist
 id: fit-cubist
 name: fit Cubist model in R
 function: cubist
-kind: morphism
+kind: function
 definition: [
   compose,
   [ otimes,
@@ -13,13 +13,13 @@ definition: [
     [ id, vector] ],
   fit-supervised
 ]
-domain:
+inputs:
   - slot: committees
     name: n-trees
   - slot: 1
     name: predictors
   - slot: 2
     name: response
-codomain:
+outputs:
   - slot: __return__
     name: model

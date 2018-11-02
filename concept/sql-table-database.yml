@@ -1,9 +1,9 @@
 schema: concept
 id: sql-table-database
-kind: morphism
+kind: function
 name: database
 description: SQL database to which a SQL table belongs
-domain:
-  - object: sql-table
-codomain:
-  - object: sql-database
+inputs:
+  - type: sql-table
+outputs:
+  - type: sql-database

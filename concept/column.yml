@@ -2,5 +2,5 @@ schema: concept
 id: column
 name: column
 description: A column in a data table (data frame)
-kind: object
+kind: type
 is-a: vector

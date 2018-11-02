@@ -2,7 +2,7 @@ schema: concept
 id: number
 name: number
 description: "Any kind of number: real, complex, or more exotic"
-kind: object
+kind: type
 is-a: scalar
 external: 
   wikidata: Q11563

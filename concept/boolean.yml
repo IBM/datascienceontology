@@ -2,7 +2,7 @@ schema: concept
 id: boolean
 name: boolean
 description: "A boolean value: true or false"
-kind: object
+kind: type
 is-a: scalar
 external: 
   wikidata: Q520777

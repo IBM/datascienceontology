@@ -2,7 +2,7 @@ schema: concept
 id: matrix
 name: matrix
 description: A two-dimensional array
-kind: object
+kind: type
 is-a:
   - array
   - table

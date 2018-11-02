@@ -2,7 +2,7 @@ schema: concept
 id: decision-tree
 name: decision tree
 description: a decision tree for predictive modeling
-kind: object
+kind: type
 is-a:
   - tree-based-model
   - feature-selection-model

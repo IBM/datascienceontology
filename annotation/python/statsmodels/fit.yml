@@ -6,9 +6,9 @@ name: fit statsmodels Model
 description: fit a statsmodels Model that has already been bound to data
 class: statsmodels.base.model.Model
 method: fit
-kind: morphism
+kind: function
 definition: [ id, model ]
-domain:
+inputs:
   - slot: self
-codomain:
+outputs:
   - slot: __return__

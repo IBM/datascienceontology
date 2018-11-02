@@ -1,10 +1,10 @@
 schema: concept
 id: clustering-model-clusters
-kind: morphism
+kind: function
 name: clusters
 description: clusters found by a clustering model
-domain:
-  - object: clustering-model
+inputs:
+  - type: clustering-model
     name: model
-codomain:
-  - object: vector
+outputs:
+  - type: vector

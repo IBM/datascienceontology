@@ -7,5 +7,5 @@ description: >
   Base class for all models in statsmodels
   (with results `statsmodels.base.model.Results`)
 class: statsmodels.base.model.Model
-kind: object
+kind: type
 definition: model

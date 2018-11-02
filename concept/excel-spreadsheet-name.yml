@@ -1,9 +1,9 @@
 schema: concept
 id: excel-spreadsheet-name
-kind: morphism
+kind: function
 name: sheet name
 description: name of sheet in an Excel spreadsheet
-domain:
-  - object: excel-spreadsheet
-codomain:
-  - object: string
+inputs:
+  - type: excel-spreadsheet
+outputs:
+  - type: string

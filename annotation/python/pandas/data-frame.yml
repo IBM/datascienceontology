@@ -5,7 +5,7 @@ id: data-frame
 name: pandas data frame
 description: Tabular data with labeled axes in pandas
 class: pandas.core.frame.DataFrame
-kind: object
+kind: type
 definition: table
 slots:
   - slot: columns.tolist

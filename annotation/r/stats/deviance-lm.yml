@@ -6,9 +6,9 @@ name: deviance
 description: deviance of linear model in R
 function: deviance
 class: lm
-kind: morphism
+kind: function
 definition: linear-model-rss
-domain:
+inputs:
   - slot: 1
-codomain:
+outputs:
   - slot: __return__

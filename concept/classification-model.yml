@@ -2,7 +2,7 @@ schema: concept
 id: classification-model
 name: classification model
 description: A statistical model for classification
-kind: object
+kind: type
 is-a: supervised-model
 external: 
   wikidata: Q1744628

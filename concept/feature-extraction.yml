@@ -2,7 +2,7 @@ schema: concept
 id: feature-extraction
 name: feature extraction
 description: Any method for feature extraction
-kind: object
+kind: type
 is-a: transformer
 external:
   wikidata: Q1026626

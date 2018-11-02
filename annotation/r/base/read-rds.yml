@@ -5,13 +5,13 @@ id: read-rds
 name: read RDS file
 description: read R data from RDS file
 function: readRDS
-kind: morphism
+kind: function
 definition: [
   compose,
   [ construct, [ pair, file, filename ] ],
   read-file
 ]
-domain:
+inputs:
   - slot: file
-codomain:
+outputs:
   - slot: __return__

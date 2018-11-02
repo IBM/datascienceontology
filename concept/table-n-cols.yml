@@ -1,9 +1,9 @@
 schema: concept
 id: table-n-cols
-kind: morphism
+kind: function
 name: number of columns
 description: number of columns in a table
-domain:
-  - object: table
-codomain:
-  - object: integer
+inputs:
+  - type: table
+outputs:
+  - type: integer

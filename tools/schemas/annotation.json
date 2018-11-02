@@ -33,19 +33,19 @@
       "type": "string"
     },
     "name": {
-      "description": "Human-readable name of annotated code object",
+      "description": "Human-readable name of annotated code entity",
       "type": "string"
     },
     "description": {
-      "description": "Human-readable description of annotated code object",
+      "description": "Human-readable description of annotated code entity",
       "type": "string"
     }
   },
   "oneOf": [
-    { "$ref": "#/definitions/python-object" },
-    { "$ref": "#/definitions/python-morphism" },
-    { "$ref": "#/definitions/r-object" },
-    { "$ref": "#/definitions/r-morphism" }
+    { "$ref": "#/definitions/python-type" },
+    { "$ref": "#/definitions/python-function" },
+    { "$ref": "#/definitions/r-type" },
+    { "$ref": "#/definitions/r-function" }
   ],
   "definitions": {
     "python-class": {
@@ -61,8 +61,8 @@
         }
       ]
     },
-    "python-object": {
-      "description": "Annotation of Python class as object",
+    "python-type": {
+      "description": "Type annotation of Python class",
       "required": [
         "language",
         "kind",
@@ -71,47 +71,47 @@
       ],
       "properties": {
         "language": { "enum": ["python"] },
-        "kind": { "enum": ["object"] },
+        "kind": { "enum": ["type"] },
         "class": {
           "description": "Class to which annotation applies",
           "$ref": "#/definitions/python-class"
         },
         "definition": {
-          "description": "Definition of annotated class as object in ontology",
+          "description": "Definition of annotated class as type in ontology",
           "type": "string"
         },
         "slots": {
-          "description": "Class slots (attributes, properties, methods) defining morphisms in ontology",
+          "description": "Class slots (attributes, properties, methods) defining functions in ontology",
           "type": "array",
           "items": { "$ref": "#/definitions/slot" }
         }
       }
     },
-    "python-morphism": {
-      "description": "Annotation of Python function or method as morphism",
+    "python-function": {
+      "description": "Function annotation of Python function, method, or other callable",
       "required": [
         "language",
         "kind",
         "definition",
-        "domain",
-        "codomain"
+        "inputs",
+        "outputs"
       ],
       "properties": {
         "language": { "enum": ["python"] },
-        "kind": { "enum": ["morphism"] },
+        "kind": { "enum": ["function"] },
         "definition": {
-          "description": "Definition of annotated function or method as morphism in ontology",
+          "description": "Definition of annotated function or method as function in ontology",
           "$ref": "#/definitions/s-expression"
         },
-        "domain": {
-          "description": "Mapping of arguments (positional and named) to morphism domain",
+        "inputs": {
+          "description": "Mapping of arguments (positional and named) to function inputs",
           "type": "array",
-          "items": { "$ref": "#/definitions/domain-object" }
+          "items": { "$ref": "#/definitions/port-annotation" }
         },
-        "codomain": {
-          "description": "Mapping of mutated arguments and return value to morphism codomain",
+        "outputs": {
+          "description": "Mapping of mutated arguments and return value to function outputs",
           "type": "array",
-          "items": { "$ref": "#/definitions/domain-object" }
+          "items": { "$ref": "#/definitions/port-annotation" }
         }
       },
       "oneOf": [
@@ -139,8 +139,8 @@
         }
       ]
     },
-    "r-object": {
-      "description": "Annotation of R type as object",
+    "r-type": {
+      "description": "Type annotation of R class",
       "required": [
         "language",
         "kind",
@@ -149,7 +149,7 @@
       ],
       "properties": {
         "language": { "enum": ["r"] },
-        "kind": { "enum": ["object"] },
+        "kind": { "enum": ["type"] },
         "class": {
           "description": "Class to which annotation applies",
           "type": "string"
@@ -159,29 +159,29 @@
           "enum": [ "S3", "S4", "R5", "R6" ]
         },
         "definition": {
-          "description": "Definition of annotated class as object in ontology",
+          "description": "Definition of annotated class as type in ontology",
           "type": "string"
         },
         "slots": {
-          "description": "Class slots defining morphisms in ontology",
+          "description": "Class slots defining functions in ontology",
           "type": "array",
           "items": { "$ref": "#/definitions/slot" }
         }
       }
     },
-    "r-morphism": {
-      "description": "Annotation of R function or method as morphism",
+    "r-function": {
+      "description": "Function annotation of R function or method",
       "required": [
         "language",
         "kind",
         "function",
         "definition",
-        "domain",
-        "codomain"
+        "inputs",
+        "outputs"
       ],
       "properties": {
         "language": { "enum": ["r"] },
-        "kind": { "enum": ["morphism"] },
+        "kind": { "enum": ["function"] },
         "function": {
           "description": "Name of function",
           "type": "string"
@@ -195,23 +195,23 @@
           "enum": [ "S3", "S4", "R5", "R6" ]
         },
         "definition": {
-          "description": "Definition of annotated function or method as morphism in ontology",
+          "description": "Definition of annotated function or method as function in ontology",
           "$ref": "#/definitions/s-expression"
         },
-        "domain": {
-          "description": "Mapping of arguments (positional and named) to morphism domain",
+        "inputs": {
+          "description": "Mapping of arguments (positional and named) to function inputs",
           "type": "array",
-          "items": { "$ref": "#/definitions/domain-object" }
+          "items": { "$ref": "#/definitions/port-annotation" }
         },
-        "codomain": {
-          "description": "Mapping of mutated arguments and return value to morphism codomain",
+        "outputs": {
+          "description": "Mapping of mutated arguments and return value to function outputs",
           "type": "array",
-          "items": { "$ref": "#/definitions/domain-object" }
+          "items": { "$ref": "#/definitions/port-annotation" }
         }
       }
     },
-    "domain-object": {
-      "description": "Object belonging to the domain or codomain of a concrete function or method",
+    "port-annotation": {
+      "description": "Input or output of a concrete function or method",
       "type": "object",
       "required": [ "slot" ],
       "properties": {
@@ -223,17 +223,17 @@
           ]
         },
         "name": {
-          "description": "Syntactic name of domain object",
+          "description": "Syntactic name of port",
           "type": "string"
         },
         "description": {
-          "description": "Human-readable description of domain object",
+          "description": "Human-readable description of port",
           "type": "string"
         }
       }
     },
     "slot": {
-      "description": "Slot corresponding to a morphism in the ontology",
+      "description": "Slot corresponding to a function in the ontology",
       "type": "object",
       "required": ["slot", "definition"],
       "properties": {
@@ -242,7 +242,7 @@
           "type": "string"
         },
         "definition": {
-          "description": "Definition of slot as morphism in ontology",
+          "description": "Definition of slot as function in ontology",
           "$ref": "#/definitions/s-expression"
         }
       }

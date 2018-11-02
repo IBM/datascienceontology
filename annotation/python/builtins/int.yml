@@ -3,5 +3,5 @@ language: python
 package: builtins
 id: int
 class: int
-kind: object
+kind: type
 definition: integer

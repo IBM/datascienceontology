@@ -5,7 +5,7 @@ id: clause-element
 name: SQLAlchemy expression
 description: Programmatically constructed SQL expression in SQLAlchemy
 class: sqlalchemy.sql.expression.ClauseElement
-kind: object
+kind: type
 definition: sql-query
 slots:
   - slot: bind

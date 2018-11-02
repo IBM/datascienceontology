@@ -1,10 +1,10 @@
 schema: concept
 id: pca-kernelized
-kind: morphism
+kind: function
 name: kernelized
 description: PCA as a special case of kernel PCA
 is-a: kernelized
-domain:
-  - object: pca
-codomain:
-  - object: kernel-pca
+inputs:
+  - type: pca
+outputs:
+  - type: kernel-pca

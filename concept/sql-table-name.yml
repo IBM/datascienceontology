@@ -1,9 +1,9 @@
 schema: concept
 id: sql-table-name
-kind: morphism
+kind: function
 name: table name
 description: name of a SQL table
-domain:
-  - object: sql-table
-codomain:
-  - object: string
+inputs:
+  - type: sql-table
+outputs:
+  - type: string

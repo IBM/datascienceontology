@@ -2,8 +2,8 @@ schema: concept
 id: read-data
 name: read data
 description: read data from a data source
-kind: morphism
-domain:
-  - object: data-source
-codomain:
-  - object: data
+kind: function
+inputs:
+  - type: data-source
+outputs:
+  - type: data

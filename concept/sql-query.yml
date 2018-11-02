@@ -2,5 +2,5 @@ schema: concept
 id: sql-query
 name: SQL query
 description: A SQL query on a relational database
-kind: object
+kind: type
 is-a: tabular-data-source

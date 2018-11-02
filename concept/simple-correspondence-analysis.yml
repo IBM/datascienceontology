@@ -2,7 +2,7 @@ schema: concept
 id: simple-correspondence-analysis
 name: simple correspondence analysis
 description: Correspondence analysis with a single categorical variable
-kind: object
+kind: type
 is-a: correspondence-analysis
 external: 
   wikidata: Q1784754

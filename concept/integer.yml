@@ -1,7 +1,7 @@
 schema: concept
 id: integer
 name: integer
-kind: object
+kind: type
 is-a: real
 external: 
   wikidata: Q729138

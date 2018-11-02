@@ -2,7 +2,7 @@ schema: concept
 id: clustering-model
 name: clustering model
 description: A statistical model for clustering
-kind: object
+kind: type
 is-a: unsupervised-model
 external: 
   wikidata: Q28058114

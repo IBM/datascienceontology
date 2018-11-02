@@ -6,15 +6,15 @@ name: data frame to CSV
 description: write pandas data frame to CSV file
 class: pandas.core.frame.DataFrame
 method: to_csv
-kind: morphism
+kind: function
 definition: [
   compose,
   [ otimes, [ construct, [ pair, tabular-file, filename ] ], [ id, table ] ],
   write-tabular-file
 ]
-domain:
+inputs:
   - slot: 1
     name: filename
   - slot: self
     name: data
-codomain: []
+outputs: []

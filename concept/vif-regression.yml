@@ -6,5 +6,5 @@ description: >
   for variable selection in linear regression models, introduced in
   (Lin, Foster, & Ungar, 2011, "VIF Regression: A Fast Regression Algorithm
   for Large Data")
-kind: object
+kind: type
 is-a: forward-selection-model

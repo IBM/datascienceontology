@@ -4,7 +4,7 @@ package: stats
 id: k-means
 name: k-means clustering in R
 class: kmeans
-kind: object
+kind: type
 definition: k-means
 slots:
   - slot: cluster

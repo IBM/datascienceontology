@@ -5,7 +5,7 @@ description: >
   A statistical model for transforming data. The terminology is nonstandard but
   encompasses any form of dimensionality reduction, feature extraction, or
   other data transformation where the transformation is a function of the data.
-kind: object
+kind: type
 is-a:
   - model
   - transformer

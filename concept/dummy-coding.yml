@@ -5,7 +5,7 @@ description: >
   Dummy coding of categorical variables, also known as one-hot coding.
   Under this encoding, each categorical variable is transformed into a set
   of dummy, or indicator, variables.
-kind: object
+kind: type
 is-a: feature-extraction
 external:
   wikidata: Q427977

@@ -2,7 +2,7 @@ schema: concept
 id: linear-regression
 name: linear regression
 description: A linear model for regression
-kind: object
+kind: type
 is-a:
   - linear-model
   - regression-model

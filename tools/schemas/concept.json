@@ -60,47 +60,47 @@
     }
   },
   "oneOf": [
-    { "$ref": "#/definitions/object" },
-    { "$ref": "#/definitions/morphism" }
+    { "$ref": "#/definitions/type-concept" },
+    { "$ref": "#/definitions/function-concept" }
   ],
   "definitions": {
-    "object": {
+    "type-concept": {
       "required": [ "kind" ],
       "properties": {
-        "kind": { "enum": ["object"] }
+        "kind": { "enum": ["type"] }
       }
     },
-    "morphism": {
-      "required": [ "kind", "domain", "codomain" ],
+    "function-concept": {
+      "required": [ "kind", "inputs", "outputs" ],
       "properties": {
-        "kind": { "enum": ["morphism"] },
-        "domain": {
-          "description": "Domain of morphism as a product of named objects",
+        "kind": { "enum": ["function"] },
+        "inputs": {
+          "description": "Inputs of function as a product of named types",
           "type": "array",
-          "items": { "$ref": "#/definitions/domain-object" }
+          "items": { "$ref": "#/definitions/port" }
         },
-        "codomain": {
-          "description": "Codomain of morphism as a product of named objects",
+        "outputs": {
+          "description": "Outputs of function as a product of named types",
           "type": "array",
-          "items": { "$ref": "#/definitions/domain-object" }
+          "items": { "$ref": "#/definitions/port" }
         }
       }
     },
-    "domain-object": {
-      "descripton": "Object belonging to the domain or codomain of a morphism",
+    "port": {
+      "descripton": "Input or output to a function",
       "type": "object",
-      "required": [ "object" ],
+      "required": [ "type" ],
       "properties": {
-        "object": {
-          "description": "Identifier of an object concept",
+        "type": {
+          "description": "Identifier of a type concept",
           "type": "string"
         },
         "name": {
-          "description": "Syntactic name of domain object (by default, the object identifer)",
+          "description": "Syntactic name of port (by default, the type identifer)",
           "type": "string"
         },
         "description": {
-          "description": "Human-readable description of domain object",
+          "description": "Human-readable description of port",
           "type": "string"
         }
       }

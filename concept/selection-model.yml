@@ -4,7 +4,7 @@ name: model selection
 description: >
   A model or procedure for selecting a statistical model from a set of
   candidate models, given data
-kind: object
+kind: type
 is-a: model
 external:
   wikidata: Q6888345

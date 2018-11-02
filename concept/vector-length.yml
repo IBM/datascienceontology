@@ -1,9 +1,9 @@
 schema: concept
 id: vector-length
-kind: morphism
+kind: function
 name: length
 description: length of a vector
-domain:
-  - object: vector
-codomain:
-  - object: integer
+inputs:
+  - type: vector
+outputs:
+  - type: integer

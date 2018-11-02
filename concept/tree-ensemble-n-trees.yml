@@ -2,10 +2,10 @@ schema: concept
 id: tree-ensemble-n-trees
 name: number of trees
 description: number of trees in a tree ensemble
-kind: morphism
-domain:
-  - object: tree-ensemble
+kind: function
+inputs:
+  - type: tree-ensemble
     name: model
-codomain:
-  - object: integer
+outputs:
+  - type: integer
     name: n-trees

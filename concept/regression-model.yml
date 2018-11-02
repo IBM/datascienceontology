@@ -2,7 +2,7 @@ schema: concept
 id: regression-model
 name: regression model
 description: A statistical model for regression
-kind: object
+kind: type
 is-a: supervised-model
 external: 
   wikidata: Q30556303

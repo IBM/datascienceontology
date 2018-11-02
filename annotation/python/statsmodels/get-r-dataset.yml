@@ -5,19 +5,19 @@ id: get-r-dataset
 name: read R dataset
 description: read tabular data from an R package
 function: statsmodels.datasets.utils.get_rdataset
-kind: morphism
+kind: function
 definition: [
   compose,
   [ construct, [ pair, r-dataset-name, r-dataset-package ] ],
   read-table
 ]
-domain:
+inputs:
   - slot: 0
     name: name
     description: R dataset name
   - slot: 1
     name: package
     description: R dataset package
-codomain:
+outputs:
   - slot: __return__
     name: data

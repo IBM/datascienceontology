@@ -4,7 +4,7 @@ package: randomForest
 id: random-forest
 name: random forest in R
 class: randomForest
-kind: object
+kind: type
 definition: random-forest
 slots:
   - slot: ntree

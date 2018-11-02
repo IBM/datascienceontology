@@ -5,15 +5,15 @@ id: fit-rpart
 name: fit rpart model
 description: fit an rpart (Recursive Partitioning and Regression Trees) model
 function: rpart
-kind: morphism
+kind: function
 definition: [
   compose,
   [ otimes, [ construct, cart ], evaluate-formula-supervised ],
   fit-supervised
 ]
-domain:
+inputs:
   - slot: formula
   - slot: data
-codomain:
+outputs:
   - slot: __return__
     name: model

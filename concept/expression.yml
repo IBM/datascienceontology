@@ -2,7 +2,7 @@ schema: concept
 id: expression
 name: expression
 description: a mathematical expression or equation
-kind: object
+kind: type
 is-a: string
 external:
   wikidata: Q6498784

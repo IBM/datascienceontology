@@ -7,5 +7,5 @@ description: Base class for all transformation models in sklearn
 class:
   - sklearn.base.BaseEstimator
   - sklearn.base.TransformerMixin
-kind: object
+kind: type
 definition: transformation-model

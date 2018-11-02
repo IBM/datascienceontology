@@ -2,5 +2,5 @@ schema: concept
 id: tree-ensemble
 name: tree ensemble
 description: an ensemble of decision trees
-kind: object
+kind: type
 is-a: tree-based-model

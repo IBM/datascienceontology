@@ -5,5 +5,5 @@ id: results-wrapper
 name: statsmodels results
 description: Results for a model in statsmodels
 class: statsmodels.base.wrapper.ResultsWrapper
-kind: object
+kind: type
 definition: model

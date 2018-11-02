@@ -3,7 +3,7 @@ id: dimension-reduction-model
 name: dimensionality reduction
 description: >
   A statistical model to reduce the dimensionality of vector observations
-kind: object
+kind: type
 is-a: feature-extraction-model
 external: 
   wikidata: Q16000077

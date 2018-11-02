@@ -2,10 +2,10 @@ schema: concept
 id: feature-selection-model-selected
 name: selected features
 description: features selected by a feature selection model
-kind: morphism
-domain:
-  - object: feature-selection-model
+kind: function
+inputs:
+  - type: feature-selection-model
     name: model
-codomain:
-  - object: vector
+outputs:
+  - type: vector
     name: selected

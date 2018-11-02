@@ -3,5 +3,5 @@ language: python
 package: builtins
 id: complex
 class: complex
-kind: object
+kind: type
 definition: complex

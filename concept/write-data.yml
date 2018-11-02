@@ -2,8 +2,8 @@ schema: concept
 id: write-data
 name: write data
 description: write data to a data source
-kind: morphism
-domain:
-  - object: data-source
-  - object: data
-codomain: []
+kind: function
+inputs:
+  - type: data-source
+  - type: data
+outputs: []

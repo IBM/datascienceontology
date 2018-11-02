@@ -1,10 +1,10 @@
 schema: concept
 id: k-means-centroids
-kind: morphism
+kind: function
 name: centroids
 description: centroids of clusters found by k-means clustering
-domain:
-  - object: k-means
+inputs:
+  - type: k-means
     name: model
-codomain:
-  - object: array
+outputs:
+  - type: array

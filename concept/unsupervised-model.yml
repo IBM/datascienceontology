@@ -2,7 +2,7 @@ schema: concept
 id: unsupervised-model
 name: unsupervised model
 description: An unsupervised statistical model
-kind: object
+kind: type
 is-a: model
 external: 
   wikidata: Q1152135

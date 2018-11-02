@@ -5,7 +5,7 @@ id: rpart
 name: rpart model
 description: an rpart (Recursive Partitioning and Regression Trees) model
 class: rpart
-kind: object
+kind: type
 definition: cart
 slots:
   - slot: ~ unique(row.names(.$splits))

@@ -4,7 +4,7 @@ name: generalized linear model
 description: >
   A generalized linear model (GLM), an exponential family model extending
   the linear model beyond the normal distribution.
-kind: object
+kind: type
 is-a: supervised-model
 external: 
   wikidata: Q1501882

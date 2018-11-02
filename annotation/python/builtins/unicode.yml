@@ -5,5 +5,5 @@ id: unicode
 name: Python unicode string
 description: Unicode string (Python 2 only)
 class: unicode
-kind: object
+kind: type
 definition: string

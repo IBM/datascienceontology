@@ -2,7 +2,7 @@ schema: concept
 id: correspondence-analysis
 name: correspondence analysis
 description: A variant of principal components analysis for nominal categorical data
-kind: object
+kind: type
 is-a:
   - dimension-reduction-model
   - unsupervised-model

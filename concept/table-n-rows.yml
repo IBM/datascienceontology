@@ -1,9 +1,9 @@
 schema: concept
 id: table-n-rows
-kind: morphism
+kind: function
 name: number of rows
 description: number of rows in a table
-domain:
-  - object: table
-codomain:
-  - object: integer
+inputs:
+  - type: table
+outputs:
+  - type: integer
