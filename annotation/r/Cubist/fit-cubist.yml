@@ -7,8 +7,8 @@ function: cubist
 kind: function
 definition: [
   compose,
-  [ otimes,
-    [ construct, [ pair, cubist, tree-ensemble-n-trees ] ],
+  [ product,
+    [ construct, [ apply, cubist, tree-ensemble-n-trees ] ],
     [ id, table ],
     [ id, vector] ],
   fit-supervised

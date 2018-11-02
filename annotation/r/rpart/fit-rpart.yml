@@ -8,7 +8,7 @@ function: rpart
 kind: function
 definition: [
   compose,
-  [ otimes, [ construct, cart ], evaluate-formula-supervised ],
+  [ product, [ construct, cart ], evaluate-formula-supervised ],
   fit-supervised
 ]
 inputs:

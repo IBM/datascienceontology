@@ -8,7 +8,7 @@ function: saveRDS
 kind: function
 definition: [
   compose,
-  [ otimes, [ construct, [ pair, file, filename ] ], [ id, data ] ],
+  [ product, [ construct, [ apply, file, filename ] ], [ id, data ] ],
   write-file
 ]
 inputs:

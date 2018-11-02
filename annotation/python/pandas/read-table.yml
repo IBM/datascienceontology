@@ -8,7 +8,7 @@ function: pandas.io.parsers._make_parser_function.<locals>.parser_f
 kind: function
 definition: [
   compose,
-  [ construct, [ pair, tabular-file, filename ] ],
+  [ construct, [ apply, tabular-file, filename ] ],
   read-tabular-file
 ]
 inputs:

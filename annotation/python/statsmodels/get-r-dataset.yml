@@ -8,7 +8,7 @@ function: statsmodels.datasets.utils.get_rdataset
 kind: function
 definition: [
   compose,
-  [ construct, [ pair, r-dataset-name, r-dataset-package ] ],
+  [ construct, [ apply, r-dataset-name, r-dataset-package ] ],
   read-table
 ]
 inputs:

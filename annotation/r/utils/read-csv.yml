@@ -8,7 +8,7 @@ function: read.csv
 kind: function
 definition: [
   compose,
-  [ construct, [ pair, tabular-file, filename ] ],
+  [ construct, [ apply, tabular-file, filename ] ],
   read-tabular-file
 ]
 inputs:

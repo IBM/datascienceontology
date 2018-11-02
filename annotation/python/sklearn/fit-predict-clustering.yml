@@ -10,8 +10,8 @@ method: fit_predict
 kind: function
 definition: [
   compose,
-  [ Hom, fit, [ otimes, clustering-model, data ], clustering-model ],
-  [ pair, [ id, clustering-model ], clustering-model-clusters ]
+  [ Function, fit, [ product, clustering-model, data ], clustering-model ],
+  [ apply, [ id, clustering-model ], clustering-model-clusters ]
 ]
 inputs:
   - slot: self

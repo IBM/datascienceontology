@@ -8,7 +8,7 @@ function: readRDS
 kind: function
 definition: [
   compose,
-  [ construct, [ pair, file, filename ] ],
+  [ construct, [ apply, file, filename ] ],
   read-file
 ]
 inputs:

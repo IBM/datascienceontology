@@ -8,7 +8,7 @@ function: stats::predict
 class: dummyVars
 kind: function
 definition: [
-  Hom, transform, [ otimes, dummy-coding, table ], table
+  Function, transform, [ product, dummy-coding, table ], table
 ]
 inputs:
   - slot: 1
