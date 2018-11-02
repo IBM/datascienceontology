@@ -8,7 +8,7 @@ function: lm
 kind: function
 definition: [
   compose,
-  [ otimes, [ construct, least-squares ], evaluate-formula-supervised ],
+  [ product, [ construct, least-squares ], evaluate-formula-supervised ],
   fit-supervised
 ]
 inputs:

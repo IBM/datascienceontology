@@ -7,9 +7,9 @@ function: vif
 kind: function
 definition: [
   compose,
-  [ otimes, [ construct, vif-regression ], [ id, table ], [ id, vector ] ],
-  [ Hom, fit-supervised,
-    [ otimes, vif-regression, table, vector], vif-regression ]
+  [ product, [ construct, vif-regression ], [ id, table ], [ id, vector ] ],
+  [ Function, fit-supervised,
+    [ product, vif-regression, table, vector], vif-regression ]
 ]
 inputs:
   - slot: x

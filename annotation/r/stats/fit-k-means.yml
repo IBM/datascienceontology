@@ -8,12 +8,12 @@ function: kmeans
 kind: function
 definition: [
   compose,
-  [ otimes,
-    [ construct, [ pair, k-means, clustering-model-n-clusters ] ],
+  [ product,
+    [ construct, [ apply, k-means, clustering-model-n-clusters ] ],
     [ id, matrix ] ],
-  [ Hom,
+  [ Function,
     fit,
-    [ otimes, k-means, data ],
+    [ product, k-means, data ],
     k-means ]
 ]
 inputs:

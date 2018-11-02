@@ -8,7 +8,7 @@ function: pandas.io.sql.read_sql_query
 kind: function
 definition: [
   compose,
-  [ construct, [ pair, sql-query-database, sql-query-expression ] ],
+  [ construct, [ apply, sql-query-database, sql-query-expression ] ],
   read-table
 ]
 inputs:

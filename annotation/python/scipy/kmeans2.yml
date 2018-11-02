@@ -7,11 +7,11 @@ function: scipy.cluster.vq.kmeans2
 kind: function
 definition: [
   compose,
-  [ otimes,
-    [ construct, [ pair, k-means, clustering-model-n-clusters ] ],
+  [ product,
+    [ construct, [ apply, k-means, clustering-model-n-clusters ] ],
     [ id, array ] ],
-  [ Hom, fit, [ otimes, k-means, data ], k-means ],
-  [ pair, k-means, k-means-centroids, clustering-model-clusters ]
+  [ Function, fit, [ product, k-means, data ], k-means ],
+  [ apply, k-means, k-means-centroids, clustering-model-clusters ]
 ]
 inputs:
   - slot: 1

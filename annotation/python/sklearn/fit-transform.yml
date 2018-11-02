@@ -11,13 +11,13 @@ method: fit_transform
 kind: function
 definition: [
   compose,
-  [ otimes, [ id, transformation-model ], [ mcopy, data ] ],
-  [ otimes,
+  [ product, [ id, transformation-model ], [ copy, data ] ],
+  [ product,
     [ compose,
-      [ Hom, fit, [ otimes, transformation-model, data ], transformation-model ],
-      [ mcopy, transformation-model ] ],
+      [ Function, fit, [ product, transformation-model, data ], transformation-model ],
+      [ copy, transformation-model ] ],
     [ id, data ] ],
-  [ otimes, [ id, transformation-model ], transform ]
+  [ product, [ id, transformation-model ], transform ]
 ]
 inputs:
   - slot: self

@@ -9,7 +9,7 @@ method: to_csv
 kind: function
 definition: [
   compose,
-  [ otimes, [ construct, [ pair, tabular-file, filename ] ], [ id, table ] ],
+  [ product, [ construct, [ apply, tabular-file, filename ] ], [ id, table ] ],
   write-tabular-file
 ]
 inputs:

@@ -7,10 +7,10 @@ function: scipy.cluster.hierarchy.linkage
 kind: function
 definition: [
   compose,
-  [ otimes, [ construct, agglomerative-clustering ], [ id, array ] ],
-  [ Hom,
+  [ product, [ construct, agglomerative-clustering ], [ id, array ] ],
+  [ Function,
     fit,
-    [ otimes, agglomerative-clustering, data ],
+    [ product, agglomerative-clustering, data ],
     agglomerative-clustering ],
   hierarchical-clustering-linkage
 ]

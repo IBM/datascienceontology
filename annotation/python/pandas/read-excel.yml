@@ -8,7 +8,7 @@ function: pandas.io.excel.read_excel
 kind: function
 definition: [
   compose,
-  [ construct, [ pair, excel-spreadsheet, filename, excel-spreadsheet-name ] ],
+  [ construct, [ apply, excel-spreadsheet, filename, excel-spreadsheet-name ] ],
   read-tabular-file
 ]
 inputs:

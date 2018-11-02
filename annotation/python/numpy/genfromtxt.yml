@@ -8,7 +8,7 @@ function: numpy.lib.npyio.genfromtxt
 kind: function
 definition: [
   compose,
-  [ construct, [ pair, tabular-file, filename ] ],
+  [ construct, [ apply, tabular-file, filename ] ],
   read-tabular-file
 ]
 inputs:
