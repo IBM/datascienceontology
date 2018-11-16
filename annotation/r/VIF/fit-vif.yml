@@ -17,6 +17,6 @@ inputs:
   - slot: y
     name: response
 outputs:
-  - slot: __return__
+  - slot: .return
     name: model
     annotate: r/VIF/vif

@@ -19,5 +19,5 @@ inputs:
     name: package
     description: R dataset package
 outputs:
-  - slot: __return__
+  - slot: return
     name: data

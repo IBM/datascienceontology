@@ -12,5 +12,5 @@ inputs:
   - slot: 2
     name: index
 outputs:
-  - slot: __return__
+  - slot: .return
     name: tree

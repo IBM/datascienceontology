@@ -11,4 +11,4 @@ definition: [ id, model ]
 inputs:
   - slot: self
 outputs:
-  - slot: __return__
+  - slot: return

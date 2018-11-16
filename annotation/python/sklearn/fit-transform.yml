@@ -29,6 +29,6 @@ outputs:
   - slot: self
     name: model
     description: fitted transformation model
-  - slot: __return__
+  - slot: return
     name: transformed
     description: transformed data

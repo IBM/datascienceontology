@@ -14,4 +14,4 @@ inputs:
   - slot: 1
   - slot: 2
 outputs:
-  - slot: __return__
+  - slot: .return

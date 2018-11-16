@@ -15,5 +15,5 @@ inputs:
   - slot: formula
   - slot: data
 outputs:
-  - slot: __return__
+  - slot: .return
     name: model

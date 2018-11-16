@@ -17,4 +17,4 @@ inputs:
   - slot: 0
     name: expression
 outputs:
-  - slot: __return__
+  - slot: return

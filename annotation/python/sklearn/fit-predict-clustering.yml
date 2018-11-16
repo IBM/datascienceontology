@@ -23,5 +23,5 @@ outputs:
   - slot: self
     name: model
     description: fitted clustering model
-  - slot: __return__
+  - slot: return
     name: clusters

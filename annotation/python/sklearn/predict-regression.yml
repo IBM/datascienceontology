@@ -13,4 +13,4 @@ inputs:
   - slot: self
   - slot: 1
 outputs:
-  - slot: __return__
+  - slot: return

@@ -18,4 +18,4 @@ inputs:
   - slot: 0
     name: data
 outputs:
-  - slot: __return__
+  - slot: return

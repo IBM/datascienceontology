@@ -19,7 +19,7 @@ inputs:
   - slot: 0
     name: data
 outputs:
-  - slot: __return__.0
+  - slot: return.0
     name: centroids
-  - slot: __return__.1
+  - slot: return.1
     name: clusters

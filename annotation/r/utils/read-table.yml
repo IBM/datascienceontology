@@ -14,4 +14,4 @@ definition: [
 inputs:
   - slot: file
 outputs:
-  - slot: __return__
+  - slot: .return

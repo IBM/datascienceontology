@@ -9,4 +9,4 @@ kind: function
 definition: [ construct, dummy-coding ]
 inputs: []
 outputs:
-  - slot: __return__
+  - slot: .return

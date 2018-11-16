@@ -17,4 +17,4 @@ inputs:
   - slot: sheetname
     name: sheetname
 outputs:
-  - slot: __return__
+  - slot: return

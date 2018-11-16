@@ -18,5 +18,5 @@ inputs:
   - slot: data
     name: data
 outputs:
-  - slot: __return__
+  - slot: return
     name: model

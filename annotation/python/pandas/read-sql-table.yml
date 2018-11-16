@@ -18,4 +18,4 @@ inputs:
     name: table-name
     description: name of SQL table
 outputs:
-  - slot: __return__
+  - slot: return
