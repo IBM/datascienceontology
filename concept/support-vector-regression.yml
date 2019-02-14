@@ -1,0 +1,8 @@
+schema: concept
+id: support-vector-regression
+name: support vector regression
+description: support vector machine for regression
+kind: type
+is-a:
+  - support-vector-machine
+  - regression-model

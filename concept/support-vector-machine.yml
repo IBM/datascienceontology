@@ -1,0 +1,11 @@
+schema: concept
+id: support-vector-machine
+name: support vector machine
+description: support vector machine for classification or regression
+kind: type
+is-a:
+  - supervised-model
+  - kernel-model
+external:
+  wikidata: Q282453
+  wikipedia: Support-vector_machine

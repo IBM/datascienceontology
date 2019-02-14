@@ -1,0 +1,8 @@
+schema: concept
+id: support-vector-classification
+name: support vector classification
+description: support vector machine for classification
+kind: type
+is-a:
+  - support-vector-machine
+  - classification-model
