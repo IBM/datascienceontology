@@ -1,0 +1,9 @@
+schema: annotation
+language: python
+package: sklearn
+id: svr
+name: sklearn SVR
+description: Main class for support vector regression
+class: sklearn.svm.classes.SVR
+kind: type
+definition: support-vector-regression
