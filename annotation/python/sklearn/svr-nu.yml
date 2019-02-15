@@ -6,4 +6,4 @@ name: sklearn SVR
 description: Alternate class for support vector regression (see also `SVR`)
 class: sklearn.svm.classes.NuSVR
 kind: type
-definition: support-vector-regression
+definition: svm-regression

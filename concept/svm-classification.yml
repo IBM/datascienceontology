@@ -1,8 +1,8 @@
 schema: concept
-id: support-vector-classification
+id: svm-classification
 name: support vector classification
 description: support vector machine for classification
 kind: type
 is-a:
-  - support-vector-machine
+  - svm
   - classification-model

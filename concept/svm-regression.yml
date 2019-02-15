@@ -1,8 +1,8 @@
 schema: concept
-id: support-vector-regression
+id: svm-regression
 name: support vector regression
 description: support vector machine for regression
 kind: type
 is-a:
-  - support-vector-machine
+  - svm
   - regression-model

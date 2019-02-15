@@ -6,4 +6,4 @@ name: sklearn SVC
 description: Base class for support vector classifiers
 class: sklearn.svm.base.BaseSVC
 kind: type
-definition: support-vector-classification
+definition: svm-classification

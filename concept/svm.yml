@@ -1,5 +1,5 @@
 schema: concept
-id: support-vector-machine
+id: svm
 name: support vector machine
 description: support vector machine for classification or regression
 kind: type

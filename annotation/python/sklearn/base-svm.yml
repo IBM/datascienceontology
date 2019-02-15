@@ -6,4 +6,4 @@ name: sklearn SVM base
 description: Base class for support vector machines implemented using LibSVM
 class: sklearn.svm.base.BaseLibSVM
 kind: type
-definition: support-vector-machine
+definition: svm
