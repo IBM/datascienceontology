@@ -1,10 +1,17 @@
 schema: concept
 id: linear-svm
 name: linear support vector machine
-description: linear support vector machine for classification or regression
+description: >
+  A linear support vector machine for classification or regression.
+  
+  Linear SVMs are exponential family linear models, analogous to logistic
+  regression, but fit by mimimizing constraint violations to inequalities
+  between likelihood ratios, rather than by maximizing the likelihood (see Mark
+  Schmidt's 2009 paper "A note on structural extensions of SVMs").
+  
 kind: type
 is-a:
-  - supervised-model
+  - exponential-family-linear-model
   - euclidean-model
 external:
   wikipedia: Support-vector_machine#Linear_SVM

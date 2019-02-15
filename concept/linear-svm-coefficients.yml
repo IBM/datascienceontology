@@ -1,11 +1,11 @@
 schema: concept
-id: glm-coefficients
+id: linear-svm-coefficients
 name: coefficients
-description: coefficients of a generalized linear model
+description: coefficients of a linear support vector machine
 kind: function
 is-a: exponential-family-linear-model-coefficients
 inputs:
-  - type: glm
+  - type: linear-svm
     name: model
 outputs:
   - type: vector

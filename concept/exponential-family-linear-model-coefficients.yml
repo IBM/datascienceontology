@@ -1,0 +1,10 @@
+schema: concept
+id: exponential-family-linear-model-coefficients
+name: coefficients
+description: coefficients of an exponential family linear model
+kind: function
+inputs:
+  - type: exponential-family-linear-model
+    name: model
+outputs:
+  - type: vector

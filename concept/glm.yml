@@ -3,9 +3,10 @@ id: glm
 name: generalized linear model
 description: >
   A generalized linear model (GLM), an exponential family model extending
-  the linear model beyond the normal distribution.
+  the linear model beyond the normal distribution, fit by maximum likelihood
+  estimation.
 kind: type
-is-a: supervised-model
+is-a: exponential-family-linear-model
 external: 
   wikidata: Q1501882
   wikipedia: Generalized_linear_model
