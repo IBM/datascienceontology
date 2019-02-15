@@ -1,0 +1,10 @@
+schema: concept
+id: linear-svm
+name: linear support vector machine
+description: linear support vector machine for classification or regression
+kind: type
+is-a:
+  - supervised-model
+  - euclidean-model
+external:
+  wikipedia: Support-vector_machine#Linear_SVM

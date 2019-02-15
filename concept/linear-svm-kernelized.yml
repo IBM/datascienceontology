@@ -1,0 +1,10 @@
+schema: concept
+id: linear-svm-kernelized
+kind: function
+name: kernelized
+description: Linear SVMs as a special case of (kernel) support vector machines
+is-a: kernelized
+inputs:
+  - type: linear-svm
+outputs:
+  - type: svm

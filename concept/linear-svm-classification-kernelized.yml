@@ -1,0 +1,10 @@
+schema: concept
+id: linear-svm-classification-kernelized
+kind: function
+name: kernelized
+description: Linear SVM classification as a special case of (kernel) SVM classification
+is-a: kernelized
+inputs:
+  - type: linear-svm-classification
+outputs:
+  - type: svm-classification

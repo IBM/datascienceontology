@@ -1,0 +1,8 @@
+schema: concept
+id: linear-svm-classification
+name: linear support vector classification
+description: linear support vector machine for classification
+kind: type
+is-a:
+  - linear-svm
+  - classification-model

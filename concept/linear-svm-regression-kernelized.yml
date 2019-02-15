@@ -1,0 +1,10 @@
+schema: concept
+id: linear-svm-regression-kernelized
+kind: function
+name: kernelized
+description: Linear SVM regression as a special case of (kernel) SVM regression
+is-a: kernelized
+inputs:
+  - type: linear-svm-regression
+outputs:
+  - type: svm-regression
