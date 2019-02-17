@@ -1,0 +1,16 @@
+schema: annotation
+language: python
+package: sklearn
+id: linear-svc
+name: sklearn linear SVC
+description: >
+  Alternate class for linear support vector classification, implemented using
+  `liblinear` rather than `libsvm`
+class: sklearn.svm.classes.LinearSVC
+kind: type
+definition: linear-svm-classification
+slots:
+  - slot: coef_
+    definition: linear-svm-coefficients
+  - slot: intercept_
+    definition: linear-svm-intercept

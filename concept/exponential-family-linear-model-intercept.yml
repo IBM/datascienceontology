@@ -1,0 +1,10 @@
+schema: concept
+id: exponential-family-linear-model-intercept
+name: intercept
+description: intercept of an exponential family linear model, if present
+kind: function
+inputs:
+  - type: exponential-family-linear-model
+    name: model
+outputs:
+  - type: number

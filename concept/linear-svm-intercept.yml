@@ -1,11 +1,11 @@
 schema: concept
-id: glm-intercept
+id: linear-svm-intercept
 name: intercept
-description: intercept of a generalized linear model, if present
+description: intercept of a linear support vector machine, if present
 kind: function
 is-a: exponential-family-linear-model-intercept
 inputs:
-  - type: glm
+  - type: linear-svm
     name: model
 outputs:
   - type: number
