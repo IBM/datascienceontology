@@ -57,6 +57,24 @@
           "type": "string"
         }
       }
+    },
+    "references": {
+      "description": "References to the scholarly literature about the concept",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [ "key" ],
+        "properties": {
+          "key": {
+            "description": "Key identifying the reference",
+            "type": "string"
+          },
+          "note": {
+            "description": "Optional note for section number, page number, etc.",
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "oneOf": [
