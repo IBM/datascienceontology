@@ -1,0 +1,17 @@
+schema: annotation
+language: python
+package: sklearn
+id: decision-function
+name: decision function in sklearn
+description: decision (discriminant) function for sklearn classification model
+class:
+  - sklearn.base.BaseEstimator
+  - sklearn.base.ClassifierMixin
+method: decision_function
+kind: function
+definition: discriminant-function
+inputs:
+  - slot: self
+  - slot: 1
+outputs:
+  - slot: return
