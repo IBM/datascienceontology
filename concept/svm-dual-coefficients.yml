@@ -1,0 +1,12 @@
+schema: concept
+id: svm-dual-coefficients
+name: dual coefficients
+description: >
+  Coefficients corresponding to the dual variables in the SVM optimization
+  problem. Only the support vectors have nonzero dual coefficients.
+kind: function
+inputs:
+  - type: svm
+    name: model
+outputs:
+  - type: array

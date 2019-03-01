@@ -1,0 +1,10 @@
+schema: concept
+id: svm-support-vectors
+name: support vectors
+description: support vectors of a support vector machine
+kind: function
+inputs:
+  - type: svm
+    name: model
+outputs:
+  - type: array
