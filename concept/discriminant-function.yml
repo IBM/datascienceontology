@@ -1,0 +1,37 @@
+schema: concept
+id: discriminant-function
+name: discriminant function
+description: >
+  The discriminant function associated with a classification model.
+  
+  In the binary case, a discriminant function $g(x)$ for a classifier has the
+  property that when $g(x) > 0$, the classifier predicts 1 and when $g(x) < 0$,
+  the classifer predicts 0. A threshold other zero may also be used. For
+  probabilistic models, the discriminant function is often just the log-odds,
+  but this need not be the case. A notion of discriminant function may also be
+  defined for multicategory classification.
+  
+  A classification model does not uniquely define a discriminant function,
+  because composing a discriminant function with any strictly monotone function
+  yields an equivalent decision function (although a different threshold may be
+  needed to get the same predictions). In practice, most classification methods
+  have a "standard" discriminant function derived from a probability model or
+  optimization problem.
+  
+  The term "discriminant function" is used by some authors (e.g., Duda Hart, &
+  Stork, *Pattern Classification*, 2nd ed., Sec. 2.4.2, p. 31 and Bishop,
+  *Pattern Recognition and Machine Learning*, Sec. 4.1), but is not entirely
+  standard. The term "decision function" is also sometimes used, especially in
+  the literature on support vector machines, but should probably be avoided to
+  prevent confusion with the standard notion of "decision rule" from statistical
+  decision theory.
+  
+kind: function
+inputs:
+  - type: classification-model
+    name: model
+  - type: data
+    name: predictors
+outputs:
+  - type: vector
+    name: discriminant

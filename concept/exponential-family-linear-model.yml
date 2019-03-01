@@ -4,11 +4,11 @@ name: exponential family linear model
 description: >
   Any supervised, parametric model based on an exponential family of probability
   distributions, whose prediction function (natural parameter) is linear. This
-  is a very large of models, especially since we admit models that are not fit
-  by (penalized) maximum likelihood or maximum a posteriori estimation.
+  is a very large family of models, especially since we admit models that are
+  not fit by (penalized) maximum likelihood or maximum a posteriori estimation.
 kind: type
 is-a: supervised-model
-# Not an exponential family per se:
+# Warning: Not an exponential family per se:
 #external:
 #  wikidata: Q1188504
 #  wikipedia: Exponential_family
