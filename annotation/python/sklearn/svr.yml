@@ -7,3 +7,8 @@ description: Main class for support vector regression
 class: sklearn.svm.classes.SVR
 kind: type
 definition: svm-regression
+slots:
+  - slot: dual_coef_
+    definition: svm-dual-coefficients
+  - slot: support_vectors_
+    definition: svm-support-vectors

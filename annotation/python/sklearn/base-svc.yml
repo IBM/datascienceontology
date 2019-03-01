@@ -7,3 +7,8 @@ description: Base class for support vector classifiers
 class: sklearn.svm.base.BaseSVC
 kind: type
 definition: svm-classification
+slots:
+  - slot: dual_coef_
+    definition: svm-dual-coefficients
+  - slot: support_vectors_
+    definition: svm-support-vectors

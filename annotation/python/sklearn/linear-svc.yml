@@ -14,3 +14,7 @@ slots:
     definition: linear-svm-coefficients
   - slot: intercept_
     definition: linear-svm-intercept
+  - slot: dual_coef_
+    definition: svm-dual-coefficients
+  - slot: support_vectors_
+    definition: svm-support-vectors
