@@ -9,3 +9,8 @@ install:
   - npm run build
 script:
   - npm run validate
+addons:
+  apt:
+    packages:
+      - pandoc
+      - pandoc-citeproc
