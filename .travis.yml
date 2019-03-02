@@ -4,13 +4,11 @@ language: node_js
 node_js:
   - "node" # latest stable Node.js release
 cache: yarn
+before_install:
+  - wget https://github.com/jgm/pandoc/releases/download/2.6/pandoc-2.6-1-amd64.deb
+  - sudo dpkg -i pandoc-2.6-1-amd64.deb
 install:
   - yarn
   - npm run build
 script:
   - npm run validate
-addons:
-  apt:
-    packages:
-      - pandoc
-      - pandoc-citeproc
