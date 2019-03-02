@@ -6,3 +6,6 @@ kind: type
 is-a:
   - tree-ensemble
   - regression-model
+references:
+  - key: kuhn2013
+    note: §8.7

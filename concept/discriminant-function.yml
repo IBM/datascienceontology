@@ -18,14 +18,11 @@ description: >
   have a "standard" discriminant function derived from a probability model or
   optimization problem.
   
-  The term "discriminant function" is used by some authors (e.g., Duda Hart, &
-  Stork, *Pattern Classification*, 2nd ed., Sec. 2.4.2, p. 31 and Bishop,
-  *Pattern Recognition and Machine Learning*, Sec. 4.1), but is not entirely
-  standard. The term "decision function" is also sometimes used, especially in
-  the literature on support vector machines, but should probably be avoided to
-  prevent confusion with the standard notion of "decision rule" from statistical
-  decision theory.
-  
+  The term "discriminant function" is used by some authors (see references) but
+  is not entirely standard. The term "decision function" is also sometimes used,
+  especially in the literature on support vector machines, but should probably
+  be avoided to prevent confusion with the standard notion of "decision rule"
+  from statistical decision theory.
 kind: function
 inputs:
   - type: classification-model
@@ -35,3 +32,8 @@ inputs:
 outputs:
   - type: vector
     name: discriminant
+references:
+  - key: duda2001
+    note: §2.4.2, p. 31
+  - key: bishop2006
+    note: §4.1

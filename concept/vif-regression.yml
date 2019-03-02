@@ -3,8 +3,8 @@ id: vif-regression
 name: VIF regression
 description: >
   VIF (variable inflation factor) regression is a forward, incremental procedure
-  for variable selection in linear regression models, introduced in
-  (Lin, Foster, & Ungar, 2011, "VIF Regression: A Fast Regression Algorithm
-  for Large Data")
+  for variable selection in linear regression models.
 kind: type
 is-a: forward-selection-model
+references:
+  - key: lin2011vif

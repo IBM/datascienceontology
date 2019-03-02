@@ -6,3 +6,5 @@ description: >
   linear model at every terminal node (instead of a constant)
 kind: type
 is-a: regression-tree
+references:
+  - key: wang1997m5
