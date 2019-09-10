@@ -4,7 +4,7 @@ package: numpy
 id: loadtxt
 name: load numpy array
 description: load numpy array from a text file (with no missing values)
-function: numpy.lib.npyio.loadtxt
+function: numpy.loadtxt
 kind: function
 definition: [
   compose,
