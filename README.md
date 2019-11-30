@@ -17,3 +17,13 @@ concepts and annotations.
 [Learn how to contribute](https://www.datascienceontology.org/help/contribute).
 For improvements to the web frontend, please visit the dedicated frontend
 [repository](https://github.com/IBM/datascienceontology-frontend).
+
+## Getting started on your machine
+
+Ensure `jq`, `pandoc-citeproc`, and `yarn` are installed.
+
+To install the JavaScript-based dependencies: `yarn`
+
+To build the ontology into the `build` folder: `npm run build`
+
+To validate the ontology after building: `npm run validate`
