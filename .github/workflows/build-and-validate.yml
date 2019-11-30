@@ -1,0 +1,26 @@
+name: Build and validate
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install Pandoc 2.6
+      run: |
+        wget https://github.com/jgm/pandoc/releases/download/2.6/pandoc-2.6-1-amd64.deb
+        sudo dpkg -i pandoc-2.6-1-amd64.deb
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: npm install, build, and test
+      run: |
+        npm ci
+        npm run build
+        npm run validate
+      env:
+        CI: true
