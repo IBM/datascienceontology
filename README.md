@@ -35,7 +35,8 @@ to other CouchDB services.
    variable.
 7. Run `npm run upload`.
 
-Note that the upload script does not yet support updating an existing database.
+If you want to re-run step 7 after a new build, run `npm run clean-couchdb`
+first. Note that this removes all non-design documents from your database.
 
 [IBM Cloud free tier]: https://www.ibm.com/cloud/free/
 [IAM]: https://cloud.ibm.com/iam/overview

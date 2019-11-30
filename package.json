@@ -10,6 +10,7 @@
   "scripts": {
     "build": "./tools/build.sh",
     "validate": "./tools/validate.sh",
+    "clean-couchdb": "./tools/clean-couchdb.sh",
     "upload": "./tools/bulk-couch-docs.sh"
   },
   "devDependencies": {
