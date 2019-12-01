@@ -28,6 +28,7 @@ jobs:
     - name: Publish to a CouchDB database if on master
       if: github.event_name == 'push' && github.ref == 'refs/heads/feat/auto-publish'
       run: |
+        mkdir -p ~/.ccurl && touch ~/.ccurl/keycache.json
         npm run clean-couchdb
         npm run upload
       env:
