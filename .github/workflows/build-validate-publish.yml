@@ -5,6 +5,9 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      COUCH_URL: ${{ secrets.COUCH_URL }}
+      IAM_API_KEY: ${{ secrets.IAM_API_KEY }}
     steps:
     - uses: actions/checkout@v1
     - name: Install Pandoc 2.6
@@ -23,12 +26,9 @@ jobs:
       env:
         LANG: en_US.UTF-8
         CI: true
-    - name: Publish documents to database if on master
-      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    - name: Publish documents to CouchDB database
+      if: env.COUCH_URL && github.event_name == 'push' && github.ref == 'refs/heads/master'
       run: |
         mkdir -p ~/.ccurl && touch ~/.ccurl/keycache.json
         npm run clean-couchdb
         npm run upload-couchdb
-      env:
-        COUCH_URL: ${{ secrets.COUCH_URL }}
-        IAM_API_KEY: ${{ secrets.IAM_API_KEY }}
