@@ -1,6 +1,6 @@
 # Data Science Ontology
 
-[![Build Status](https://github.com/IBM/datascienceontology/workflows/Build%2C%20validate%2C%20and%20publish%20if%20on%20master/badge.svg)](https://github.com/IBM/datascienceontology/actions?query=workflow%3A%22Build%2C+validate%2C+and+publish+if+on+master%22) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1401676.svg)](https://doi.org/10.5281/zenodo.1401676)
+[![Build Status](https://github.com/IBM/datascienceontology/workflows/Validate%20and%20publish/badge.svg)](https://github.com/IBM/datascienceontology/actions?query=workflow%3A%22Validate+and+publish%22) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1401676.svg)](https://doi.org/10.5281/zenodo.1401676)
 
 The [Data Science Ontology](https://www.datascienceontology.org/) is a knowledge
 base about data science that aims to:

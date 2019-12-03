@@ -15,7 +15,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - name: npm install, build, and test
+    - name: Build and validate documents
       run: |
         npm ci
         npm run build
@@ -23,8 +23,8 @@ jobs:
       env:
         LANG: en_US.UTF-8
         CI: true
-    - name: Publish to a CouchDB database if on master
-      if: github.event_name == 'push' && github.ref == 'refs/head/master'
+    - name: Publish documents to database if on master
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
       run: |
         mkdir -p ~/.ccurl && touch ~/.ccurl/keycache.json
         npm run clean-couchdb
