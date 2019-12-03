@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -e
+
 DIR=$(dirname $0)
 PATH="node_modules/.bin:$PATH"
 TMP_DOCS_FILE="$DIR/../build/all-docs.json"

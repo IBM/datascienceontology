@@ -18,7 +18,9 @@ concepts and annotations.
 For improvements to the web frontend, please visit the dedicated frontend
 [repository](https://github.com/IBM/datascienceontology-frontend).
 
-## Uploading to a CouchDB database
+## Developer documentation
+
+#### Uploading to a CouchDB database
 
 The following steps assume using the [IBM Cloud free tier], but can be adjusted
 to other CouchDB services.
@@ -31,12 +33,11 @@ to other CouchDB services.
 5. On the Account page, under the Settings tab, copy the External Endpoint
    (preferred) value, and assign it to the `COUCH_URL` environment variable
    (note: do not use a trailing slash).
-6. Use [IAM] to set up an API key and assign it to the `IAM_API_KEY` environment
-   variable.
-7. Run `npm run upload`.
+6. Use [IAM](https://cloud.ibm.com/docs/iam) to set up an API key and assign it
+   to the `IAM_API_KEY` environment variable.
+7. Run `npm run upload-couchdb`.
 
 If you want to re-run step 7 after a new build, run `npm run clean-couchdb`
 first. Note that this removes all non-design documents from your database.
 
 [IBM Cloud free tier]: https://www.ibm.com/cloud/free/
-[IAM]: https://cloud.ibm.com/iam/overview

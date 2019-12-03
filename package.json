@@ -11,7 +11,7 @@
     "build": "./tools/build.sh",
     "validate": "./tools/validate.sh",
     "clean-couchdb": "./tools/clean-couchdb.sh",
-    "upload": "./tools/bulk-couch-docs.sh"
+    "upload-couchdb": "./tools/bulk-couch-docs.sh"
   },
   "devDependencies": {
     "ajv-cli": "^3.0.0",
