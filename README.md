@@ -20,7 +20,7 @@ For improvements to the web frontend, please visit the dedicated frontend
 
 ## Developer documentation
 
-### Getting started on your machine
+#### Getting started on your machine
 
 Ensure `jq`, `pandoc-citeproc`, and `npm` are installed.
 
