@@ -1,0 +1,34 @@
+name: Validate and publish
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      COUCH_URL: ${{ secrets.COUCH_URL }}
+      IAM_API_KEY: ${{ secrets.IAM_API_KEY }}
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install Pandoc 2.6
+      run: |
+        wget https://github.com/jgm/pandoc/releases/download/2.6/pandoc-2.6-1-amd64.deb
+        sudo dpkg -i pandoc-2.6-1-amd64.deb
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: Build and validate documents
+      run: |
+        npm ci
+        npm run build
+        npm run validate
+      env:
+        LANG: en_US.UTF-8
+        CI: true
+    - name: Publish documents to CouchDB database
+      if: env.COUCH_URL && github.event_name == 'push' && github.ref == 'refs/heads/master'
+      run: |
+        mkdir -p ~/.ccurl && touch ~/.ccurl/keycache.json
+        npm run clean-couchdb
+        npm run upload-couchdb
