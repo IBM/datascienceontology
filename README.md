@@ -20,6 +20,16 @@ For improvements to the web frontend, please visit the dedicated frontend
 
 ## Developer documentation
 
+#### Getting started on your machine
+
+Ensure `jq`, `pandoc-citeproc`, and `npm` are installed.
+
+To install the JavaScript-based dependencies: `npm install`
+
+To build the ontology into the `build` folder: `npm run build`
+
+To validate the ontology after building: `npm run validate`
+
 #### Uploading to a CouchDB database
 
 The following steps assume using the [IBM Cloud free tier], but can be adjusted
