@@ -1,0 +1,1342 @@
+format-version: 1.2
+date: 12:08:2022 22:54
+auto-generated-by: bio2obo:dso
+data-version: 1.0
+ontology: dso
+remark: Data Science Ontology
+
+[Typedef]
+id: BFO:0000050
+name: part of
+comment: Inverse of has_part
+
+[Typedef]
+id: dso:implemented_in
+name: implemented in
+
+[Term]
+id: dso:Cubist
+name: Cubist Package
+is_a: dso:r-package ! r Package
+
+[Term]
+id: dso:VIF
+name: VIF Package
+is_a: dso:r-package ! r Package
+
+[Term]
+id: dso:agglomerative-clustering
+name: agglomerative clustering
+namespace: concept
+def: "Hierarchical clustering with agglomerative \(bottom up\) construction" []
+is_a: dso:hierarchical-clustering ! hierarchical clustering
+
+[Term]
+id: dso:array
+name: array
+namespace: concept
+def: "A multidimensional array of homogeneous data type\, also known as a tensor" []
+xref: wikidata:Q121079
+xref: wikipedia:Array_data_type
+is_a: dso:data ! data
+
+[Term]
+id: dso:array-n-dimensions
+name: number of dimensions
+namespace: concept
+def: "number of dimensions\, or rank\, of an array" []
+xref: wikidata:Q7293200
+xref: wikipedia:Rank_\(computer_programming\)
+is_a: dso:function ! Function
+
+[Term]
+id: dso:array-shape
+name: shape
+namespace: concept
+def: "shape of an array" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:as-binary-classifier
+name: use multiclass classifier for binary classification
+namespace: concept
+def: "binary classification as special case of multiclass classification with two classes" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:as-logistic-regression
+name: use multinomial logistic regression for logistic regression
+namespace: concept
+def: "\(binomial\) logistic regression as special case of multinomial logistic regression with two classes" []
+is_a: dso:as-binary-classifier ! use multiclass classifier for binary classification
+
+[Term]
+id: dso:backward-selection-model
+name: backward selection
+namespace: concept
+def: "backward\, incremental selection of features" []
+is_a: dso:incremental-selection-model ! incremental feature selection
+
+[Term]
+id: dso:backward-stepwise-selection
+name: backward stepwise selection
+namespace: concept
+def: "Backward stepwise selection\, also known as backward stepwise regression\, although it applies equally well to classification" []
+xref: wikidata:Q7611170
+xref: wikipedia:Stepwise_regression
+is_a: dso:backward-selection-model ! backward selection
+
+[Term]
+id: dso:base
+name: base Package
+is_a: dso:r-package ! r Package
+
+[Term]
+id: dso:binary-classifier
+name: binary classifier
+namespace: concept
+def: "A statistical model for binary classification" []
+xref: wikidata:Q17005494
+xref: wikipedia:Binary_classification
+is_a: dso:classification-model ! classification model
+
+[Term]
+id: dso:boolean
+name: boolean
+namespace: concept
+def: "A boolean value\: true or false" []
+xref: wikidata:Q520777
+xref: wikipedia:Boolean_data_type
+is_a: dso:scalar ! scalar quantity
+
+[Term]
+id: dso:builtins
+name: builtins Package
+is_a: dso:python-package ! python Package
+
+[Term]
+id: dso:caret
+name: caret Package
+is_a: dso:r-package ! r Package
+
+[Term]
+id: dso:cart
+name: CART
+namespace: concept
+def: "Despite the generic name\, Classification and Regression Trees \(CART\) is a particular methodology for building classification and regression trees\, described in the book \(Breiman\, Friedman\, Olshen\, & Stone\, 1994\, \"Classification and Regression Trees\"\)." []
+is_a: dso:decision-tree ! decision tree
+
+[Term]
+id: dso:classification-model
+name: classification model
+namespace: concept
+def: "A statistical model for classification" []
+xref: wikidata:Q1744628
+xref: wikipedia:Statistical_classification
+is_a: dso:supervised-model ! supervised model
+
+[Term]
+id: dso:classification-tree
+name: classification tree
+namespace: concept
+def: "decision tree for classification" []
+is_a: dso:classification-model ! classification model
+is_a: dso:decision-tree ! decision tree
+
+[Term]
+id: dso:clustering-model
+name: clustering model
+namespace: concept
+def: "A statistical model for clustering" []
+xref: wikidata:Q28058114
+xref: wikipedia:Cluster_analysis
+is_a: dso:unsupervised-model ! unsupervised model
+
+[Term]
+id: dso:clustering-model-clusters
+name: clusters
+namespace: concept
+def: "clusters found by a clustering model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:clustering-model-n-clusters
+name: number of clusters
+namespace: concept
+def: "number of clusters to fit in a clustering model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:column
+name: column
+namespace: concept
+def: "A column in a data table \(data frame\)" []
+is_a: dso:vector ! vector
+
+[Term]
+id: dso:column-name
+name: name
+namespace: concept
+def: "name of a column" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:complex
+name: complex number
+namespace: concept
+def: "a complex number\, typically represented by two floating point numbers" []
+xref: wikidata:Q11567
+xref: wikipedia:Complex_number
+is_a: dso:number ! number
+
+[Term]
+id: dso:correspondence-analysis
+name: correspondence analysis
+namespace: concept
+def: "A variant of principal components analysis for nominal categorical data" []
+is_a: dso:dimension-reduction-model ! dimensionality reduction
+is_a: dso:unsupervised-model ! unsupervised model
+
+[Term]
+id: dso:cubist
+name: Cubist model
+namespace: concept
+def: "Cubist\, a tree ensemble method for M5 model trees" []
+is_a: dso:regression-model ! regression model
+is_a: dso:tree-ensemble ! tree ensemble
+
+[Term]
+id: dso:cubist-tree
+name: tree by index
+namespace: concept
+def: "a particular tree in a Cubist model\, identified by index" []
+is_a: dso:tree-ensemble-tree ! tree by index
+
+[Term]
+id: dso:data
+name: data
+namespace: concept
+def: "A generic collection of data\, not necessarily tabular" []
+xref: wikidata:Q42848
+xref: wikipedia:Data
+is_a: dso:type ! Type
+
+[Term]
+id: dso:data-source
+name: source of data
+namespace: concept
+def: "A source or supplier of data\, such as a file\, a database\, or an online data resource" []
+xref: wikipedia:Data_source
+is_a: dso:type ! Type
+
+[Term]
+id: dso:decision-tree
+name: decision tree
+namespace: concept
+def: "a decision tree for predictive modeling" []
+xref: wikidata:Q16766476
+xref: wikipedia:Decision_tree_learning
+is_a: dso:feature-selection-model ! feature selection
+is_a: dso:tree-based-model ! tree-based model
+
+[Term]
+id: dso:design-matrix
+name: design matrix
+namespace: concept
+def: "design matrix\, also known as model matrix\, of a linear model or generalized linear model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:dimension-reduction-model
+name: dimensionality reduction
+namespace: concept
+def: "A statistical model to reduce the dimensionality of vector observations" []
+xref: wikidata:Q16000077
+xref: wikipedia:Dimensionality_reduction
+is_a: dso:feature-extraction-model ! feature extraction model
+
+[Term]
+id: dso:dimension-reduction-model-n-dimensions
+name: number of dimensions
+namespace: concept
+def: "number of dimensions used by a dimensionality reduction model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:discriminant-function
+name: discriminant function
+namespace: concept
+def: "The discriminant function associated with a classification model.\nIn the binary case\, a discriminant function $g\(x\)$ for a classifier has the property that when $g\(x\) > 0$\, the classifier predicts 1 and when $g\(x\) < 0$\, the classifer predicts 0. A threshold other zero may also be used. For probabilistic models\, the discriminant function is often just the log-odds\, but this need not be the case. A notion of discriminant function may also be defined for multicategory classification.\nA classification model does not uniquely define a discriminant function\, because composing a discriminant function with any strictly monotone function yields an equivalent decision function \(although a different threshold may be needed to get the same predictions\). In practice\, most classification methods have a \"standard\" discriminant function derived from a probability model or optimization problem.\nThe term \"discriminant function\" is used by some authors \(see references\) but is not entirely standard. The term \"decision function\" is also sometimes used\, especially in the literature on support vector machines\, but should probably be avoided to prevent confusion with the standard notion of \"decision rule\" from statistical decision theory." []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:divisive-clustering
+name: divisive clustering
+namespace: concept
+def: "Hierarchical clustering with divisive \(top down\) construction" []
+is_a: dso:hierarchical-clustering ! hierarchical clustering
+
+[Term]
+id: dso:dummy-coding
+name: dummy coding
+namespace: concept
+def: "Dummy coding of categorical variables\, also known as one-hot coding. Under this encoding\, each categorical variable is transformed into a set of dummy\, or indicator\, variables." []
+xref: wikidata:Q427977
+xref: wikipedia:Dummy_variable_\(statistics\)
+is_a: dso:feature-extraction ! feature extraction
+
+[Term]
+id: dso:euclidean-model
+name: Euclidean model
+namespace: concept
+def: "A statistical model whose fit depends on the data only through pairwise Euclidean products. The terminology \"Euclidean model\" is nonstandard; there is no standard terminology for this concept." []
+is_a: dso:model ! statistical model
+
+[Term]
+id: dso:evaluate-formula-supervised
+name: evaluate formula for supervised model
+namespace: concept
+def: "evaluate formula defining supervised model on data" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:excel-spreadsheet
+name: Excel spreadsheet
+namespace: concept
+def: "A single sheet in a Microsoft Excel spreadsheet" []
+xref: wikipedia:Microsoft_Excel#File_formats
+is_a: dso:tabular-file ! tabular file
+
+[Term]
+id: dso:excel-spreadsheet-name
+name: sheet name
+namespace: concept
+def: "name of sheet in an Excel spreadsheet" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:exponential-family-linear-model
+name: exponential family linear model
+namespace: concept
+def: "Any supervised\, parametric model based on an exponential family of probability distributions\, whose prediction function \(natural parameter\) is linear. This is a very large family of models\, especially since we admit models that are not fit by \(penalized\) maximum likelihood or maximum a posteriori estimation." []
+is_a: dso:supervised-model ! supervised model
+
+[Term]
+id: dso:exponential-family-linear-model-coefficients
+name: coefficients
+namespace: concept
+def: "coefficients of an exponential family linear model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:exponential-family-linear-model-intercept
+name: intercept
+namespace: concept
+def: "intercept of an exponential family linear model\, if present" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:expression
+name: expression
+namespace: concept
+def: "a mathematical expression or equation" []
+xref: wikidata:Q6498784
+xref: wikipedia:Expression_\(mathematics\)
+is_a: dso:string ! string
+
+[Term]
+id: dso:feature-extraction
+name: feature extraction
+namespace: concept
+def: "Any method for feature extraction" []
+xref: wikidata:Q1026626
+xref: wikipedia:Feature_extraction
+is_a: dso:transformer ! transformer
+
+[Term]
+id: dso:feature-extraction-model
+name: feature extraction model
+namespace: concept
+def: "A statistical model for feature extraction" []
+is_a: dso:feature-extraction ! feature extraction
+is_a: dso:transformation-model ! transformation model
+
+[Term]
+id: dso:feature-selection-model
+name: feature selection
+namespace: concept
+def: "A statistical model for feature selection\, also known as variable selection. Feature selection is a form of dimensionality reduction that selects a subset of the original features. More generally\, feature selection is a form of  feature extraction in which the extracted features are drawn from the original features." []
+xref: wikidata:Q446488
+xref: wikipedia:Feature_selection
+is_a: dso:dimension-reduction-model ! dimensionality reduction
+is_a: dso:selection-model ! model selection
+
+[Term]
+id: dso:feature-selection-model-selected
+name: selected features
+namespace: concept
+def: "features selected by a feature selection model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:file
+name: file
+namespace: concept
+def: "A local file" []
+xref: wikidata:Q82753
+xref: wikipedia:Computer_file
+is_a: dso:data-source ! source of data
+
+[Term]
+id: dso:filename
+name: filename
+namespace: concept
+def: "name\, or path\, of a file" []
+xref: wikidata:Q1144928
+xref: wikipedia:Filename
+is_a: dso:function ! Function
+
+[Term]
+id: dso:fit
+name: fit model
+namespace: concept
+def: "fit a statistical model to data" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:fit-incremental-selection-supervised
+name: incrementally select features for supervised model
+namespace: concept
+def: "Fit a model for incremental selection of features\, starting from an initial supervised model." []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:fit-supervised
+name: fit supervised model
+namespace: concept
+def: "fit a supervised\, or predictive\, statistical model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:forward-selection-model
+name: forward selection
+namespace: concept
+def: "forward\, incremental selection of features" []
+is_a: dso:incremental-selection-model ! incremental feature selection
+
+[Term]
+id: dso:forward-stagewise-selection
+name: forward stagewise selection
+namespace: concept
+def: "Forward stagewise selection\, better known as forward stagewise regression\, and not to be confused with the more common forward stepwise regression." []
+is_a: dso:forward-selection-model ! forward selection
+
+[Term]
+id: dso:forward-stepwise-selection
+name: forward stepwise selection
+namespace: concept
+def: "Forward stepwise selection\, also known as forward stepwise regression\, although it applies equally well to classification" []
+xref: wikidata:Q7611170
+xref: wikipedia:Stepwise_regression
+is_a: dso:forward-selection-model ! forward selection
+
+[Term]
+id: dso:function
+name: Function
+
+[Term]
+id: dso:glm
+name: generalized linear model
+namespace: concept
+def: "A generalized linear model \(GLM\)\, an exponential family model extending the linear model beyond the normal distribution\, fit by maximum likelihood estimation." []
+xref: wikidata:Q1501882
+xref: wikipedia:Generalized_linear_model
+is_a: dso:exponential-family-linear-model ! exponential family linear model
+
+[Term]
+id: dso:glm-coefficients
+name: coefficients
+namespace: concept
+def: "coefficients of a generalized linear model" []
+is_a: dso:exponential-family-linear-model-coefficients ! coefficients
+
+[Term]
+id: dso:glm-deviance
+name: deviance
+namespace: concept
+def: "deviance of a generalized linear model" []
+xref: wikidata:Q3706279
+xref: wikipedia:Deviance_\(statistics\)
+is_a: dso:function ! Function
+
+[Term]
+id: dso:glm-intercept
+name: intercept
+namespace: concept
+def: "intercept of a generalized linear model\, if present" []
+is_a: dso:exponential-family-linear-model-intercept ! intercept
+
+[Term]
+id: dso:hierarchical-clustering
+name: hierarchical clustering
+namespace: concept
+xref: wikidata:Q1277447
+xref: wikipedia:Hierarchical_clustering
+is_a: dso:clustering-model ! clustering model
+
+[Term]
+id: dso:hierarchical-clustering-linkage
+name: linkage matrix
+namespace: concept
+def: "linkage matrix of a hierarchical clustering model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:ica
+name: ICA
+namespace: concept
+def: "Independent components analysis \(ICA\)\, a dimensionality reduction method that performs blind source separation" []
+xref: wikidata:Q1259145
+xref: wikipedia:Independent_component_analysis
+is_a: dso:euclidean-model ! Euclidean model
+is_a: dso:linear-dimension-reduction-model ! linear dimensionality reduction
+is_a: dso:unsupervised-model ! unsupervised model
+
+[Term]
+id: dso:incremental-selection-model
+name: incremental feature selection
+namespace: concept
+def: "A feature selection model that adds and/or removes features incrementally--one at a time--from an initial model." []
+is_a: dso:feature-selection-model ! feature selection
+
+[Term]
+id: dso:integer
+name: integer
+namespace: concept
+xref: wikidata:Q729138
+xref: wikipedia:Integer_\(computer_science\)
+is_a: dso:real ! real number
+
+[Term]
+id: dso:k-means
+name: k-means clustering
+namespace: concept
+def: "A clustering model using the k-means algorithm\, also known as Lloyd\"s algorithm" []
+xref: wikidata:Q310401
+xref: wikipedia:K-means_clustering
+is_a: dso:clustering-model ! clustering model
+is_a: dso:euclidean-model ! Euclidean model
+
+[Term]
+id: dso:k-means-centroids
+name: centroids
+namespace: concept
+def: "centroids of clusters found by k-means clustering" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:k-means-kernelized
+name: kernelized
+namespace: concept
+def: "k-means clustering as a special case of kernel k-means clustering" []
+is_a: dso:kernelized ! kernelized
+
+[Term]
+id: dso:k-medoids
+name: k-medoids clustering
+namespace: concept
+def: "A variant on k-means clustering that assigns clusters using medoids rather than centroids" []
+xref: wikidata:Q3191282
+xref: wikipedia:K-medoids
+is_a: dso:clustering-model ! clustering model
+
+[Term]
+id: dso:k-medoids-medoids
+name: medoids
+namespace: concept
+def: "medoids of clusters found by k-medoids clustering" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:kernel-k-means
+name: kernel k-means clustering
+namespace: concept
+def: "Kernelized version of k-means clustering" []
+is_a: dso:k-medoids ! k-medoids clustering
+is_a: dso:kernel-model ! kernel model
+
+[Term]
+id: dso:kernel-model
+name: kernel model
+namespace: concept
+def: "A statistical model using an arbitrary kernel function\, better known as a  \"kernel method\"" []
+xref: wikidata:Q620622
+xref: wikipedia:Kernel_method
+is_a: dso:model ! statistical model
+
+[Term]
+id: dso:kernel-pca
+name: kernel PCA
+namespace: concept
+def: "Kernelized version of principal components analysis \(PCA\)" []
+xref: wikidata:Q17093020
+xref: wikipedia:Kernel_principal_component_analysis
+is_a: dso:dimension-reduction-model ! dimensionality reduction
+is_a: dso:kernel-model ! kernel model
+is_a: dso:unsupervised-model ! unsupervised model
+
+[Term]
+id: dso:kernelized
+name: kernelized
+namespace: concept
+def: "kernelized version of a statistical model based on the Euclidean inner product\, via the \"kernel trick\"" []
+xref: wikidata:Q1739323
+is_a: dso:function ! Function
+
+[Term]
+id: dso:language
+name: Language
+
+[Term]
+id: dso:lasso
+name: lasso
+namespace: concept
+def: "A sparse linear regression model\, fit by least squares with L1 penalty" []
+xref: wikidata:Q20789991
+xref: wikipedia:Lasso_\(statistics\)
+is_a: dso:feature-selection-model ! feature selection
+is_a: dso:linear-regression ! linear regression
+
+[Term]
+id: dso:least-squares
+name: OLS linear regression
+namespace: concept
+def: "The standard linear regression model\, fit by ordinary least squares \(OLS\)" []
+xref: wikipedia:Ordinary_least_squares
+is_a: dso:euclidean-model ! Euclidean model
+is_a: dso:linear-regression ! linear regression
+
+[Term]
+id: dso:linear-dimension-reduction-model
+name: linear dimensionality reduction
+namespace: concept
+def: "A dimensionality reduction model where the input and output vectors are related by a linear map \(usually of fixed rank\)" []
+is_a: dso:dimension-reduction-model ! dimensionality reduction
+
+[Term]
+id: dso:linear-dimension-reduction-model-components
+name: components
+namespace: concept
+def: "components \(loadings\) of a linear dimensionality reduction model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:linear-discriminant-analysis
+name: linear discriminant analysis \(LDA\)
+namespace: concept
+def: "a classification model and dimensionality reduction method that is closely related to principal components analysis \(PCA\)" []
+xref: wikidata:Q1228929
+xref: wikipedia:Linear_discriminant_analysis
+is_a: dso:euclidean-model ! Euclidean model
+is_a: dso:linear-dimension-reduction-model ! linear dimensionality reduction
+is_a: dso:multiclass-classifier ! multiclass classifier
+
+[Term]
+id: dso:linear-model
+name: linear model
+namespace: concept
+def: "A supervised model where the response is a linear function of the predictors" []
+xref: wikidata:Q3339222
+xref: wikipedia:Linear_model
+is_a: dso:glm ! generalized linear model
+
+[Term]
+id: dso:linear-model-coefficients
+name: coefficients
+namespace: concept
+def: "coefficients of a linear model" []
+is_a: dso:glm-coefficients ! coefficients
+
+[Term]
+id: dso:linear-model-intercept
+name: intercept
+namespace: concept
+def: "intercept of a linear model\, if present" []
+is_a: dso:glm-intercept ! intercept
+
+[Term]
+id: dso:linear-model-rss
+name: RSS
+namespace: concept
+def: "residual sum of squares \(RSS\)\, aka sum of squared residuals \(SSR\)\, of linear model" []
+xref: wikidata:Q15096882
+xref: wikipedia:Residual_sum_of_squares
+is_a: dso:glm-deviance ! deviance
+
+[Term]
+id: dso:linear-regression
+name: linear regression
+namespace: concept
+def: "A linear model for regression" []
+xref: wikidata:Q10861030
+xref: wikipedia:Linear_regression
+is_a: dso:linear-model ! linear model
+is_a: dso:regression-model ! regression model
+
+[Term]
+id: dso:linear-svm
+name: linear support vector machine
+namespace: concept
+def: "A linear support vector machine for classification or regression.\nLinear SVMs are exponential family linear models\, analogous to logistic regression\, but fit by mimimizing constraint violations to inequalities between likelihood ratios\, rather than by maximizing the likelihood \(see Mark Schmidt's 2009 paper \"A note on structural extensions of SVMs\"\)." []
+xref: wikipedia:Support-vector_machine#Linear_SVM
+is_a: dso:euclidean-model ! Euclidean model
+is_a: dso:exponential-family-linear-model ! exponential family linear model
+
+[Term]
+id: dso:linear-svm-classification
+name: linear support vector classification
+namespace: concept
+def: "linear support vector machine for classification" []
+is_a: dso:classification-model ! classification model
+is_a: dso:linear-svm ! linear support vector machine
+
+[Term]
+id: dso:linear-svm-classification-kernelized
+name: kernelized
+namespace: concept
+def: "Linear SVM classification as a special case of \(kernel\) SVM classification" []
+is_a: dso:kernelized ! kernelized
+
+[Term]
+id: dso:linear-svm-coefficients
+name: coefficients
+namespace: concept
+def: "coefficients of a linear support vector machine" []
+is_a: dso:exponential-family-linear-model-coefficients ! coefficients
+
+[Term]
+id: dso:linear-svm-intercept
+name: intercept
+namespace: concept
+def: "intercept of a linear support vector machine\, if present" []
+is_a: dso:exponential-family-linear-model-intercept ! intercept
+
+[Term]
+id: dso:linear-svm-kernelized
+name: kernelized
+namespace: concept
+def: "Linear SVMs as a special case of \(kernel\) support vector machines" []
+is_a: dso:kernelized ! kernelized
+
+[Term]
+id: dso:linear-svm-regression
+name: linear support vector regression
+namespace: concept
+def: "linear support vector machine for regression" []
+is_a: dso:linear-svm ! linear support vector machine
+is_a: dso:regression-model ! regression model
+
+[Term]
+id: dso:linear-svm-regression-kernelized
+name: kernelized
+namespace: concept
+def: "Linear SVM regression as a special case of \(kernel\) SVM regression" []
+is_a: dso:kernelized ! kernelized
+
+[Term]
+id: dso:logistic-regression
+name: logistic regression
+namespace: concept
+def: "A generalized linear model for binary classification\, using the logit link function" []
+xref: wikidata:Q1132755
+xref: wikipedia:Logistic_regression
+is_a: dso:binary-classifier ! binary classifier
+is_a: dso:glm ! generalized linear model
+
+[Term]
+id: dso:m5-tree
+name: M5 model tree
+namespace: concept
+def: "M5 regression model tree\, a variant of simple regression trees that places a linear model at every terminal node \(instead of a constant\)" []
+is_a: dso:regression-tree ! regression tree
+
+[Term]
+id: dso:matrix
+name: matrix
+namespace: concept
+def: "A two-dimensional array" []
+xref: wikidata:Q44337
+xref: wikipedia:Matrix_\(mathematics\)
+is_a: dso:array ! array
+is_a: dso:table ! table
+
+[Term]
+id: dso:mean-absolute-error
+name: mean absolute error
+namespace: concept
+def: "mean absolute error \(aka\, L1 loss\)" []
+xref: wikidata:Q6803609
+xref: wikipedia:Mean_absolute_error
+is_a: dso:function ! Function
+
+[Term]
+id: dso:mean-squared-error
+name: mean squared error
+namespace: concept
+def: "mean squared error \(aka\, L2 loss\)" []
+xref: wikidata:Q1940696
+xref: wikipedia:Mean_squared_error
+is_a: dso:function ! Function
+
+[Term]
+id: dso:model
+name: statistical model
+namespace: concept
+def: "In this ontology\, the term \"model\" encompasses any statistical model. Models can be used for many purposes\, predictive and inferential\, but their defining characteristic is that they are functions of the data\, i.e.\, they are fit to observations." []
+xref: wikidata:Q3284399
+xref: wikipedia:Statistical_model
+is_a: dso:type ! Type
+
+[Term]
+id: dso:multiclass-classifier
+name: multiclass classifier
+namespace: concept
+def: "A statistical model for multiclass classification" []
+xref: wikidata:Q6934605
+xref: wikipedia:Multiclass_classification
+is_a: dso:classification-model ! classification model
+
+[Term]
+id: dso:multiclass-classifier-model-n-classes
+name: number of classes
+namespace: concept
+def: "number of classes in a multiclass classification model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:multinomial-logistic-regression
+name: multinomial logistic regression
+namespace: concept
+def: "A generalized linear model for multiclass classification\, using the logit link function" []
+xref: wikidata:Q1650843
+xref: wikipedia:Multinomial_logistic_regression
+is_a: dso:glm ! generalized linear model
+is_a: dso:multiclass-classifier ! multiclass classifier
+
+[Term]
+id: dso:multiple-correspondence-analysis
+name: multiple correspondence analysis
+namespace: concept
+def: "Correspondence analysis with multiple categorical variables" []
+xref: wikidata:Q2845212
+xref: wikipedia:Multiple_correspondence_analysis
+is_a: dso:correspondence-analysis ! correspondence analysis
+
+[Term]
+id: dso:number
+name: number
+namespace: concept
+def: "Any kind of number\: real\, complex\, or more exotic" []
+xref: wikidata:Q11563
+xref: wikipedia:Number
+is_a: dso:scalar ! scalar quantity
+
+[Term]
+id: dso:numpy
+name: numpy Package
+is_a: dso:python-package ! python Package
+
+[Term]
+id: dso:package
+name: Package
+
+[Term]
+id: dso:pandas
+name: pandas Package
+is_a: dso:python-package ! python Package
+
+[Term]
+id: dso:pca
+name: PCA
+namespace: concept
+def: "Principal components analysis \(PCA\)\, the most popular method for dimensionality reduction" []
+xref: wikidata:Q2873
+xref: wikipedia:Principal_component_analysis
+is_a: dso:euclidean-model ! Euclidean model
+is_a: dso:linear-dimension-reduction-model ! linear dimensionality reduction
+is_a: dso:unsupervised-model ! unsupervised model
+
+[Term]
+id: dso:pca-kernelized
+name: kernelized
+namespace: concept
+def: "PCA as a special case of kernel PCA" []
+is_a: dso:kernelized ! kernelized
+
+[Term]
+id: dso:predict
+name: predict
+namespace: concept
+def: "make predictions using a supervised model" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:python
+name: python Language
+is_a: dso:language ! Language
+
+[Term]
+id: dso:python-package
+name: python Package
+is_a: dso:package ! Package
+relationship: dso:implemented_in dso:python ! implemented in python Language
+
+[Term]
+id: dso:r
+name: r Language
+is_a: dso:language ! Language
+
+[Term]
+id: dso:r-dataset
+name: R dataset
+namespace: concept
+def: "A dataset included in an R package" []
+is_a: dso:data-source ! source of data
+
+[Term]
+id: dso:r-dataset-name
+name: name
+namespace: concept
+def: "Name of an R dataset" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:r-dataset-package
+name: R package
+namespace: concept
+def: "R package to which R dataset belongs" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:r-package
+name: r Package
+is_a: dso:package ! Package
+relationship: dso:implemented_in dso:r ! implemented in r Language
+
+[Term]
+id: dso:random-forest
+name: random forest
+namespace: concept
+def: "random forest\, a popular variant of tree bagging" []
+xref: wikidata:Q245748
+xref: wikipedia:Random_forest
+is_a: dso:tree-ensemble ! tree ensemble
+
+[Term]
+id: dso:random-forest-n-features
+name: number of features to sample
+namespace: concept
+def: "number of features/variables to randomly sample at each tree split" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:randomForest
+name: randomForest Package
+is_a: dso:r-package ! r Package
+
+[Term]
+id: dso:read-data
+name: read data
+namespace: concept
+def: "read data from a data source" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:read-file
+name: read file
+namespace: concept
+def: "read data from a file" []
+is_a: dso:read-data ! read data
+
+[Term]
+id: dso:read-table
+name: read table
+namespace: concept
+def: "read tabular data from a data source" []
+is_a: dso:read-data ! read data
+
+[Term]
+id: dso:read-tabular-file
+name: read tabular file
+namespace: concept
+def: "read tabular data from file" []
+is_a: dso:read-file ! read file
+is_a: dso:read-table ! read table
+
+[Term]
+id: dso:real
+name: real number
+namespace: concept
+def: "a real number\, typically represented as a floating point number" []
+xref: wikidata:Q12916
+xref: wikipedia:Real_number
+is_a: dso:complex ! complex number
+
+[Term]
+id: dso:regression-model
+name: regression model
+namespace: concept
+def: "A statistical model for regression" []
+xref: wikidata:Q30556303
+xref: wikipedia:Regression_analysis
+is_a: dso:supervised-model ! supervised model
+
+[Term]
+id: dso:regression-tree
+name: regression tree
+namespace: concept
+def: "decision tree for regression" []
+is_a: dso:decision-tree ! decision tree
+is_a: dso:regression-model ! regression model
+
+[Term]
+id: dso:rpart
+name: rpart Package
+is_a: dso:r-package ! r Package
+
+[Term]
+id: dso:scalar
+name: scalar quantity
+namespace: concept
+def: "a scalar quantity\, typically corresponding to primitive data types" []
+is_a: dso:type ! Type
+
+[Term]
+id: dso:scipy
+name: scipy Package
+is_a: dso:python-package ! python Package
+
+[Term]
+id: dso:selection-model
+name: model selection
+namespace: concept
+def: "A model or procedure for selecting a statistical model from a set of candidate models\, given data" []
+xref: wikidata:Q6888345
+xref: wikipedia:Model_selection
+is_a: dso:model ! statistical model
+
+[Term]
+id: dso:selection-model-selected
+name: selected model
+namespace: concept
+def: "model selected by a model selection procedure" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:simple-correspondence-analysis
+name: simple correspondence analysis
+namespace: concept
+def: "Correspondence analysis with a single categorical variable" []
+xref: wikidata:Q1784754
+xref: wikipedia:Correspondence_analysis
+is_a: dso:correspondence-analysis ! correspondence analysis
+
+[Term]
+id: dso:sklearn
+name: sklearn Package
+is_a: dso:python-package ! python Package
+
+[Term]
+id: dso:sql-database
+name: SQL database
+namespace: concept
+def: "A relational \(SQL\) database" []
+xref: wikidata:Q192588
+xref: wikipedia:Relational_database
+is_a: dso:type ! Type
+
+[Term]
+id: dso:sql-query
+name: SQL query
+namespace: concept
+def: "A SQL query on a relational database" []
+is_a: dso:tabular-data-source ! tabular data source
+
+[Term]
+id: dso:sql-query-database
+name: database
+namespace: concept
+def: "SQL database to which query refers" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:sql-query-expression
+name: query expression
+namespace: concept
+def: "query expression in the Structured Query Language \(SQL\)" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:sql-table
+name: SQL table
+namespace: concept
+def: "A table in a SQL database" []
+xref: wikidata:Q278425
+xref: wikipedia:Table_\(database\)
+is_a: dso:tabular-data-source ! tabular data source
+
+[Term]
+id: dso:sql-table-database
+name: database
+namespace: concept
+def: "SQL database to which a SQL table belongs" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:sql-table-name
+name: table name
+namespace: concept
+def: "name of a SQL table" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:sqlalchemy
+name: sqlalchemy Package
+is_a: dso:python-package ! python Package
+
+[Term]
+id: dso:stats
+name: stats Package
+is_a: dso:r-package ! r Package
+
+[Term]
+id: dso:statsmodels
+name: statsmodels Package
+is_a: dso:python-package ! python Package
+
+[Term]
+id: dso:string
+name: string
+namespace: concept
+xref: wikidata:Q184754
+xref: wikipedia:String_\(computer_science\)
+is_a: dso:scalar ! scalar quantity
+
+[Term]
+id: dso:supervised-model
+name: supervised model
+namespace: concept
+def: "A supervised\, or predictive\, statistical model" []
+xref: wikidata:Q334384
+xref: wikipedia:Supervised_learning
+is_a: dso:model ! statistical model
+
+[Term]
+id: dso:svm
+name: support vector machine
+namespace: concept
+def: "support vector machine for classification or regression" []
+xref: wikidata:Q282453
+xref: wikipedia:Support-vector_machine
+is_a: dso:kernel-model ! kernel model
+is_a: dso:supervised-model ! supervised model
+
+[Term]
+id: dso:svm-classification
+name: support vector classification
+namespace: concept
+def: "support vector machine for classification" []
+is_a: dso:classification-model ! classification model
+is_a: dso:svm ! support vector machine
+
+[Term]
+id: dso:svm-dual-coefficients
+name: dual coefficients
+namespace: concept
+def: "Coefficients corresponding to the dual variables in the SVM optimization problem. Only the support vectors have nonzero dual coefficients." []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:svm-regression
+name: support vector regression
+namespace: concept
+def: "support vector machine for regression" []
+is_a: dso:regression-model ! regression model
+is_a: dso:svm ! support vector machine
+
+[Term]
+id: dso:svm-support-vectors
+name: support vectors
+namespace: concept
+def: "support vectors of a support vector machine" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:table
+name: table
+namespace: concept
+def: "A table\, also known as a data frame" []
+xref: wikidata:Q496946
+xref: wikipedia:Table_\(information\)
+is_a: dso:data ! data
+
+[Term]
+id: dso:table-column-names
+name: column names
+namespace: concept
+def: "names of columns in a table" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:table-n-cols
+name: number of columns
+namespace: concept
+def: "number of columns in a table" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:table-n-rows
+name: number of rows
+namespace: concept
+def: "number of rows in a table" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:tabular-data-source
+name: tabular data source
+namespace: concept
+def: "A source of tabular data\, such as a spreadsheet or database table" []
+is_a: dso:data-source ! source of data
+
+[Term]
+id: dso:tabular-file
+name: tabular file
+namespace: concept
+def: "A file containing tabular data\, such as a CSV or TSV file" []
+is_a: dso:file ! file
+is_a: dso:tabular-data-source ! tabular data source
+
+[Term]
+id: dso:transform
+name: transform
+namespace: concept
+def: "transform data using a transformer" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:transformation-model
+name: transformation model
+namespace: concept
+def: "A statistical model for transforming data. The terminology is nonstandard but encompasses any form of dimensionality reduction\, feature extraction\, or other data transformation where the transformation is a function of the data." []
+is_a: dso:model ! statistical model
+is_a: dso:transformer ! transformer
+
+[Term]
+id: dso:transformer
+name: transformer
+namespace: concept
+def: "A specification of a data transformation. Unlike a transformation model\, a transformer is not necessarily a function of the data." []
+is_a: dso:type ! Type
+
+[Term]
+id: dso:tree-based-model
+name: tree-based model
+namespace: concept
+def: "a predictive model involving one or more decision trees" []
+is_a: dso:supervised-model ! supervised model
+
+[Term]
+id: dso:tree-ensemble
+name: tree ensemble
+namespace: concept
+def: "an ensemble of decision trees" []
+is_a: dso:tree-based-model ! tree-based model
+
+[Term]
+id: dso:tree-ensemble-n-trees
+name: number of trees
+namespace: concept
+def: "number of trees in a tree ensemble" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:tree-ensemble-tree
+name: tree by index
+namespace: concept
+def: "a particular tree in a tree ensemble\, identified by index" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:type
+name: Type
+
+[Term]
+id: dso:unsupervised-model
+name: unsupervised model
+namespace: concept
+def: "An unsupervised statistical model" []
+xref: wikidata:Q1152135
+xref: wikipedia:Unsupervised_learning
+is_a: dso:model ! statistical model
+
+[Term]
+id: dso:utils
+name: utils Package
+is_a: dso:r-package ! r Package
+
+[Term]
+id: dso:vector
+name: vector
+namespace: concept
+def: "A one-dimensional array\, not necessarily numeric" []
+is_a: dso:array ! array
+
+[Term]
+id: dso:vector-length
+name: length
+namespace: concept
+def: "length of a vector" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:vif-regression
+name: VIF regression
+namespace: concept
+def: "VIF \(variable inflation factor\) regression is a forward\, incremental procedure for variable selection in linear regression models." []
+is_a: dso:forward-selection-model ! forward selection
+
+[Term]
+id: dso:vif-regression-selected
+name: selected model
+namespace: concept
+def: "linear model selected by VIF regression" []
+is_a: dso:selection-model-selected ! selected model
+
+[Term]
+id: dso:write-data
+name: write data
+namespace: concept
+def: "write data to a data source" []
+is_a: dso:function ! Function
+
+[Term]
+id: dso:write-file
+name: write file
+namespace: concept
+def: "write data to a file" []
+is_a: dso:write-data ! write data
+
+[Term]
+id: dso:write-table
+name: write table
+namespace: concept
+def: "write tabular data to a data source" []
+is_a: dso:write-data ! write data
+
+[Term]
+id: dso:write-tabular-file
+name: write tabular file
+namespace: concept
+def: "write tabular data to file" []
+is_a: dso:write-file ! write file
+is_a: dso:write-table ! write table

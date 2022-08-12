@@ -1,0 +1,2358 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/dso.owl#"
+     xml:base="http://purl.obolibrary.org/obo/dso.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dso.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/dso/1.0/dso.owl"/>
+        <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bio2obo:dso</oboInOwl:auto-generated-by>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12:08:2022 22:54</oboInOwl:date>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Science Ontology</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000050</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of has_part</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso#_implemented_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/dso#_implemented_in">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:implemented_in</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">implemented in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_Cubist -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_Cubist">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_r-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:Cubist</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cubist Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_VIF -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_VIF">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_r-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:VIF</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIF Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_agglomerative-clustering -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_agglomerative-clustering">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_hierarchical-clustering"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hierarchical clustering with agglomerative (bottom up) construction</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:agglomerative-clustering</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agglomerative clustering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_array -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_array">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_data"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multidimensional array of homogeneous data type, also known as a tensor</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q121079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Array_data_type</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:array</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">array</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_array-n-dimensions -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_array-n-dimensions">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of dimensions, or rank, of an array</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q7293200</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Rank_(computer_programming)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:array-n-dimensions</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of dimensions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_array-shape -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_array-shape">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shape of an array</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:array-shape</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_as-binary-classifier -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_as-binary-classifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">binary classification as special case of multiclass classification with two classes</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:as-binary-classifier</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">use multiclass classifier for binary classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_as-logistic-regression -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_as-logistic-regression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_as-binary-classifier"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(binomial) logistic regression as special case of multinomial logistic regression with two classes</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:as-logistic-regression</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">use multinomial logistic regression for logistic regression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_backward-selection-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_backward-selection-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_incremental-selection-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">backward, incremental selection of features</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:backward-selection-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">backward selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_backward-stepwise-selection -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_backward-stepwise-selection">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_backward-selection-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Backward stepwise selection, also known as backward stepwise regression, although it applies equally well to classification</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q7611170</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Stepwise_regression</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:backward-stepwise-selection</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">backward stepwise selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_base -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_base">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_r-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:base</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_binary-classifier -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_binary-classifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_classification-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model for binary classification</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q17005494</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Binary_classification</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:binary-classifier</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">binary classifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_boolean -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_boolean">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_scalar"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A boolean value: true or false</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q520777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Boolean_data_type</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:boolean</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">boolean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_builtins -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_builtins">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_python-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:builtins</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">builtins Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_caret -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_caret">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_r-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:caret</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caret Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_cart -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_cart">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_decision-tree"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Despite the generic name, Classification and Regression Trees (CART) is a particular methodology for building classification and regression trees, described in the book (Breiman, Friedman, Olshen, &amp; Stone, 1994, &quot;Classification and Regression Trees&quot;).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:cart</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CART</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_classification-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_classification-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_supervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model for classification</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1744628</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Statistical_classification</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:classification-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classification model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_classification-tree -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_classification-tree">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_classification-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_decision-tree"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decision tree for classification</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:classification-tree</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classification tree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_clustering-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_clustering-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_unsupervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model for clustering</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q28058114</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Cluster_analysis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:clustering-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clustering model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_clustering-model-clusters -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_clustering-model-clusters">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clusters found by a clustering model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:clustering-model-clusters</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clusters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_clustering-model-n-clusters -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_clustering-model-n-clusters">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of clusters to fit in a clustering model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:clustering-model-n-clusters</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of clusters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_column -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_column">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_vector"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A column in a data table (data frame)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:column</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_column-name -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_column-name">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of a column</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:column-name</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_complex -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_complex">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_number"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a complex number, typically represented by two floating point numbers</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q11567</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Complex_number</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:complex</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_correspondence-analysis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_correspondence-analysis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_dimension-reduction-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_unsupervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A variant of principal components analysis for nominal categorical data</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:correspondence-analysis</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">correspondence analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_cubist -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_cubist">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_regression-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_tree-ensemble"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cubist, a tree ensemble method for M5 model trees</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:cubist</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cubist model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_cubist-tree -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_cubist-tree">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_tree-ensemble-tree"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a particular tree in a Cubist model, identified by index</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:cubist-tree</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree by index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_data -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_data">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_type"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A generic collection of data, not necessarily tabular</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q42848</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Data</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:data</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_data-source -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_data-source">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_type"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A source or supplier of data, such as a file, a database, or an online data resource</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Data_source</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:data-source</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">source of data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_decision-tree -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_decision-tree">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_feature-selection-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_tree-based-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a decision tree for predictive modeling</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q16766476</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Decision_tree_learning</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:decision-tree</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decision tree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_design-matrix -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_design-matrix">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">design matrix, also known as model matrix, of a linear model or generalized linear model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:design-matrix</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">design matrix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_dimension-reduction-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_dimension-reduction-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_feature-extraction-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model to reduce the dimensionality of vector observations</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q16000077</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Dimensionality_reduction</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:dimension-reduction-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimensionality reduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_dimension-reduction-model-n-dimensions -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_dimension-reduction-model-n-dimensions">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of dimensions used by a dimensionality reduction model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:dimension-reduction-model-n-dimensions</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of dimensions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_discriminant-function -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_discriminant-function">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The discriminant function associated with a classification model.
+In the binary case, a discriminant function $g(x)$ for a classifier has the property that when $g(x) &gt; 0$, the classifier predicts 1 and when $g(x) &lt; 0$, the classifer predicts 0. A threshold other zero may also be used. For probabilistic models, the discriminant function is often just the log-odds, but this need not be the case. A notion of discriminant function may also be defined for multicategory classification.
+A classification model does not uniquely define a discriminant function, because composing a discriminant function with any strictly monotone function yields an equivalent decision function (although a different threshold may be needed to get the same predictions). In practice, most classification methods have a &quot;standard&quot; discriminant function derived from a probability model or optimization problem.
+The term &quot;discriminant function&quot; is used by some authors (see references) but is not entirely standard. The term &quot;decision function&quot; is also sometimes used, especially in the literature on support vector machines, but should probably be avoided to prevent confusion with the standard notion of &quot;decision rule&quot; from statistical decision theory.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:discriminant-function</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">discriminant function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_divisive-clustering -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_divisive-clustering">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_hierarchical-clustering"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hierarchical clustering with divisive (top down) construction</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:divisive-clustering</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">divisive clustering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_dummy-coding -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_dummy-coding">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_feature-extraction"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dummy coding of categorical variables, also known as one-hot coding. Under this encoding, each categorical variable is transformed into a set of dummy, or indicator, variables.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q427977</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Dummy_variable_(statistics)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:dummy-coding</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dummy coding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_euclidean-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_euclidean-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model whose fit depends on the data only through pairwise Euclidean products. The terminology &quot;Euclidean model&quot; is nonstandard; there is no standard terminology for this concept.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:euclidean-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euclidean model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_evaluate-formula-supervised -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_evaluate-formula-supervised">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evaluate formula defining supervised model on data</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:evaluate-formula-supervised</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evaluate formula for supervised model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_excel-spreadsheet -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_excel-spreadsheet">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_tabular-file"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single sheet in a Microsoft Excel spreadsheet</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Microsoft_Excel#File_formats</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:excel-spreadsheet</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excel spreadsheet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_excel-spreadsheet-name -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_excel-spreadsheet-name">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of sheet in an Excel spreadsheet</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:excel-spreadsheet-name</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sheet name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_exponential-family-linear-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_exponential-family-linear-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_supervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any supervised, parametric model based on an exponential family of probability distributions, whose prediction function (natural parameter) is linear. This is a very large family of models, especially since we admit models that are not fit by (penalized) maximum likelihood or maximum a posteriori estimation.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:exponential-family-linear-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exponential family linear model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-coefficients -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-coefficients">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coefficients of an exponential family linear model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:exponential-family-linear-model-coefficients</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coefficients</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-intercept -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-intercept">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercept of an exponential family linear model, if present</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:exponential-family-linear-model-intercept</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_expression -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_expression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_string"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a mathematical expression or equation</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q6498784</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Expression_(mathematics)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:expression</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_feature-extraction -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_feature-extraction">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_transformer"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any method for feature extraction</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1026626</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Feature_extraction</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:feature-extraction</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature extraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_feature-extraction-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_feature-extraction-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_feature-extraction"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_transformation-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model for feature extraction</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:feature-extraction-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature extraction model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_feature-selection-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_feature-selection-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_dimension-reduction-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_selection-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model for feature selection, also known as variable selection. Feature selection is a form of dimensionality reduction that selects a subset of the original features. More generally, feature selection is a form of  feature extraction in which the extracted features are drawn from the original features.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q446488</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Feature_selection</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:feature-selection-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_feature-selection-model-selected -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_feature-selection-model-selected">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">features selected by a feature selection model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:feature-selection-model-selected</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selected features</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_file -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_file">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_data-source"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A local file</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q82753</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Computer_file</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:file</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">file</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_filename -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_filename">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name, or path, of a file</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1144928</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Filename</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:filename</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filename</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_fit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_fit">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fit a statistical model to data</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:fit</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fit model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_fit-incremental-selection-supervised -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_fit-incremental-selection-supervised">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fit a model for incremental selection of features, starting from an initial supervised model.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:fit-incremental-selection-supervised</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incrementally select features for supervised model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_fit-supervised -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_fit-supervised">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fit a supervised, or predictive, statistical model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:fit-supervised</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fit supervised model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_forward-selection-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_forward-selection-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_incremental-selection-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forward, incremental selection of features</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:forward-selection-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forward selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_forward-stagewise-selection -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_forward-stagewise-selection">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_forward-selection-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forward stagewise selection, better known as forward stagewise regression, and not to be confused with the more common forward stepwise regression.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:forward-stagewise-selection</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forward stagewise selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_forward-stepwise-selection -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_forward-stepwise-selection">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_forward-selection-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forward stepwise selection, also known as forward stepwise regression, although it applies equally well to classification</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q7611170</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Stepwise_regression</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:forward-stepwise-selection</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forward stepwise selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_function -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_function">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:function</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_glm -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_glm">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_exponential-family-linear-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A generalized linear model (GLM), an exponential family model extending the linear model beyond the normal distribution, fit by maximum likelihood estimation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1501882</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Generalized_linear_model</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:glm</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generalized linear model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_glm-coefficients -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_glm-coefficients">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-coefficients"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coefficients of a generalized linear model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:glm-coefficients</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coefficients</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_glm-deviance -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_glm-deviance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deviance of a generalized linear model</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q3706279</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Deviance_(statistics)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:glm-deviance</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deviance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_glm-intercept -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_glm-intercept">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-intercept"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercept of a generalized linear model, if present</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:glm-intercept</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_hierarchical-clustering -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_hierarchical-clustering">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_clustering-model"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1277447</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Hierarchical_clustering</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:hierarchical-clustering</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hierarchical clustering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_hierarchical-clustering-linkage -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_hierarchical-clustering-linkage">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linkage matrix of a hierarchical clustering model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:hierarchical-clustering-linkage</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linkage matrix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_ica -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_ica">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_euclidean-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_unsupervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Independent components analysis (ICA), a dimensionality reduction method that performs blind source separation</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1259145</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Independent_component_analysis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:ica</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_incremental-selection-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_incremental-selection-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_feature-selection-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A feature selection model that adds and/or removes features incrementally--one at a time--from an initial model.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:incremental-selection-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incremental feature selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_integer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_integer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_real"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q729138</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Integer_(computer_science)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:integer</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_k-means -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_k-means">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_clustering-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_euclidean-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A clustering model using the k-means algorithm, also known as Lloyd&quot;s algorithm</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q310401</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:K-means_clustering</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:k-means</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">k-means clustering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_k-means-centroids -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_k-means-centroids">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centroids of clusters found by k-means clustering</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:k-means-centroids</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centroids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_k-means-kernelized -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_k-means-kernelized">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_kernelized"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">k-means clustering as a special case of kernel k-means clustering</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:k-means-kernelized</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernelized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_k-medoids -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_k-medoids">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_clustering-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A variant on k-means clustering that assigns clusters using medoids rather than centroids</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q3191282</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:K-medoids</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:k-medoids</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">k-medoids clustering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_k-medoids-medoids -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_k-medoids-medoids">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medoids of clusters found by k-medoids clustering</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:k-medoids-medoids</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medoids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_kernel-k-means -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_kernel-k-means">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_k-medoids"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_kernel-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kernelized version of k-means clustering</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:kernel-k-means</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernel k-means clustering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_kernel-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_kernel-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model using an arbitrary kernel function, better known as a  &quot;kernel method&quot;</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q620622</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Kernel_method</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:kernel-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernel model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_kernel-pca -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_kernel-pca">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_dimension-reduction-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_kernel-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_unsupervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kernelized version of principal components analysis (PCA)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q17093020</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Kernel_principal_component_analysis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:kernel-pca</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernel PCA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_kernelized -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_kernelized">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernelized version of a statistical model based on the Euclidean inner product, via the &quot;kernel trick&quot;</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1739323</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:kernelized</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernelized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_language -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_language">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:language</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_lasso -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_lasso">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_feature-selection-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_linear-regression"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sparse linear regression model, fit by least squares with L1 penalty</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q20789991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Lasso_(statistics)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:lasso</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lasso</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_least-squares -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_least-squares">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_euclidean-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_linear-regression"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The standard linear regression model, fit by ordinary least squares (OLS)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Ordinary_least_squares</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:least-squares</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLS linear regression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_dimension-reduction-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionality reduction model where the input and output vectors are related by a linear map (usually of fixed rank)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-dimension-reduction-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear dimensionality reduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model-components -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model-components">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">components (loadings) of a linear dimensionality reduction model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-dimension-reduction-model-components</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">components</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-discriminant-analysis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-discriminant-analysis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_euclidean-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_multiclass-classifier"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a classification model and dimensionality reduction method that is closely related to principal components analysis (PCA)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1228929</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Linear_discriminant_analysis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-discriminant-analysis</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear discriminant analysis (LDA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_glm"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A supervised model where the response is a linear function of the predictors</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q3339222</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Linear_model</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-model-coefficients -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-model-coefficients">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_glm-coefficients"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coefficients of a linear model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-model-coefficients</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coefficients</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-model-intercept -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-model-intercept">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_glm-intercept"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercept of a linear model, if present</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-model-intercept</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-model-rss -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-model-rss">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_glm-deviance"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">residual sum of squares (RSS), aka sum of squared residuals (SSR), of linear model</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q15096882</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Residual_sum_of_squares</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-model-rss</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-regression -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-regression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_linear-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_regression-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A linear model for regression</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q10861030</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Linear_regression</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-regression</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear regression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-svm -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-svm">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_euclidean-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_exponential-family-linear-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A linear support vector machine for classification or regression.
+Linear SVMs are exponential family linear models, analogous to logistic regression, but fit by mimimizing constraint violations to inequalities between likelihood ratios, rather than by maximizing the likelihood (see Mark Schmidt&apos;s 2009 paper &quot;A note on structural extensions of SVMs&quot;).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Support-vector_machine#Linear_SVM</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-svm</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear support vector machine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-svm-classification -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-svm-classification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_classification-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_linear-svm"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear support vector machine for classification</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-svm-classification</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear support vector classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-svm-classification-kernelized -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-svm-classification-kernelized">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_kernelized"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear SVM classification as a special case of (kernel) SVM classification</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-svm-classification-kernelized</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernelized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-svm-coefficients -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-svm-coefficients">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-coefficients"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coefficients of a linear support vector machine</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-svm-coefficients</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coefficients</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-svm-intercept -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-svm-intercept">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-intercept"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercept of a linear support vector machine, if present</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-svm-intercept</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-svm-kernelized -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-svm-kernelized">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_kernelized"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear SVMs as a special case of (kernel) support vector machines</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-svm-kernelized</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernelized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-svm-regression -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-svm-regression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_linear-svm"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_regression-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear support vector machine for regression</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-svm-regression</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear support vector regression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_linear-svm-regression-kernelized -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_linear-svm-regression-kernelized">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_kernelized"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear SVM regression as a special case of (kernel) SVM regression</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:linear-svm-regression-kernelized</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernelized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_logistic-regression -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_logistic-regression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_binary-classifier"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_glm"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A generalized linear model for binary classification, using the logit link function</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1132755</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Logistic_regression</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:logistic-regression</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logistic regression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_m5-tree -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_m5-tree">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_regression-tree"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M5 regression model tree, a variant of simple regression trees that places a linear model at every terminal node (instead of a constant)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:m5-tree</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M5 model tree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_matrix -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_matrix">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_array"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_table"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A two-dimensional array</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q44337</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Matrix_(mathematics)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:matrix</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">matrix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_mean-absolute-error -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_mean-absolute-error">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mean absolute error (aka, L1 loss)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q6803609</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Mean_absolute_error</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:mean-absolute-error</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mean absolute error</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_mean-squared-error -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_mean-squared-error">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mean squared error (aka, L2 loss)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1940696</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Mean_squared_error</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:mean-squared-error</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mean squared error</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_type"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In this ontology, the term &quot;model&quot; encompasses any statistical model. Models can be used for many purposes, predictive and inferential, but their defining characteristic is that they are functions of the data, i.e., they are fit to observations.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q3284399</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Statistical_model</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statistical model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_multiclass-classifier -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_multiclass-classifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_classification-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model for multiclass classification</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q6934605</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Multiclass_classification</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:multiclass-classifier</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiclass classifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_multiclass-classifier-model-n-classes -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_multiclass-classifier-model-n-classes">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of classes in a multiclass classification model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:multiclass-classifier-model-n-classes</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of classes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_multinomial-logistic-regression -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_multinomial-logistic-regression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_glm"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_multiclass-classifier"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A generalized linear model for multiclass classification, using the logit link function</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1650843</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Multinomial_logistic_regression</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:multinomial-logistic-regression</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multinomial logistic regression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_multiple-correspondence-analysis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_multiple-correspondence-analysis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_correspondence-analysis"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Correspondence analysis with multiple categorical variables</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q2845212</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Multiple_correspondence_analysis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:multiple-correspondence-analysis</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple correspondence analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_number -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_number">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_scalar"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any kind of number: real, complex, or more exotic</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q11563</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Number</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:number</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_numpy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_numpy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_python-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:numpy</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numpy Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_package -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_package">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:package</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_pandas -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_pandas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_python-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:pandas</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pandas Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_pca -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_pca">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_euclidean-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_unsupervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Principal components analysis (PCA), the most popular method for dimensionality reduction</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q2873</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Principal_component_analysis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:pca</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_pca-kernelized -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_pca-kernelized">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_kernelized"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCA as a special case of kernel PCA</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:pca-kernelized</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernelized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_predict -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_predict">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">make predictions using a supervised model</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:predict</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">predict</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_python -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_python">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_language"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:python</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">python Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_python-package -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_python-package">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_package"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/dso#_implemented_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/dso_python"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:python-package</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">python Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_r -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_r">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_language"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:r</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_r-dataset -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_r-dataset">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_data-source"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dataset included in an R package</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:r-dataset</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_r-dataset-name -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_r-dataset-name">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of an R dataset</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:r-dataset-name</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_r-dataset-package -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_r-dataset-package">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R package to which R dataset belongs</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:r-dataset-package</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_r-package -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_r-package">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_package"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/dso#_implemented_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/dso_r"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:r-package</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_random-forest -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_random-forest">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_tree-ensemble"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">random forest, a popular variant of tree bagging</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q245748</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Random_forest</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:random-forest</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">random forest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_random-forest-n-features -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_random-forest-n-features">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of features/variables to randomly sample at each tree split</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:random-forest-n-features</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of features to sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_randomForest -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_randomForest">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_r-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:randomForest</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">randomForest Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_read-data -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_read-data">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">read data from a data source</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:read-data</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">read data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_read-file -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_read-file">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_read-data"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">read data from a file</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:read-file</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">read file</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_read-table -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_read-table">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_read-data"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">read tabular data from a data source</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:read-table</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">read table</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_read-tabular-file -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_read-tabular-file">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_read-file"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_read-table"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">read tabular data from file</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:read-tabular-file</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">read tabular file</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_real -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_real">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_complex"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a real number, typically represented as a floating point number</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q12916</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Real_number</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:real</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">real number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_regression-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_regression-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_supervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model for regression</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q30556303</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Regression_analysis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:regression-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regression model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_regression-tree -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_regression-tree">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_decision-tree"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_regression-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decision tree for regression</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:regression-tree</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regression tree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_rpart -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_rpart">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_r-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:rpart</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rpart Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_scalar -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_scalar">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_type"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a scalar quantity, typically corresponding to primitive data types</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:scalar</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scalar quantity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_scipy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_scipy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_python-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:scipy</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scipy Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_selection-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_selection-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A model or procedure for selecting a statistical model from a set of candidate models, given data</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q6888345</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Model_selection</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:selection-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_selection-model-selected -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_selection-model-selected">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model selected by a model selection procedure</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:selection-model-selected</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selected model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_simple-correspondence-analysis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_simple-correspondence-analysis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_correspondence-analysis"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Correspondence analysis with a single categorical variable</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1784754</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Correspondence_analysis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:simple-correspondence-analysis</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple correspondence analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_sklearn -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_sklearn">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_python-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:sklearn</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sklearn Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_sql-database -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_sql-database">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_type"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relational (SQL) database</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q192588</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Relational_database</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:sql-database</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SQL database</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_sql-query -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_sql-query">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_tabular-data-source"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A SQL query on a relational database</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:sql-query</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SQL query</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_sql-query-database -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_sql-query-database">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SQL database to which query refers</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:sql-query-database</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_sql-query-expression -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_sql-query-expression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">query expression in the Structured Query Language (SQL)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:sql-query-expression</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">query expression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_sql-table -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_sql-table">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_tabular-data-source"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A table in a SQL database</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q278425</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Table_(database)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:sql-table</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SQL table</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_sql-table-database -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_sql-table-database">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SQL database to which a SQL table belongs</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:sql-table-database</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_sql-table-name -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_sql-table-name">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of a SQL table</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:sql-table-name</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_sqlalchemy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_sqlalchemy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_python-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:sqlalchemy</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sqlalchemy Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_stats -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_stats">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_r-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:stats</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stats Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_statsmodels -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_statsmodels">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_python-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:statsmodels</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statsmodels Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_string -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_string">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_scalar"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q184754</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:String_(computer_science)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:string</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_supervised-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_supervised-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A supervised, or predictive, statistical model</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q334384</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Supervised_learning</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:supervised-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supervised model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_svm -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_svm">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_kernel-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_supervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support vector machine for classification or regression</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q282453</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Support-vector_machine</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:svm</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support vector machine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_svm-classification -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_svm-classification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_classification-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_svm"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support vector machine for classification</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:svm-classification</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support vector classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_svm-dual-coefficients -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_svm-dual-coefficients">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coefficients corresponding to the dual variables in the SVM optimization problem. Only the support vectors have nonzero dual coefficients.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:svm-dual-coefficients</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual coefficients</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_svm-regression -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_svm-regression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_regression-model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_svm"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support vector machine for regression</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:svm-regression</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support vector regression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_svm-support-vectors -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_svm-support-vectors">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support vectors of a support vector machine</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:svm-support-vectors</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support vectors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_table -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_table">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_data"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A table, also known as a data frame</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q496946</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Table_(information)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:table</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_table-column-names -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_table-column-names">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">names of columns in a table</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:table-column-names</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">column names</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_table-n-cols -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_table-n-cols">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of columns in a table</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:table-n-cols</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of columns</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_table-n-rows -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_table-n-rows">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of rows in a table</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:table-n-rows</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of rows</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_tabular-data-source -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_tabular-data-source">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_data-source"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A source of tabular data, such as a spreadsheet or database table</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:tabular-data-source</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tabular data source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_tabular-file -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_tabular-file">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_file"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_tabular-data-source"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A file containing tabular data, such as a CSV or TSV file</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:tabular-file</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tabular file</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_transform -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_transform">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transform data using a transformer</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:transform</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_transformation-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_transformation-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_model"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_transformer"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical model for transforming data. The terminology is nonstandard but encompasses any form of dimensionality reduction, feature extraction, or other data transformation where the transformation is a function of the data.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:transformation-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transformation model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_transformer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_transformer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_type"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specification of a data transformation. Unlike a transformation model, a transformer is not necessarily a function of the data.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:transformer</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transformer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_tree-based-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_tree-based-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_supervised-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a predictive model involving one or more decision trees</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:tree-based-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree-based model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_tree-ensemble -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_tree-ensemble">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_tree-based-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an ensemble of decision trees</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:tree-ensemble</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree ensemble</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_tree-ensemble-n-trees -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_tree-ensemble-n-trees">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of trees in a tree ensemble</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:tree-ensemble-n-trees</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of trees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_tree-ensemble-tree -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_tree-ensemble-tree">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a particular tree in a tree ensemble, identified by index</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:tree-ensemble-tree</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree by index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_type -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_type">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:type</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_unsupervised-model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_unsupervised-model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unsupervised statistical model</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikidata:Q1152135</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Unsupervised_learning</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:unsupervised-model</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unsupervised model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_utils -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_utils">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_r-package"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:utils</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utils Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_vector -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_vector">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_array"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A one-dimensional array, not necessarily numeric</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:vector</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_vector-length -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_vector-length">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length of a vector</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:vector-length</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_vif-regression -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_vif-regression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_forward-selection-model"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIF (variable inflation factor) regression is a forward, incremental procedure for variable selection in linear regression models.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:vif-regression</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIF regression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_vif-regression-selected -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_vif-regression-selected">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_selection-model-selected"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear model selected by VIF regression</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:vif-regression-selected</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selected model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_write-data -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_write-data">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_function"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">write data to a data source</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:write-data</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">write data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_write-file -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_write-file">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_write-data"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">write data to a file</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:write-file</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">write file</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_write-table -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_write-table">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_write-data"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">write tabular data to a data source</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:write-table</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">write table</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dso_write-tabular-file -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_write-tabular-file">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_write-file"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_write-table"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">write tabular data to file</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concept</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:write-tabular-file</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">write tabular file</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
