@@ -1,0 +1,3391 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-discriminant-analysis",
+      "meta" : {
+        "definition" : {
+          "val" : "a classification model and dimensionality reduction method that is closely related to principal components analysis (PCA)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Linear_discriminant_analysis"
+        }, {
+          "val" : "wikidata:Q1228929"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "linear discriminant analysis (LDA)"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_fit",
+      "meta" : {
+        "definition" : {
+          "val" : "fit a statistical model to data",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fit model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_write-table",
+      "meta" : {
+        "definition" : {
+          "val" : "write tabular data to a data source",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "write table"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_r-dataset",
+      "meta" : {
+        "definition" : {
+          "val" : "A dataset included in an R package",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "R dataset"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_data-source",
+      "meta" : {
+        "definition" : {
+          "val" : "A source or supplier of data, such as a file, a database, or an online data resource",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Data_source"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "source of data"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_python-package",
+      "type" : "CLASS",
+      "lbl" : "python Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-svm-classification-kernelized",
+      "meta" : {
+        "definition" : {
+          "val" : "Linear SVM classification as a special case of (kernel) SVM classification",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kernelized"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_euclidean-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model whose fit depends on the data only through pairwise Euclidean products. The terminology \"Euclidean model\" is nonstandard; there is no standard terminology for this concept.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Euclidean model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_design-matrix",
+      "meta" : {
+        "definition" : {
+          "val" : "design matrix, also known as model matrix, of a linear model or generalized linear model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "design matrix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_svm-classification",
+      "meta" : {
+        "definition" : {
+          "val" : "support vector machine for classification",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "support vector classification"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_array-n-dimensions",
+      "meta" : {
+        "definition" : {
+          "val" : "number of dimensions, or rank, of an array",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Rank_(computer_programming)"
+        }, {
+          "val" : "wikidata:Q7293200"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "number of dimensions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_statsmodels",
+      "type" : "CLASS",
+      "lbl" : "statsmodels Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_multiple-correspondence-analysis",
+      "meta" : {
+        "definition" : {
+          "val" : "Correspondence analysis with multiple categorical variables",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q2845212"
+        }, {
+          "val" : "wikipedia:Multiple_correspondence_analysis"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "multiple correspondence analysis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_base",
+      "type" : "CLASS",
+      "lbl" : "base Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_hierarchical-clustering-linkage",
+      "meta" : {
+        "definition" : {
+          "val" : "linkage matrix of a hierarchical clustering model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "linkage matrix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_m5-tree",
+      "meta" : {
+        "definition" : {
+          "val" : "M5 regression model tree, a variant of simple regression trees that places a linear model at every terminal node (instead of a constant)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "M5 model tree"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SWO_0000118",
+      "type" : "CLASS",
+      "lbl" : "Python"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_column-name",
+      "meta" : {
+        "definition" : {
+          "val" : "name of a column",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "name"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "meta" : {
+        "comments" : [ "Inverse of has_part" ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_kernel-pca",
+      "meta" : {
+        "definition" : {
+          "val" : "Kernelized version of principal components analysis (PCA)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Kernel_principal_component_analysis"
+        }, {
+          "val" : "wikidata:Q17093020"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kernel PCA"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_filename",
+      "meta" : {
+        "definition" : {
+          "val" : "name, or path, of a file",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q1144928"
+        }, {
+          "val" : "wikipedia:Filename"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "filename"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_glm",
+      "meta" : {
+        "definition" : {
+          "val" : "A generalized linear model (GLM), an exponential family model extending the linear model beyond the normal distribution, fit by maximum likelihood estimation.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q1501882"
+        }, {
+          "val" : "wikipedia:Generalized_linear_model"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "generalized linear model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_sklearn",
+      "type" : "CLASS",
+      "lbl" : "sklearn Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_mean-absolute-error",
+      "meta" : {
+        "definition" : {
+          "val" : "mean absolute error (aka, L1 loss)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Mean_absolute_error"
+        }, {
+          "val" : "wikidata:Q6803609"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mean absolute error"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-svm-kernelized",
+      "meta" : {
+        "definition" : {
+          "val" : "Linear SVMs as a special case of (kernel) support vector machines",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kernelized"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-svm-intercept",
+      "meta" : {
+        "definition" : {
+          "val" : "intercept of a linear support vector machine, if present",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intercept"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_read-tabular-file",
+      "meta" : {
+        "definition" : {
+          "val" : "read tabular data from file",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "read tabular file"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A dimensionality reduction model where the input and output vectors are related by a linear map (usually of fixed rank)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "linear dimensionality reduction"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_backward-stepwise-selection",
+      "meta" : {
+        "definition" : {
+          "val" : "Backward stepwise selection, also known as backward stepwise regression, although it applies equally well to classification",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q7611170"
+        }, {
+          "val" : "wikipedia:Stepwise_regression"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "backward stepwise selection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_feature-extraction",
+      "meta" : {
+        "definition" : {
+          "val" : "Any method for feature extraction",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Feature_extraction"
+        }, {
+          "val" : "wikidata:Q1026626"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "feature extraction"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_VIF",
+      "type" : "CLASS",
+      "lbl" : "VIF Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_selection-model-selected",
+      "meta" : {
+        "definition" : {
+          "val" : "model selected by a model selection procedure",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "selected model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_kernelized",
+      "meta" : {
+        "definition" : {
+          "val" : "kernelized version of a statistical model based on the Euclidean inner product, via the \"kernel trick\"",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q1739323"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kernelized"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_random-forest",
+      "meta" : {
+        "definition" : {
+          "val" : "random forest, a popular variant of tree bagging",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q245748"
+        }, {
+          "val" : "wikipedia:Random_forest"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "random forest"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_unsupervised-model",
+      "meta" : {
+        "definition" : {
+          "val" : "An unsupervised statistical model",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q1152135"
+        }, {
+          "val" : "wikipedia:Unsupervised_learning"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "unsupervised model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A supervised model where the response is a linear function of the predictors",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q3339222"
+        }, {
+          "val" : "wikipedia:Linear_model"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "linear model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_correspondence-analysis",
+      "meta" : {
+        "definition" : {
+          "val" : "A variant of principal components analysis for nominal categorical data",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "correspondence analysis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_mean-squared-error",
+      "meta" : {
+        "definition" : {
+          "val" : "mean squared error (aka, L2 loss)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q1940696"
+        }, {
+          "val" : "wikipedia:Mean_squared_error"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mean squared error"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_cubist",
+      "meta" : {
+        "definition" : {
+          "val" : "Cubist, a tree ensemble method for M5 model trees",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Cubist model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_forward-stepwise-selection",
+      "meta" : {
+        "definition" : {
+          "val" : "Forward stepwise selection, also known as forward stepwise regression, although it applies equally well to classification",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Stepwise_regression"
+        }, {
+          "val" : "wikidata:Q7611170"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "forward stepwise selection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_dimension-reduction-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model to reduce the dimensionality of vector observations",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q16000077"
+        }, {
+          "val" : "wikipedia:Dimensionality_reduction"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dimensionality reduction"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_Cubist",
+      "type" : "CLASS",
+      "lbl" : "Cubist Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_glm-intercept",
+      "meta" : {
+        "definition" : {
+          "val" : "intercept of a generalized linear model, if present",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intercept"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_feature-extraction-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model for feature extraction",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "feature extraction model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_builtins",
+      "type" : "CLASS",
+      "lbl" : "builtins Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_dummy-coding",
+      "meta" : {
+        "definition" : {
+          "val" : "Dummy coding of categorical variables, also known as one-hot coding. Under this encoding, each categorical variable is transformed into a set of dummy, or indicator, variables.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Dummy_variable_(statistics)"
+        }, {
+          "val" : "wikidata:Q427977"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dummy coding"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_sql-query-expression",
+      "meta" : {
+        "definition" : {
+          "val" : "query expression in the Structured Query Language (SQL)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "query expression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_k-medoids",
+      "meta" : {
+        "definition" : {
+          "val" : "A variant on k-means clustering that assigns clusters using medoids rather than centroids",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:K-medoids"
+        }, {
+          "val" : "wikidata:Q3191282"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "k-medoids clustering"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_lasso",
+      "meta" : {
+        "definition" : {
+          "val" : "A sparse linear regression model, fit by least squares with L1 penalty",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Lasso_(statistics)"
+        }, {
+          "val" : "wikidata:Q20789991"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lasso"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_integer",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "wikipedia:Integer_(computer_science)"
+        }, {
+          "val" : "wikidata:Q729138"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "integer"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_tree-ensemble-n-trees",
+      "meta" : {
+        "definition" : {
+          "val" : "number of trees in a tree ensemble",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "number of trees"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_tabular-data-source",
+      "meta" : {
+        "definition" : {
+          "val" : "A source of tabular data, such as a spreadsheet or database table",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tabular data source"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_logistic-regression",
+      "meta" : {
+        "definition" : {
+          "val" : "A generalized linear model for binary classification, using the logit link function",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Logistic_regression"
+        }, {
+          "val" : "wikidata:Q1132755"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "logistic regression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_vector-length",
+      "meta" : {
+        "definition" : {
+          "val" : "length of a vector",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "length"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-model-coefficients",
+      "meta" : {
+        "definition" : {
+          "val" : "coefficients of a linear model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "coefficients"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-svm-classification",
+      "meta" : {
+        "definition" : {
+          "val" : "linear support vector machine for classification",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "linear support vector classification"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_evaluate-formula-supervised",
+      "meta" : {
+        "definition" : {
+          "val" : "evaluate formula defining supervised model on data",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "evaluate formula for supervised model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_array-shape",
+      "meta" : {
+        "definition" : {
+          "val" : "shape of an array",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "shape"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-regression",
+      "meta" : {
+        "definition" : {
+          "val" : "A linear model for regression",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q10861030"
+        }, {
+          "val" : "wikipedia:Linear_regression"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "linear regression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_excel-spreadsheet",
+      "meta" : {
+        "definition" : {
+          "val" : "A single sheet in a Microsoft Excel spreadsheet",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Microsoft_Excel#File_formats"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Excel spreadsheet"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_data",
+      "meta" : {
+        "definition" : {
+          "val" : "A generic collection of data, not necessarily tabular",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q42848"
+        }, {
+          "val" : "wikipedia:Data"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "data"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_predict",
+      "meta" : {
+        "definition" : {
+          "val" : "make predictions using a supervised model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "predict"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_format_version"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_real",
+      "meta" : {
+        "definition" : {
+          "val" : "a real number, typically represented as a floating point number",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Real_number"
+        }, {
+          "val" : "wikidata:Q12916"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "real number"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_classification-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model for classification",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q1744628"
+        }, {
+          "val" : "wikipedia:Statistical_classification"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "classification model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_sql-table-database",
+      "meta" : {
+        "definition" : {
+          "val" : "SQL database to which a SQL table belongs",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "database"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_svm",
+      "meta" : {
+        "definition" : {
+          "val" : "support vector machine for classification or regression",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q282453"
+        }, {
+          "val" : "wikipedia:Support-vector_machine"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "support vector machine"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_write-file",
+      "meta" : {
+        "definition" : {
+          "val" : "write data to a file",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "write file"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_as-logistic-regression",
+      "meta" : {
+        "definition" : {
+          "val" : "(binomial) logistic regression as special case of multinomial logistic regression with two classes",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "use multinomial logistic regression for logistic regression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_fit-incremental-selection-supervised",
+      "meta" : {
+        "definition" : {
+          "val" : "Fit a model for incremental selection of features, starting from an initial supervised model.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "incrementally select features for supervised model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_scipy",
+      "type" : "CLASS",
+      "lbl" : "scipy Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_multiclass-classifier-model-n-classes",
+      "meta" : {
+        "definition" : {
+          "val" : "number of classes in a multiclass classification model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "number of classes"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_regression-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model for regression",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Regression_analysis"
+        }, {
+          "val" : "wikidata:Q30556303"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "regression model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_random-forest-n-features",
+      "meta" : {
+        "definition" : {
+          "val" : "number of features/variables to randomly sample at each tree split",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "number of features to sample"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_glm-coefficients",
+      "meta" : {
+        "definition" : {
+          "val" : "coefficients of a generalized linear model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "coefficients"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_sql-query-database",
+      "meta" : {
+        "definition" : {
+          "val" : "SQL database to which query refers",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "database"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_svm-support-vectors",
+      "meta" : {
+        "definition" : {
+          "val" : "support vectors of a support vector machine",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "support vectors"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_matrix",
+      "meta" : {
+        "definition" : {
+          "val" : "A two-dimensional array",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Matrix_(mathematics)"
+        }, {
+          "val" : "wikidata:Q44337"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "matrix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_sql-table-name",
+      "meta" : {
+        "definition" : {
+          "val" : "name of a SQL table",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "table name"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_r-package",
+      "type" : "CLASS",
+      "lbl" : "r Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_regression-tree",
+      "meta" : {
+        "definition" : {
+          "val" : "decision tree for regression",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "regression tree"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model-components",
+      "meta" : {
+        "definition" : {
+          "val" : "components (loadings) of a linear dimensionality reduction model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "components"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_simple-correspondence-analysis",
+      "meta" : {
+        "definition" : {
+          "val" : "Correspondence analysis with a single categorical variable",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Correspondence_analysis"
+        }, {
+          "val" : "wikidata:Q1784754"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "simple correspondence analysis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_write-tabular-file",
+      "meta" : {
+        "definition" : {
+          "val" : "write tabular data to file",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "write tabular file"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_sqlalchemy",
+      "type" : "CLASS",
+      "lbl" : "sqlalchemy Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_numpy",
+      "type" : "CLASS",
+      "lbl" : "numpy Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_file",
+      "meta" : {
+        "definition" : {
+          "val" : "A local file",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q82753"
+        }, {
+          "val" : "wikipedia:Computer_file"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "file"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_utils",
+      "type" : "CLASS",
+      "lbl" : "utils Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_svm-dual-coefficients",
+      "meta" : {
+        "definition" : {
+          "val" : "Coefficients corresponding to the dual variables in the SVM optimization problem. Only the support vectors have nonzero dual coefficients.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dual coefficients"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_model",
+      "meta" : {
+        "definition" : {
+          "val" : "In this ontology, the term \"model\" encompasses any statistical model. Models can be used for many purposes, predictive and inferential, but their defining characteristic is that they are functions of the data, i.e., they are fit to observations.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q3284399"
+        }, {
+          "val" : "wikipedia:Statistical_model"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "statistical model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_forward-stagewise-selection",
+      "meta" : {
+        "definition" : {
+          "val" : "Forward stagewise selection, better known as forward stagewise regression, and not to be confused with the more common forward stepwise regression.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "forward stagewise selection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000025",
+      "type" : "CLASS",
+      "lbl" : "programming language"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_table",
+      "meta" : {
+        "definition" : {
+          "val" : "A table, also known as a data frame",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q496946"
+        }, {
+          "val" : "wikipedia:Table_(information)"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "table"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_k-means-kernelized",
+      "meta" : {
+        "definition" : {
+          "val" : "k-means clustering as a special case of kernel k-means clustering",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kernelized"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_fit-supervised",
+      "meta" : {
+        "definition" : {
+          "val" : "fit a supervised, or predictive, statistical model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fit supervised model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_read-table",
+      "meta" : {
+        "definition" : {
+          "val" : "read tabular data from a data source",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "read table"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_write-data",
+      "meta" : {
+        "definition" : {
+          "val" : "write data to a data source",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "write data"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_r-dataset-package",
+      "meta" : {
+        "definition" : {
+          "val" : "R package to which R dataset belongs",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "R package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-svm-regression",
+      "meta" : {
+        "definition" : {
+          "val" : "linear support vector machine for regression",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "linear support vector regression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_table-n-cols",
+      "meta" : {
+        "definition" : {
+          "val" : "number of columns in a table",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "number of columns"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_decision-tree",
+      "meta" : {
+        "definition" : {
+          "val" : "a decision tree for predictive modeling",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q16766476"
+        }, {
+          "val" : "wikipedia:Decision_tree_learning"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decision tree"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_cubist-tree",
+      "meta" : {
+        "definition" : {
+          "val" : "a particular tree in a Cubist model, identified by index",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tree by index"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_kernel-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model using an arbitrary kernel function, better known as a  \"kernel method\"",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q620622"
+        }, {
+          "val" : "wikipedia:Kernel_method"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kernel model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_vif-regression-selected",
+      "meta" : {
+        "definition" : {
+          "val" : "linear model selected by VIF regression",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "selected model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_sql-query",
+      "meta" : {
+        "definition" : {
+          "val" : "A SQL query on a relational database",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "SQL query"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_k-means",
+      "meta" : {
+        "definition" : {
+          "val" : "A clustering model using the k-means algorithm, also known as Lloyd\"s algorithm",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q310401"
+        }, {
+          "val" : "wikipedia:K-means_clustering"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "k-means clustering"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_transformation-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model for transforming data. The terminology is nonstandard but encompasses any form of dimensionality reduction, feature extraction, or other data transformation where the transformation is a function of the data.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transformation model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso#_implemented_in",
+      "type" : "PROPERTY",
+      "lbl" : "is implemented in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_read-file",
+      "meta" : {
+        "definition" : {
+          "val" : "read data from a file",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "read file"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_classification-tree",
+      "meta" : {
+        "definition" : {
+          "val" : "decision tree for classification",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "classification tree"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_multiclass-classifier",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model for multiclass classification",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Multiclass_classification"
+        }, {
+          "val" : "wikidata:Q6934605"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "multiclass classifier"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_column",
+      "meta" : {
+        "definition" : {
+          "val" : "A column in a data table (data frame)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "column"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_sql-table",
+      "meta" : {
+        "definition" : {
+          "val" : "A table in a SQL database",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Table_(database)"
+        }, {
+          "val" : "wikidata:Q278425"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "SQL table"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_vector",
+      "meta" : {
+        "definition" : {
+          "val" : "A one-dimensional array, not necessarily numeric",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "vector"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_clustering-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model for clustering",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q28058114"
+        }, {
+          "val" : "wikipedia:Cluster_analysis"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "clustering model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_complex",
+      "meta" : {
+        "definition" : {
+          "val" : "a complex number, typically represented by two floating point numbers",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Complex_number"
+        }, {
+          "val" : "wikidata:Q11567"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "complex number"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_glm-deviance",
+      "meta" : {
+        "definition" : {
+          "val" : "deviance of a generalized linear model",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q3706279"
+        }, {
+          "val" : "wikipedia:Deviance_(statistics)"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "deviance"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_k-medoids-medoids",
+      "meta" : {
+        "definition" : {
+          "val" : "medoids of clusters found by k-medoids clustering",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "medoids"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_excel-spreadsheet-name",
+      "meta" : {
+        "definition" : {
+          "val" : "name of sheet in an Excel spreadsheet",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sheet name"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_string",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "wikidata:Q184754"
+        }, {
+          "val" : "wikipedia:String_(computer_science)"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "string"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_multinomial-logistic-regression",
+      "meta" : {
+        "definition" : {
+          "val" : "A generalized linear model for multiclass classification, using the logit link function",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q1650843"
+        }, {
+          "val" : "wikipedia:Multinomial_logistic_regression"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "multinomial logistic regression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_supervised-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A supervised, or predictive, statistical model",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Supervised_learning"
+        }, {
+          "val" : "wikidata:Q334384"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "supervised model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_caret",
+      "type" : "CLASS",
+      "lbl" : "caret Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_table-n-rows",
+      "meta" : {
+        "definition" : {
+          "val" : "number of rows in a table",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "number of rows"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_transform",
+      "meta" : {
+        "definition" : {
+          "val" : "transform data using a transformer",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transform"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_sql-database",
+      "meta" : {
+        "definition" : {
+          "val" : "A relational (SQL) database",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q192588"
+        }, {
+          "val" : "wikipedia:Relational_database"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "SQL database"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_stats",
+      "type" : "CLASS",
+      "lbl" : "stats Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_boolean",
+      "meta" : {
+        "definition" : {
+          "val" : "A boolean value: true or false",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q520777"
+        }, {
+          "val" : "wikipedia:Boolean_data_type"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "boolean"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_pandas",
+      "type" : "CLASS",
+      "lbl" : "pandas Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_expression",
+      "meta" : {
+        "definition" : {
+          "val" : "a mathematical expression or equation",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Expression_(mathematics)"
+        }, {
+          "val" : "wikidata:Q6498784"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "expression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_tabular-file",
+      "meta" : {
+        "definition" : {
+          "val" : "A file containing tabular data, such as a CSV or TSV file",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tabular file"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_k-means-centroids",
+      "meta" : {
+        "definition" : {
+          "val" : "centroids of clusters found by k-means clustering",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "centroids"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_selection-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A model or procedure for selecting a statistical model from a set of candidate models, given data",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q6888345"
+        }, {
+          "val" : "wikipedia:Model_selection"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "model selection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_ica",
+      "meta" : {
+        "definition" : {
+          "val" : "Independent components analysis (ICA), a dimensionality reduction method that performs blind source separation",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Independent_component_analysis"
+        }, {
+          "val" : "wikidata:Q1259145"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ICA"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-coefficients",
+      "meta" : {
+        "definition" : {
+          "val" : "coefficients of an exponential family linear model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "coefficients"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_tree-based-model",
+      "meta" : {
+        "definition" : {
+          "val" : "a predictive model involving one or more decision trees",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tree-based model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-model-intercept",
+      "meta" : {
+        "definition" : {
+          "val" : "intercept of a linear model, if present",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intercept"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_clustering-model-n-clusters",
+      "meta" : {
+        "definition" : {
+          "val" : "number of clusters to fit in a clustering model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "number of clusters"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_r-dataset-name",
+      "meta" : {
+        "definition" : {
+          "val" : "Name of an R dataset",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "name"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_tree-ensemble",
+      "meta" : {
+        "definition" : {
+          "val" : "an ensemble of decision trees",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tree ensemble"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_type",
+      "type" : "CLASS",
+      "lbl" : "Type"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_vif-regression",
+      "meta" : {
+        "definition" : {
+          "val" : "VIF (variable inflation factor) regression is a forward, incremental procedure for variable selection in linear regression models.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "VIF regression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_cart",
+      "meta" : {
+        "definition" : {
+          "val" : "Despite the generic name, Classification and Regression Trees (CART) is a particular methodology for building classification and regression trees, described in the book (Breiman, Friedman, Olshen, & Stone, 1994, \"Classification and Regression Trees\").",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "CART"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_feature-selection-model-selected",
+      "meta" : {
+        "definition" : {
+          "val" : "features selected by a feature selection model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "selected features"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model",
+      "meta" : {
+        "definition" : {
+          "val" : "Any supervised, parametric model based on an exponential family of probability distributions, whose prediction function (natural parameter) is linear. This is a very large family of models, especially since we admit models that are not fit by (penalized) maximum likelihood or maximum a posteriori estimation.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "exponential family linear model"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_dimension-reduction-model-n-dimensions",
+      "meta" : {
+        "definition" : {
+          "val" : "number of dimensions used by a dimensionality reduction model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "number of dimensions"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_svm-regression",
+      "meta" : {
+        "definition" : {
+          "val" : "support vector machine for regression",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "support vector regression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-svm",
+      "meta" : {
+        "definition" : {
+          "val" : "A linear support vector machine for classification or regression.\nLinear SVMs are exponential family linear models, analogous to logistic regression, but fit by mimimizing constraint violations to inequalities between likelihood ratios, rather than by maximizing the likelihood (see Mark Schmidt's 2009 paper \"A note on structural extensions of SVMs\").",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Support-vector_machine#Linear_SVM"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "linear support vector machine"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SWO_0000415",
+      "type" : "CLASS",
+      "lbl" : "R language"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_hierarchical-clustering",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "wikipedia:Hierarchical_clustering"
+        }, {
+          "val" : "wikidata:Q1277447"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hierarchical clustering"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_number",
+      "meta" : {
+        "definition" : {
+          "val" : "Any kind of number: real, complex, or more exotic",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Number"
+        }, {
+          "val" : "wikidata:Q11563"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "number"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_pca-kernelized",
+      "meta" : {
+        "definition" : {
+          "val" : "PCA as a special case of kernel PCA",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kernelized"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_kernel-k-means",
+      "meta" : {
+        "definition" : {
+          "val" : "Kernelized version of k-means clustering",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kernel k-means clustering"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_binary-classifier",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model for binary classification",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Binary_classification"
+        }, {
+          "val" : "wikidata:Q17005494"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "binary classifier"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_transformer",
+      "meta" : {
+        "definition" : {
+          "val" : "A specification of a data transformation. Unlike a transformation model, a transformer is not necessarily a function of the data.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transformer"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-svm-regression-kernelized",
+      "meta" : {
+        "definition" : {
+          "val" : "Linear SVM regression as a special case of (kernel) SVM regression",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kernelized"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_agglomerative-clustering",
+      "meta" : {
+        "definition" : {
+          "val" : "Hierarchical clustering with agglomerative (bottom up) construction",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "agglomerative clustering"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_randomForest",
+      "type" : "CLASS",
+      "lbl" : "randomForest Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_discriminant-function",
+      "meta" : {
+        "definition" : {
+          "val" : "The discriminant function associated with a classification model.\nIn the binary case, a discriminant function $g(x)$ for a classifier has the property that when $g(x) > 0$, the classifier predicts 1 and when $g(x) < 0$, the classifer predicts 0. A threshold other zero may also be used. For probabilistic models, the discriminant function is often just the log-odds, but this need not be the case. A notion of discriminant function may also be defined for multicategory classification.\nA classification model does not uniquely define a discriminant function, because composing a discriminant function with any strictly monotone function yields an equivalent decision function (although a different threshold may be needed to get the same predictions). In practice, most classification methods have a \"standard\" discriminant function derived from a probability model or optimization problem.\nThe term \"discriminant function\" is used by some authors (see references) but is not entirely standard. The term \"decision function\" is also sometimes used, especially in the literature on support vector machines, but should probably be avoided to prevent confusion with the standard notion of \"decision rule\" from statistical decision theory.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "discriminant function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_read-data",
+      "meta" : {
+        "definition" : {
+          "val" : "read data from a data source",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "read data"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_divisive-clustering",
+      "meta" : {
+        "definition" : {
+          "val" : "Hierarchical clustering with divisive (top down) construction",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "divisive clustering"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_as-binary-classifier",
+      "meta" : {
+        "definition" : {
+          "val" : "binary classification as special case of multiclass classification with two classes",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "use multiclass classifier for binary classification"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_feature-selection-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A statistical model for feature selection, also known as variable selection. Feature selection is a form of dimensionality reduction that selects a subset of the original features. More generally, feature selection is a form of  feature extraction in which the extracted features are drawn from the original features.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Feature_selection"
+        }, {
+          "val" : "wikidata:Q446488"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "feature selection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-intercept",
+      "meta" : {
+        "definition" : {
+          "val" : "intercept of an exponential family linear model, if present",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intercept"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_backward-selection-model",
+      "meta" : {
+        "definition" : {
+          "val" : "backward, incremental selection of features",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "backward selection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-model-rss",
+      "meta" : {
+        "definition" : {
+          "val" : "residual sum of squares (RSS), aka sum of squared residuals (SSR), of linear model",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q15096882"
+        }, {
+          "val" : "wikipedia:Residual_sum_of_squares"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "RSS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_scalar",
+      "meta" : {
+        "definition" : {
+          "val" : "a scalar quantity, typically corresponding to primitive data types",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "scalar quantity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_array",
+      "meta" : {
+        "definition" : {
+          "val" : "A multidimensional array of homogeneous data type, also known as a tensor",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Array_data_type"
+        }, {
+          "val" : "wikidata:Q121079"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "array"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_linear-svm-coefficients",
+      "meta" : {
+        "definition" : {
+          "val" : "coefficients of a linear support vector machine",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "coefficients"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_least-squares",
+      "meta" : {
+        "definition" : {
+          "val" : "The standard linear regression model, fit by ordinary least squares (OLS)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikipedia:Ordinary_least_squares"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "OLS linear regression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_package",
+      "type" : "CLASS",
+      "lbl" : "Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_clustering-model-clusters",
+      "meta" : {
+        "definition" : {
+          "val" : "clusters found by a clustering model",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "clusters"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_rpart",
+      "type" : "CLASS",
+      "lbl" : "rpart Package"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_function",
+      "type" : "CLASS",
+      "lbl" : "Function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_forward-selection-model",
+      "meta" : {
+        "definition" : {
+          "val" : "forward, incremental selection of features",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "forward selection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_table-column-names",
+      "meta" : {
+        "definition" : {
+          "val" : "names of columns in a table",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "column names"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_tree-ensemble-tree",
+      "meta" : {
+        "definition" : {
+          "val" : "a particular tree in a tree ensemble, identified by index",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tree by index"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_incremental-selection-model",
+      "meta" : {
+        "definition" : {
+          "val" : "A feature selection model that adds and/or removes features incrementally--one at a time--from an initial model.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "incremental feature selection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dso_pca",
+      "meta" : {
+        "definition" : {
+          "val" : "Principal components analysis (PCA), the most popular method for dimensionality reduction",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "wikidata:Q2873"
+        }, {
+          "val" : "wikipedia:Principal_component_analysis"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "concept"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "PCA"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_regression-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_sql-query",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_tabular-data-source"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_predict",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_r-dataset-package",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-intercept",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_cart",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_decision-tree"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_rpart",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-classification",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_classification-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_transformer",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_type"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_decision-tree",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_tree-based-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_tree-ensemble",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_tree-based-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_randomForest",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_correspondence-analysis",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_dimension-reduction-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_cubist",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_regression-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_column-name",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_k-means",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_clustering-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_string",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_scalar"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_array",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_data"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_multinomial-logistic-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_glm"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_r-dataset-name",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_sqlalchemy",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_python-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_read-table",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_read-data"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_kernelized",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_selection-model-selected",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_m5-tree",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_regression-tree"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_svm",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_supervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_ica",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_sql-query-expression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_random-forest-n-features",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_backward-stepwise-selection",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_backward-selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_Cubist",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_filename",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_lasso",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_linear-regression"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_table-column-names",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_least-squares",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_euclidean-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_pca-kernelized",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_kernelized"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_caret",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_forward-stagewise-selection",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_forward-selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_boolean",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_scalar"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_sql-table-database",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_kernel-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_forward-stepwise-selection",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_forward-selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_tabular-data-source",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_data-source"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_write-data",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_stats",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_lasso",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_feature-selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_multinomial-logistic-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_multiclass-classifier"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_supervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_glm-coefficients",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-coefficients"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_matrix",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_table"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_design-matrix",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_dimension-reduction-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_feature-extraction-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_ica",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_euclidean-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_table",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_data"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_numpy",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_python-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_feature-selection-model-selected",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_svm-classification",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_classification-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_array-shape",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-intercept",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-intercept"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_hierarchical-clustering-linkage",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_file",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_data-source"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_tree-based-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_supervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_mean-absolute-error",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_r-package",
+      "pred" : "http://purl.obolibrary.org/obo/dso#_implemented_in",
+      "obj" : "http://purl.obolibrary.org/obo/SWO_0000415"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_as-binary-classifier",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_svm",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_kernel-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_python-package",
+      "pred" : "http://purl.obolibrary.org/obo/dso#_implemented_in",
+      "obj" : "http://purl.obolibrary.org/obo/SWO_0000118"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-classification-kernelized",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_kernelized"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_regression-tree",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_decision-tree"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_classification-tree",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_classification-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_VIF",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_unsupervised-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SWO_0000118",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_pca",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_unsupervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_glm",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_simple-correspondence-analysis",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_correspondence-analysis"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_builtins",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_python-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_binary-classifier",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_classification-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_kernel-k-means",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_k-medoids"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_euclidean-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_tabular-file",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_file"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_supervised-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_k-means-kernelized",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_kernelized"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-discriminant-analysis",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_decision-tree",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_feature-selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_r-dataset",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_data-source"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_incremental-selection-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_feature-selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_dummy-coding",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_feature-extraction"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_svm-classification",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_svm"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_write-table",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_write-data"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_sql-table",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_tabular-data-source"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_classification-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_supervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_sklearn",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_python-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_transform",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_logistic-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_glm"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-classification",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_linear-svm"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_feature-extraction-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_feature-extraction"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_sql-database",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_type"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-regression-kernelized",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_kernelized"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_multiclass-classifier",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_classification-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_least-squares",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_linear-regression"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_feature-extraction-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_transformation-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_svm-dual-coefficients",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_clustering-model-clusters",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-coefficients",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_random-forest",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_tree-ensemble"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-discriminant-analysis",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_euclidean-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_data-source",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_type"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_k-medoids-medoids",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_base",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_expression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_string"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_forward-selection-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_incremental-selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_selection-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_tabular-file",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_tabular-data-source"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_svm-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_regression-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-coefficients",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-coefficients"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_dimension-reduction-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_mean-squared-error",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_excel-spreadsheet",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_tabular-file"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_vif-regression-selected",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_selection-model-selected"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_tree-ensemble-n-trees",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_sql-table-name",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_transformation-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_transformer"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_divisive-clustering",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_hierarchical-clustering"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_write-file",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_write-data"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_array-n-dimensions",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_linear-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_statsmodels",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_python-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_dimension-reduction-model-n-dimensions",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_table-n-rows",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_scipy",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_python-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_complex",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_number"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_glm-intercept",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-intercept"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_linear-svm"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_fit",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_pca",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_excel-spreadsheet-name",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_read-file",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_read-data"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_fit-supervised",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_backward-selection-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_incremental-selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_real",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_complex"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SWO_0000415",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_regression-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_svm-support-vectors",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_discriminant-function",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_scalar",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_type"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_clustering-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_unsupervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_as-logistic-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_as-binary-classifier"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_feature-extraction",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_transformer"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_regression-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_supervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_clustering-model-n-clusters",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_table-n-cols",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_data",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_type"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_column",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_vector"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_kernel-pca",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_dimension-reduction-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_multiple-correspondence-analysis",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_correspondence-analysis"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_agglomerative-clustering",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_hierarchical-clustering"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_regression-tree",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_regression-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_glm-deviance",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_integer",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_real"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_hierarchical-clustering",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_clustering-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_k-means-centroids",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_transformation-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-model-rss",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_glm-deviance"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_vif-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_forward-selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_vector-length",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_kernel-pca",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_unsupervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_multiclass-classifier-model-n-classes",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_matrix",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_array"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_pca",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_euclidean-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_glm"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-model-intercept",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_glm-intercept"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-dimension-reduction-model-components",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_read-tabular-file",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_read-table"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_write-tabular-file",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_write-table"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_sql-query-database",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_read-data",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_kernel-k-means",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_kernel-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_type"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_vector",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_array"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_feature-selection-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_dimension-reduction-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-model-coefficients",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_glm-coefficients"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_number",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_scalar"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_k-means",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_euclidean-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_euclidean-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-discriminant-analysis",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_multiclass-classifier"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_utils",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-kernelized",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_kernelized"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_python-package",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_correspondence-analysis",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_unsupervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_pandas",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_python-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_cubist",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_tree-ensemble"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_read-tabular-file",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_read-file"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_tree-ensemble-tree",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_feature-selection-model",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_selection-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_ica",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_unsupervised-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_write-tabular-file",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_write-file"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_k-medoids",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_clustering-model"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_r-package",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_fit-incremental-selection-supervised",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_classification-tree",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_decision-tree"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_cubist-tree",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_tree-ensemble-tree"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_evaluate-formula-supervised",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_svm-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_svm"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_logistic-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_binary-classifier"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_kernel-pca",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_kernel-model"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/dso.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "bio2obo:dso"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
+        "val" : "13:08:2022 00:10"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      }, {
+        "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+        "val" : "Data Science Ontology"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/dso/1.0/dso.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
