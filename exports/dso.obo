@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:08:2022 22:54
+date: 13:08:2022 00:10
 auto-generated-by: bio2obo:dso
 data-version: 1.0
 ontology: dso
@@ -12,7 +12,21 @@ comment: Inverse of has_part
 
 [Typedef]
 id: dso:implemented_in
-name: implemented in
+name: is implemented in
+
+[Term]
+id: IAO:0000025
+name: programming language
+
+[Term]
+id: SWO:0000118
+name: Python
+is_a: IAO:0000025 ! programming language
+
+[Term]
+id: SWO:0000415
+name: R language
+is_a: IAO:0000025 ! programming language
 
 [Term]
 id: dso:Cubist
@@ -594,10 +608,6 @@ xref: wikidata:Q1739323
 is_a: dso:function ! Function
 
 [Term]
-id: dso:language
-name: Language
-
-[Term]
 id: dso:lasso
 name: lasso
 namespace: concept
@@ -881,20 +891,10 @@ def: "make predictions using a supervised model" []
 is_a: dso:function ! Function
 
 [Term]
-id: dso:python
-name: python Language
-is_a: dso:language ! Language
-
-[Term]
 id: dso:python-package
 name: python Package
 is_a: dso:package ! Package
-relationship: dso:implemented_in dso:python ! implemented in python Language
-
-[Term]
-id: dso:r
-name: r Language
-is_a: dso:language ! Language
+relationship: dso:implemented_in SWO:0000118 ! is implemented in Python
 
 [Term]
 id: dso:r-dataset
@@ -921,7 +921,7 @@ is_a: dso:function ! Function
 id: dso:r-package
 name: r Package
 is_a: dso:package ! Package
-relationship: dso:implemented_in dso:r ! implemented in r Language
+relationship: dso:implemented_in SWO:0000415 ! is implemented in R language
 
 [Term]
 id: dso:random-forest

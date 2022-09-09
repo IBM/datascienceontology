@@ -213,6 +213,10 @@
       "type" : "CLASS",
       "lbl" : "M5 model tree"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SWO_0000118",
+      "type" : "CLASS",
+      "lbl" : "Python"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/dso_column-name",
       "meta" : {
         "definition" : {
@@ -1287,6 +1291,10 @@
       "type" : "CLASS",
       "lbl" : "forward stagewise selection"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000025",
+      "type" : "CLASS",
+      "lbl" : "programming language"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/dso_table",
       "meta" : {
         "definition" : {
@@ -1517,6 +1525,10 @@
       "type" : "CLASS",
       "lbl" : "transformation model"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/dso#_implemented_in",
+      "type" : "PROPERTY",
+      "lbl" : "is implemented in"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/dso_read-file",
       "meta" : {
         "definition" : {
@@ -1544,10 +1556,6 @@
       },
       "type" : "CLASS",
       "lbl" : "classification tree"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/dso#_implemented_in",
-      "type" : "PROPERTY",
-      "lbl" : "implemented in"
     }, {
       "id" : "http://purl.obolibrary.org/obo/dso_multiclass-classifier",
       "meta" : {
@@ -2032,10 +2040,6 @@
       "type" : "CLASS",
       "lbl" : "CART"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/dso_python",
-      "type" : "CLASS",
-      "lbl" : "python Language"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/dso_feature-selection-model-selected",
       "meta" : {
         "definition" : {
@@ -2112,6 +2116,10 @@
       },
       "type" : "CLASS",
       "lbl" : "linear support vector machine"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SWO_0000415",
+      "type" : "CLASS",
+      "lbl" : "R language"
     }, {
       "id" : "http://purl.obolibrary.org/obo/dso_hierarchical-clustering",
       "meta" : {
@@ -2315,10 +2323,6 @@
       "type" : "CLASS",
       "lbl" : "feature selection"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/dso_r",
-      "type" : "CLASS",
-      "lbl" : "r Language"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/dso_exponential-family-linear-model-intercept",
       "meta" : {
         "definition" : {
@@ -2433,10 +2437,6 @@
       "id" : "http://purl.obolibrary.org/obo/dso_package",
       "type" : "CLASS",
       "lbl" : "Package"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/dso_language",
-      "type" : "CLASS",
-      "lbl" : "Language"
     }, {
       "id" : "http://purl.obolibrary.org/obo/dso_clustering-model-clusters",
       "meta" : {
@@ -2556,13 +2556,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_function"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_rpart",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_cart",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_decision-tree"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_rpart",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-classification",
       "pred" : "is_a",
@@ -2708,13 +2708,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_data-source"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_stats",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_write-data",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_function"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_stats",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_r-package"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_lasso",
       "pred" : "is_a",
@@ -2788,6 +2788,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_function"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_r-package",
+      "pred" : "http://purl.obolibrary.org/obo/dso#_implemented_in",
+      "obj" : "http://purl.obolibrary.org/obo/SWO_0000415"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_as-binary-classifier",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_function"
@@ -2796,9 +2800,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_kernel-model"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_python",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/dso_language"
+      "sub" : "http://purl.obolibrary.org/obo/dso_python-package",
+      "pred" : "http://purl.obolibrary.org/obo/dso#_implemented_in",
+      "obj" : "http://purl.obolibrary.org/obo/SWO_0000118"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm-classification-kernelized",
       "pred" : "is_a",
@@ -2820,6 +2824,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_model"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SWO_0000118",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000025"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_pca",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_unsupervised-model"
@@ -2832,13 +2840,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_correspondence-analysis"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_binary-classifier",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/dso_classification-model"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_builtins",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_python-package"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_binary-classifier",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_classification-model"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_kernel-k-means",
       "pred" : "is_a",
@@ -3004,13 +3012,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_function"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_vif-regression-selected",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/dso_selection-model-selected"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_excel-spreadsheet",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_tabular-file"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_vif-regression-selected",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_selection-model-selected"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_tree-ensemble-n-trees",
       "pred" : "is_a",
@@ -3096,6 +3104,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_complex"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SWO_0000415",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000025"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_linear-regression",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_regression-model"
@@ -3148,13 +3160,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_dimension-reduction-model"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_agglomerative-clustering",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/dso_hierarchical-clustering"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_multiple-correspondence-analysis",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_correspondence-analysis"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_agglomerative-clustering",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_hierarchical-clustering"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_regression-tree",
       "pred" : "is_a",
@@ -3180,13 +3192,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_model"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_vif-regression",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/dso_forward-selection-model"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_linear-model-rss",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_glm-deviance"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/dso_vif-regression",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/dso_forward-selection-model"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_vector-length",
       "pred" : "is_a",
@@ -3207,10 +3219,6 @@
       "sub" : "http://purl.obolibrary.org/obo/dso_pca",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_euclidean-model"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_r",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/dso_language"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_linear-model",
       "pred" : "is_a",
@@ -3244,10 +3252,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_kernel-model"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_python-package",
-      "pred" : "http://purl.obolibrary.org/obo/dso#_implemented_in",
-      "obj" : "http://purl.obolibrary.org/obo/dso_python"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_model",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_type"
@@ -3271,10 +3275,6 @@
       "sub" : "http://purl.obolibrary.org/obo/dso_k-means",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/dso_euclidean-model"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/dso_r-package",
-      "pred" : "http://purl.obolibrary.org/obo/dso#_implemented_in",
-      "obj" : "http://purl.obolibrary.org/obo/dso_r"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/dso_linear-svm",
       "pred" : "is_a",
@@ -3373,7 +3373,7 @@
         "val" : "bio2obo:dso"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "12:08:2022 22:54"
+        "val" : "13:08:2022 00:10"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
         "val" : "1.2"

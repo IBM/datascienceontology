@@ -13,7 +13,10 @@ BUILD = ROOT.joinpath("exports")
 BUILD.mkdir(parents=True, exist_ok=True)
 PREFIX = "dso"
 
-implemented_in = TypeDef.from_triple(PREFIX, "implemented_in", "implemented in")
+# implemented_by = TypeDef.from_triple("SWO", "0000085", "is implemented by")
+implemented_in = TypeDef.from_triple(PREFIX, "implemented_in", "is implemented in")
+
+language = Term.from_triple("IAO", "0000025", "programming language")
 
 starters = {
     "function": "Function",
@@ -24,6 +27,11 @@ starters = {
     "python-package": "Python Package",
 }
 
+languages = {
+    "r": Term.from_triple("SWO", "0000415", "R language").append_parent(language),
+    "python": Term.from_triple("SWO", "0000118", "Python").append_parent(language),
+    "language": language,
+}
 
 def get_terms():
     """"""
@@ -31,6 +39,7 @@ def get_terms():
         identifier: Term.from_triple(PREFIX, identifier, name)
         for identifier, name in starters.items()
     }
+    concepts.update(languages)
     parents = defaultdict(set)
     outputs = defaultdict(list)
     inputs_dict = defaultdict(list)
@@ -80,7 +89,7 @@ def get_terms():
 
     # For concepts that never got a parent, add the "kind"
     for term in concepts.values():
-        if term.identifier in starters:
+        if term.identifier in starters or term.prefix != PREFIX:
             continue
         if not term.parents:
             term.append_parent(concepts[kinds[term.identifier]])
@@ -100,12 +109,7 @@ def get_terms():
     for language_directory in ROOT.joinpath("annotation").iterdir():
         if not language_directory.is_dir():
             continue
-        language_term = concepts[language_directory.name] = Term.from_triple(
-            PREFIX,
-            language_directory.name,
-            f"{language_directory.name} Language",
-        )
-        language_term.append_parent(concepts["language"])
+        language_term = concepts[language_directory.name]
         language_package_key = f"{language_directory.name}-package"
         language_package_term = concepts[language_package_key] = Term.from_triple(
             PREFIX,

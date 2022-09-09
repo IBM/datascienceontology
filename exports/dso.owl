@@ -11,7 +11,7 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dso.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/dso/1.0/dso.owl"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bio2obo:dso</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12:08:2022 22:54</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13:08:2022 00:10</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Science Ontology</rdfs:comment>
     </owl:Ontology>
@@ -116,7 +116,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/dso#_implemented_in">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:implemented_in</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">implemented in</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is implemented in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -129,6 +129,35 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000025">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000025</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">programming language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SWO_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SWO_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000025"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWO:0000118</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Python</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SWO_0000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SWO_0000415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000025"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWO:0000415</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R language</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1089,15 +1118,6 @@ The term &quot;discriminant function&quot; is used by some authors (see referenc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/dso_language -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_language">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:language</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Language</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/dso_lasso -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_lasso">
@@ -1557,16 +1577,6 @@ Linear SVMs are exponential family linear models, analogous to logistic regressi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/dso_python -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_python">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_language"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:python</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">python Language</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/dso_python-package -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_python-package">
@@ -1574,21 +1584,11 @@ Linear SVMs are exponential family linear models, analogous to logistic regressi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/dso#_implemented_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/dso_python"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SWO_0000118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:python-package</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">python Package</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/dso_r -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dso_r">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dso_language"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:r</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r Language</rdfs:label>
     </owl:Class>
     
 
@@ -1636,7 +1636,7 @@ Linear SVMs are exponential family linear models, analogous to logistic regressi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/dso#_implemented_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/dso_r"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SWO_0000415"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dso:r-package</oboInOwl:id>
